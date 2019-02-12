@@ -1,0 +1,170 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<link rel="stylesheet" href="<%=request.getContextPath()%>/pages/audit/css/index.css" />-->
+    <script type="text/javascript" src="js/echarts2.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/china-main-city/china-main-city-map.js"></script>
+
+</head>
+<body style="background-color: #3d8ab5">
+<div id="hljDrillMap" style="width:830px;height:580px;"></div>
+<script>
+    require.config({
+        paths: {
+            echarts: 'dist'
+        }
+    });
+    require(
+            [
+                'echarts',
+                'echarts/chart/map'
+            ],
+
+            function (ec) {
+                indexMapInit(ec);
+            }
+    );
+    function  indexMapInit(ec){
+        var myChart = ec.init(document.getElementById('hljDrillMap'));
+        var curIndx = 0;
+        var mapType = [//添加省份
+                'world',
+            'china',
+// 23个省
+            '广东', '青海', '四川', '海南', '陕西',
+            '甘肃', '云南', '湖南', '湖北', '黑龙江',
+            '贵州', '山东', '江西', '河南', '河北',
+            '山西', '安徽', '福建', '浙江', '江苏',
+            '吉林', '辽宁', '台湾',
+// 5个自治区
+            '新疆', '广西', '宁夏', '内蒙古', '西藏',
+// 4个直辖市
+            '北京', '天津', '上海', '重庆',
+// 2个特别行政区
+            '香港', '澳门',
+        ];
+        //定义省级地图数据，并将市级地图数据添加上
+        var mapGeoData = require('echarts/util/mapData/params');//内含省级数据
+        for (var city in cityMap) {//cityMap由china-main-city-map.js引用而来为市级的数据路由
+            mapType.push(city);//添加市级数据到路由（此时内部已经有省的数据）
+            // 自定义扩展图表类型
+            mapGeoData.params[city] = {//将市级数据添加到数据上
+                getGeoJson: (function (c) {
+                    var geoJsonName = cityMap[c];
+                    return function (callback) {
+                        $.getJSON('js/china-main-city/' + geoJsonName + '.json', callback);
+                    }
+                })(city)
+            }
+        }
+        var ecConfig = require('echarts/config');
+        //var zrEvent = require('zrender/tool/event');
+        /*document.getElementById('map').onmousewheel = function (e){
+            var event = e || window.event;
+         curIndx += zrEvent.getDelta(event) > 0 ? (-1) : 1;
+         if (curIndx < 0) {
+         curIndx = mapType.length - 1;
+         }
+         var mt = mapType[curIndx % mapType.length];
+         option.series[0].mapType = mt;
+         option.title.subtext = mt + ' （滚轮或点击切换）';
+         myChart.setOption(option, true);
+         zrEvent.stop(event);
+         };*/
+        //点击事件获取target然后到数据中去匹配，如果能匹配则跳转到该数据下，如果不能默认跳到china
+        myChart.on(ecConfig.EVENT.MAP_SELECTED, function (param){
+            console.log(param);
+            var mt = param.target;
+            var len = mapType.length;
+            var f= false;
+            for(var i=0;i<len;i++){
+                if(mt == mapType[i]){
+                    f =true;
+                    mt=mapType[i];
+                    console.log(mt);
+                }
+            }
+            if(!f){
+                mt='china';
+            }
+            option.series[0].mapType = mt;
+            myChart.setOption(option, true);//地图渲染
+        });
+        option = {
+            gird:{
+                x:0,
+                x2:0,
+                y:0,
+                y2:0,
+                width:410,
+                height:350
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter:function(a)
+                {
+                    var relVal = "";
+                    relVal += "<span style='font-size:12px;padding:0 6px;'>"+a[1]+"</span></br>";
+                    relVal+="<span style='font-size:12px; margin-top:4px;padding:0 6px;'>数量: &nbsp;</span>"+a[2]+"&nbsp 条";
+                    return relVal;
+                }
+
+            },
+            dataRange: {
+                xorient: 'horizontal',
+                x: 'left',
+                min: 0,
+                max: 10000,
+                color:['#d1f4fc','#71b7ed'],
+                text:['低',"高"],           // 文本，默认为数值文本
+                splitNumber:0
+            },
+            series : [
+                {
+                    name: '',
+                    type: 'map',
+                    mapType: '温江',
+                    roam: false,
+                    selectedMode : 'single',
+                    itemStyle:{
+	                    
+	                    normal:{
+                            label:{
+                                show:true,
+                                textStyle: {
+                                    color: "#fff"
+                                }
+                            }
+                        },
+                        normal:{
+	                    	color:'#88c8fb',
+                            label:{
+	                            color:'#fff',
+                                show:true,
+	                            textStyle: {
+		                            color: "#88c8fb"
+	                            }
+                            },
+	                        borderColor:'#fff'
+                        },
+                        emphasis:{
+                            label:{
+                                show:true,
+                                color:'#fff'
+                            },
+                            color:'#2e75b6'
+                        }
+                    },
+                    data:[
+                    
+                    ]
+                }
+            ]
+        };
+        myChart.setOption(option);
+    }
+</script>
+</body>
+</html>
