@@ -1,0 +1,7 @@
+{
+    "name": "app",   //必需，应用程序名称
+    "main": "app/index.html", //必需，应用程序入口文件
+    "window":{//控制用户不允许离开窗口，并且窗口全屏
+        "kiosk": true
+    }
+}
