@@ -2,7 +2,7 @@
 
 ```
 复制下列代码在  gitbash上运行便可以复制demo相关代码
-	mkdir makeExe;cd makeExe;git init;git remote add -f origin git@github.com:bralion/demo.git;git config core.sparsecheckout true;echo "publicStatic/nw生成exe" >> .git/info/sparse-checkout;git checkout master;
+	mkdir makeExe;cd makeExe;git init;git remote add -f origin git@github.com:bralion/demo.git;git config core.sparsecheckout true;echo "publicStatic/nwMakeExe" >> .git/info/sparse-checkout;git checkout master;
 注释：
 	mkdir makeExe;
 	cd makeExe;
