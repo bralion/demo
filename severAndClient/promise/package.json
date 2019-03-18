@@ -1,8 +1,14 @@
 {
   "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
     "mongoose": "^5.4.19",
     "mpath": "^0.5.1",
     "mquery": "^3.2.0",
+    "path": "^0.12.7",
     "sliced": "^1.0.1"
   },
   "scripts": {

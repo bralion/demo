@@ -15,6 +15,7 @@ echo "severAndClient/promise/" >> .git/info/sparse-checkout;         #将需要�
 git checkout master;						   #拉取相关的文件
 
 2.启动项目
+	修改 promise文件夹里面的 index.js和databaseInitData里面数据库的地址
 
 	命令行进入文件夹
 	cd promise
@@ -24,6 +25,10 @@ git checkout master;						   #拉取相关的文件
 
 	平时启动
  	npm start;
+
+ 	promise主要代码在index里面 getBasicInfo请求函数里面
+
+
 
 
 ```

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
-const db = 'mongodb://172.27.7.68/test111'
+const db = 'mongodb://172.27.7.68/testPromise'
 
 //连接数据库
 let connect = async () => {
@@ -65,12 +65,12 @@ let initDatabase = () => {//初始化数据库
 	let date = new Date()
 	let oneEquipment = new Equipment({
 		equipmentId:'bidding',
-		equipmentName: '招投标室',
-		currentVersion: 10000,
-		currentMoudleId: 'bidding1',
-		currentMoudleName: '模板1',
-		updateTime: date
-	})
+			equipmentName: '招投标室',
+			currentVersion: 10000,
+			currentMoudleId: 'bidding1',
+			currentMoudleName: '模板1',
+			updateTime: date
+	});
 	oneEquipment.save().then(()=>{console.log('数据库初始化完成。');mongoose.disconnect()});
 }
 
