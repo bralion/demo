@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "mongoose": "^5.4.19",
+    "mpath": "^0.5.1",
+    "mquery": "^3.2.0",
+    "sliced": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "node index.js",
+    "firstStart": "cnpm install && node databaseInitData.js && node index.js"
+  }
+}
