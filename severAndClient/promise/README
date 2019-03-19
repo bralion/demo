@@ -24,7 +24,7 @@ git checkout master;						   #拉取相关的文件
 	cd promise
 
 	第一次启动时
-	npm firstStart;
+	npm run firstStart;
 
 	平时启动
  	npm start;
