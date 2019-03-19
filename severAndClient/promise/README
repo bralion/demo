@@ -15,6 +15,9 @@ echo "severAndClient/promise/" >> .git/info/sparse-checkout;         #将需要�
 git checkout master;						   #拉取相关的文件
 
 2.启动项目
+
+	需要安装mongoDb
+
 	修改 promise文件夹里面的 index.js和databaseInitData里面数据库的地址
 
 	命令行进入文件夹
