@@ -106,7 +106,68 @@ router.get ('/getBasicInfo', async (ctx) => {//获取设备基本信息  前端�
 	// 	}).catch(err=>(ctx.body = {code: '01', data: {message: '未找到该id'}}));
 	
 	
-	//需求二  同时插入5条数据，5条插入都成功后  返回前端数据插入成功。
+	// //需求二  同时插入5条数据，5条插入都成功后  返回前端数据插入成功。否则只要一条没成功就报错  返回当条报错信息
+	// let oneEquipment = new Equipment ({
+	// 	// 		currentMoudleId: 'bidding1',
+	// 	// 		currentMoudleName: '模板1',
+	// 	// 		updateTime: date
+	// 	equipmentId: 'bidding1',
+	// 	equipmentName: '招投标室',
+	// 	currentVersion: 10000,
+	// 	currentMoudleId: 'bidding1',
+	// 	currentMoudleName: '模板1',
+	// 	updateTime: new Date ()
+	// });
+	// let oneEquipment1 = new Equipment ({
+	// 	// 		currentMoudleId: 'bidding1',
+	// 	// 		currentMoudleName: '模板1',
+	// 	// 		updateTime: date
+	// 	equipmentId: 'bidding1',
+	// 	equipmentName: '招投标室',
+	// 	currentVersion: 10000,
+	// 	currentMoudleId: 'bidding2',
+	// 	currentMoudleName: '模板1',
+	// 	updateTime: new Date ()
+	// });
+	// let oneEquipment2 = new Equipment ({
+	// 	// 		currentMoudleId: 'bidding1',
+	// 	// 		currentMoudleName: '模板1',
+	// 	// 		updateTime: date
+	// 	equipmentId: 'bidding1',
+	// 	equipmentName: '招投标室',
+	// 	currentVersion: 10000,
+	// 	currentMoudleId: 'bidding3',
+	// 	currentMoudleName: '模板1',
+	// 	updateTime: new Date ()
+	// });
+	// let oneEquipment3 = new Equipment ({
+	// 	// 		currentMoudleId: 'bidding1',
+	// 	// 		currentMoudleName: '模板1',
+	// 	// 		updateTime: date
+	// 	equipmentId: 'bidding1',
+	// 	equipmentName: '招投标室',
+	// 	currentVersion: 10000,
+	// 	currentMoudleId: 'bidding4',
+	// 	currentMoudleName: '模板1',
+	// 	updateTime: new Date ()
+	// });
+	// let oneEquipment4 = new Equipment ({
+	// 	// 		currentMoudleId: 'bidding1',
+	// 	// 		currentMoudleName: '模板1',
+	// 	// 		updateTime: date
+	// 	equipmentId: 'bidding1',
+	// 	equipmentName: '招投标室',
+	// 	currentVersion: 10000,
+	// 	currentMoudleId: 'bidding5',
+	// 	currentMoudleName: '模板1',
+	// 	updateTime: new Date ()
+	// });
+	// await  Promise.all ([oneEquipment.save (), oneEquipment1.save (), oneEquipment2.save (), oneEquipment3.save (), oneEquipment4.save ()]).then ((info) => {
+	// 	ctx.body = {code: '01', data: {message: '插入5条数据成功'}}
+	// }).catch (err => {
+	// 	ctx.body = {code: '01', err: err}
+	// })
+		//需求三  同时插入5条数据，只要有一条插入成功 就返回前端数据插入成功的数据。如果有报错 返回当条报错信息
 	let oneEquipment = new Equipment ({
 		// 		currentMoudleId: 'bidding1',
 		// 		currentMoudleName: '模板1',
@@ -162,8 +223,8 @@ router.get ('/getBasicInfo', async (ctx) => {//获取设备基本信息  前端�
 		currentMoudleName: '模板1',
 		updateTime: new Date ()
 	});
-	await  Promise.all ([oneEquipment.save (), oneEquipment1.save (), oneEquipment2.save (), oneEquipment3.save (), oneEquipment4.save ()]).then ((info) => {
-		ctx.body = {code: '01', data: {message: '插入5条数据成功'}}
+	await  Promise.race ([oneEquipment.save (), oneEquipment1.save (), oneEquipment2.save (), oneEquipment3.save (), oneEquipment4.save ()]).then ((info) => {
+		ctx.body = {code: '01', data: {message: '插入'+info+'成功'}}
 	}).catch (err => {
 		ctx.body = {code: '01', err: err}
 	})
