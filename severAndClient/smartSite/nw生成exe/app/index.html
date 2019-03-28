@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;width: 100%; font-size: 12px;">
+<head>
+    <meta charset="UTF-8">
+    <title>智能场地系统一体机</title>
+    <style>
+        /* http://meyerweb.com/eric/tools/css/reset/
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,
+        figure, figcaption, footer, header, hgroup,
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure,
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol, ul {
+            list-style: none;
+        }
+
+        blockquote, q {
+            quotes: none;
+        }
+
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .item {
+            margin: 0 auto;
+            font-weight: bold;
+        }
+
+        .item_static {
+            margin-top: 70px;
+            width: 300px;
+            height: 80px;
+            border: 1px solid rgba(8, 74, 135, 0.5);
+            border-radius: 5px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 60px;
+        }
+
+        .item_static.active {
+            border: 1px solid #42b983;
+        }
+
+        .item_static:hover {
+            cursor: pointer;
+        }
+
+        .btn {
+            width: 10px;
+            height: 10px;
+            background-color: indianred;
+            display: inline-block;
+            margin-left: 5px;
+        }
+
+        .max {
+            background-color: #42b983;
+        }
+    </style>
+</head>
+<body style="height: 100%;width: 100%;">
+
+<div style="height: 100%;width: 100%;font-size: 0">
+    <div style="display: inline-block; height: 100%;width: 21%;overflow: hidden;border-right: 1px solid #ddd;box-sizing:border-box;">
+        <!--<div class="btn" id="min"></div>-->
+        <!--<div class="btn max" id="max"></div>-->
+        <div style="text-align: center;margin-top: 15px;">
+            <img width="200" src="./img/weixin.jpg" alt="龙泉驿公共资源交易服务中心" title="龙泉驿公共资源交易服务中心">
+        </div>
+        <ul id="list" style="width:100%">
+        </ul>
+    </div>
+    <div style="display: inline-block;height: 100%;width: 79%;">
+        <webview src="" frameborder="0" id="iframe1"
+                 style="height: 100%;width: 100%;"></webview>
+    </div>
+</div>
+<script src="./js/jquery.js">
+</script>
+<script>
+    var publicUrl='http://172.27.7.64:8080/';
+    var win = nw.Window.get()
+    var webview = document.getElementById('iframe1')
+    let currentUrl='';
+    main()
+    webview.addEventListener('newwindow', function (e) {
+        $('#iframe1').attr('src', e.targetUrl)
+    })
+    // $('#min').click(function () {//退出全屏模式
+    //     win.leaveFullscreen()
+    // })
+    // $('#max').click(function () {//进入全屏模式
+    //     win.enterFullscreen()
+    // })
+
+    function main () {//主函数
+        setTimeout (main, 3000);
+        $.ajax({
+            type: 'post', url: publicUrl+'integratedMachine/getUrl', success: function (result) {
+                if(result.data.code==='02'){
+                    alert('网站数据为空，请联系管理员');
+                    return
+                }else if(result.data.code==='05'){
+                    alert('服务器出现错误，请联系管理员');
+                    return
+                }
+                let html = ''
+                result.data.data.map((item,index) => {
+                    html = html +
+                        `
+                     <li style="background: url(${item.pictureUrl}) no-repeat 0;  background-size: 300px 80px; " targetLink="${item.url}" title="${item.urlName}" class="item item_static ${currentUrl==item.url?'active':''}" ></li>
+			    `
+                })
+                $('#list').html(html);
+                $('.item').click((e) => {//添加点击事件
+                    $('#iframe1').attr('src', $(e.target).attr('targetLink'))
+                    $('.item_static').attr('class', 'item item_static')
+                    $(e.target).attr('class', 'item item_static active')
+                    currentUrl=$(e.target).attr('targetLink');
+                })
+                if(currentUrl===''){//第一次请求 默认选中第一个
+                    $('.item:first-child').click();
+                }
+            }
+        })
+    }
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,1135 @@
+[2019-03-08T11:29:24.036] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 150 }
+[2019-03-08T11:29:27.456] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 13 }
+[2019-03-08T11:29:27.462] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 14 }
+[2019-03-08T11:32:32.668] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T11:32:32.671] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-08T11:33:18.913] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T11:33:18.915] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T11:33:40.214] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T11:33:40.216] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-08T11:34:08.925] [INFO] response - { method: 'GET', url: '/favicon.ico', body: {}, costTime: 1 }
+[2019-03-08T11:34:46.475] [INFO] response - { method: 'GET', url: '/favicon.ico', body: {}, costTime: 0 }
+[2019-03-08T11:34:56.317] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 92 }
+[2019-03-08T11:34:58.162] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T11:34:58.164] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T11:36:45.459] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T11:36:45.460] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T11:37:01.398] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T11:37:01.400] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T11:39:17.338] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T11:39:17.340] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T11:39:33.863] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T11:39:33.865] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T11:39:36.742] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 2 }
+[2019-03-08T11:39:36.744] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T13:52:02.826] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-08T13:52:02.829] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-08T13:54:07.239] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T13:54:07.242] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-08T13:54:09.309] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T13:54:09.315] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-08T13:57:06.070] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T13:57:06.075] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-08T13:57:16.310] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-08T13:57:16.313] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-08T13:59:28.338] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T13:59:28.341] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T14:02:19.122] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T14:02:19.123] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T14:02:23.649] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T14:02:23.651] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T14:02:41.060] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T14:02:41.062] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T14:03:32.013] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 2 }
+[2019-03-08T14:03:32.015] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T14:04:21.975] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 57 }
+[2019-03-08T14:04:21.996] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T14:07:05.247] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 126 }
+[2019-03-08T14:07:09.294] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 16 }
+[2019-03-08T14:07:09.298] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 16 }
+[2019-03-08T14:10:53.723] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T14:10:53.730] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 12 }
+[2019-03-08T14:12:30.690] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T14:12:30.698] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-08T14:13:03.893] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T14:13:03.896] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T14:13:37.686] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T14:13:37.688] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T14:17:30.648] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T14:17:30.654] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 12 }
+[2019-03-08T14:21:00.883] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T14:21:00.888] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-08T14:21:02.525] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T14:21:02.529] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-08T14:21:04.063] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T14:21:04.069] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-08T14:21:08.836] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-08T14:21:08.841] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 13 }
+[2019-03-08T14:35:34.700] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T14:35:34.707] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-08T14:35:44.692] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: { desc: 'yyyy', imgName: '文件夹.png', id: '', showDialog: 'true' },
+  costTime: 1 }
+[2019-03-08T14:35:58.095] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T14:35:58.100] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T14:37:35.510] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: { desc: 'yyyy', imgName: '文件夹.png', id: '', showDialog: 'true' },
+  costTime: 0 }
+[2019-03-08T14:37:41.103] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T14:37:41.105] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T14:37:52.038] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy',
+     imgName: '文件夹.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 0 }
+[2019-03-08T14:41:38.904] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy',
+     imgName: '文件夹.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 0 }
+[2019-03-08T14:42:49.782] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T14:42:49.785] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T14:43:47.591] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy1',
+     imgName: '文件夹1.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 6 }
+[2019-03-08T14:44:01.685] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 29 }
+[2019-03-08T14:44:01.689] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 23 }
+[2019-03-08T14:48:27.577] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy1',
+     imgName: '文件夹1.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 4 }
+[2019-03-08T14:48:32.866] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy1',
+     imgName: '文件夹1.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 1 }
+[2019-03-08T14:50:39.657] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy1',
+     imgName: '文件夹1.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 18 }
+[2019-03-08T14:50:52.031] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 16 }
+[2019-03-08T14:50:52.037] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 20 }
+[2019-03-08T14:51:09.693] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy12',
+     imgName: '文件夹13.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 4 }
+[2019-03-08T15:05:17.025] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy12',
+     imgName: '文件夹13.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 15 }
+[2019-03-08T15:05:23.961] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy12',
+     imgName: '文件夹13.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 3 }
+[2019-03-08T15:05:54.850] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 15 }
+[2019-03-08T15:05:54.854] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 17 }
+[2019-03-08T15:06:01.123] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy12',
+     imgName: '文件夹13.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 6 }
+[2019-03-08T15:07:10.771] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:07:10.772] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:10.772] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:10.773] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:14.472] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:14.472] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:14.473] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:07:14.473] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:14.477] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:14.484] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:07:20.194] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:20.194] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:20.195] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:20.195] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:21.086] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:21.087] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:21.088] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:21.088] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:22.151] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:22.152] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:22.154] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:22.155] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:22.945] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:07:22.945] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:22.945] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:22.946] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:23.550] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:07:23.550] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:23.551] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:23.551] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:23.558] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:23.562] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:07:23.855] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:23.855] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:23.856] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:23.856] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:24.093] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:24.094] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:24.094] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:24.094] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:24.100] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:24.105] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.319] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.319] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.320] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.321] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.325] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.332] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.959] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.960] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.961] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:25.962] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:26.737] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:07:26.737] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:26.738] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:26.739] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:27.344] [INFO] response - { method: 'GET',
+  url: '/static/css/app.b280235f03b0ad63effc613fd4e968f3.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:27.345] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:27.345] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:27.346] [INFO] response - { method: 'GET',
+  url: '/static/js/app.99f9821bebc3d12d4eca.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:07:34.854] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T15:07:34.860] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T15:07:41.505] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy12',
+     imgName: '文件夹123.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 4 }
+[2019-03-08T15:08:31.773] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 22 }
+[2019-03-08T15:08:31.777] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 20 }
+[2019-03-08T15:09:28.527] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T15:09:28.535] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-08T15:09:32.699] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy12',
+     imgName: '文件夹123.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 12 }
+[2019-03-08T15:09:32.711] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T15:09:36.649] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy12',
+     imgName: '文件夹123.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 1 }
+[2019-03-08T15:09:36.656] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T15:14:50.847] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 32 }
+[2019-03-08T15:14:50.860] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 39 }
+[2019-03-08T15:14:54.141] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy12',
+     imgName: '文件夹123.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 6 }
+[2019-03-08T15:14:54.163] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T15:15:02.839] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: 'yyyy123',
+     imgName: '文件夹123.png',
+     id: '5c8205e547f01f4490ea42b4',
+     showDialog: 'true' },
+  costTime: 4 }
+[2019-03-08T15:15:02.869] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T15:23:09.070] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-08T15:23:09.074] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-08T15:29:48.189] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 25 }
+[2019-03-08T15:29:48.220] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 44 }
+[2019-03-08T15:29:59.356] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { id: '5c8205e547f01f4490ea42b4',
+     imgName: '文件夹123.png',
+     showDialog: 'true' },
+  costTime: 11 }
+[2019-03-08T15:32:20.229] [INFO] response - { method: 'GET',
+  url: '/static/css/app.6495deb8c198739d74e828dc055d7834.css',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:32:20.229] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:32:20.231] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:32:20.232] [INFO] response - { method: 'GET',
+  url: '/static/js/app.c1d3c4837d7a568948e8.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:33:06.834] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T15:33:06.837] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T15:33:10.961] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/delImg',
+  body: 
+   { id: '5c8205e547f01f4490ea42b4',
+     imgName: '文件夹123.png',
+     showDialog: 'true' },
+  costTime: 9 }
+[2019-03-08T15:33:19.189] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T15:33:19.193] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T15:35:28.246] [INFO] response - { method: 'GET',
+  url: '/static/css/app.37da107bd4c8b9e3d3b3d2a3691dd1c7.css',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:35:28.247] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:28.248] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:28.248] [INFO] response - { method: 'GET',
+  url: '/static/js/app.093112f36ba6a8de8120.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:33.208] [INFO] response - { method: 'GET',
+  url: '/static/css/app.37da107bd4c8b9e3d3b3d2a3691dd1c7.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:33.209] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:35:33.209] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:33.209] [INFO] response - { method: 'GET',
+  url: '/static/js/app.093112f36ba6a8de8120.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:34.213] [INFO] response - { method: 'GET',
+  url: '/static/css/app.37da107bd4c8b9e3d3b3d2a3691dd1c7.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:34.213] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:34.215] [INFO] response - { method: 'GET',
+  url: '/static/js/app.093112f36ba6a8de8120.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:34.216] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:34.222] [INFO] response - { method: 'GET',
+  url: '/static/js/app.093112f36ba6a8de8120.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:39.932] [INFO] response - { method: 'GET',
+  url: '/static/css/app.37da107bd4c8b9e3d3b3d2a3691dd1c7.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:39.933] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:39.933] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:39.934] [INFO] response - { method: 'GET',
+  url: '/static/js/app.093112f36ba6a8de8120.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:35:39.943] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:39.947] [INFO] response - { method: 'GET',
+  url: '/static/js/app.093112f36ba6a8de8120.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:35:43.940] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 21 }
+[2019-03-08T15:35:43.943] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 20 }
+[2019-03-08T15:35:50.329] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/delImg',
+  body: 
+   { id: '5c77ad85d204f6470409cb2e',
+     imgName: '微信图片_20190219151311.png',
+     showDialog: 'true' },
+  costTime: 11 }
+[2019-03-08T15:35:50.353] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T15:37:25.342] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:37:25.342] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:25.343] [INFO] response - { method: 'GET',
+  url: '/static/css/app.10ccb43d382ee4ecbb0a1f27e85f5901.css',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:37:25.343] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:25.357] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:25.362] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:30.654] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:30.654] [INFO] response - { method: 'GET',
+  url: '/static/css/app.10ccb43d382ee4ecbb0a1f27e85f5901.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:30.656] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:30.656] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:30.675] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:30.688] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:36.371] [INFO] response - { method: 'GET',
+  url: '/static/css/app.10ccb43d382ee4ecbb0a1f27e85f5901.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:36.371] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:36.372] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:36.372] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:36.382] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:37:37.574] [INFO] response - { method: 'GET',
+  url: '/static/css/app.10ccb43d382ee4ecbb0a1f27e85f5901.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:37.575] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:37:37.575] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:37.575] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:37.585] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:38.982] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:38.982] [INFO] response - { method: 'GET',
+  url: '/static/css/app.10ccb43d382ee4ecbb0a1f27e85f5901.css',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:38.983] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:38.985] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:37:40.159] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T15:37:40.161] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T15:44:08.613] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 34 }
+[2019-03-08T15:44:08.619] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 35 }
+[2019-03-08T15:44:15.713] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/updateImg',
+  body: 
+   { desc: '之前图片1',
+     imgName: '01视图配置.jpg',
+     id: '5c77adf5d204f6470409cb2f',
+     showDialog: 'true' },
+  costTime: 20 }
+[2019-03-08T15:44:15.742] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T15:45:54.225] [INFO] response - { method: 'GET',
+  url: '/static/css/app.10ccb43d382ee4ecbb0a1f27e85f5901.css',
+  body: {},
+  costTime: 2 }
+[2019-03-08T15:45:54.227] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:45:54.227] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:45:54.228] [INFO] response - { method: 'GET',
+  url: '/static/js/app.049429250790370e4f3c.js',
+  body: {},
+  costTime: 1 }
+[2019-03-08T15:45:59.420] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T15:45:59.424] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T15:47:53.163] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T15:47:53.168] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-08T15:52:50.531] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T15:52:50.535] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-08T15:57:08.982] [INFO] response - { method: 'GET',
+  url: '/static/css/app.26f3f800037b7c218e71dfa5593cc2c9.css',
+  body: {},
+  costTime: 2 }
+[2019-03-08T15:57:08.984] [INFO] response - { method: 'GET',
+  url: '/static/js/manifest.2ae2e69a05c33dfc65f8.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:57:08.984] [INFO] response - { method: 'GET',
+  url: '/static/js/vendor.eec06e2f87eaafa1c795.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:57:08.985] [INFO] response - { method: 'GET',
+  url: '/static/js/app.317e2e92df99ed9f5d31.js',
+  body: {},
+  costTime: 0 }
+[2019-03-08T15:57:28.569] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 22 }
+[2019-03-08T15:57:28.574] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 20 }
+[2019-03-08T15:57:39.366] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/delVideo',
+  body: 
+   { id: '5c7e1e8dba52d0325cbd5109',
+     videoName: '',
+     showDialog: 'true',
+     imgName: '搜索.mp4' },
+  costTime: 41 }
+[2019-03-08T15:57:39.392] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-08T15:57:47.541] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/delVideo',
+  body: 
+   { id: '5c7e1e95ba52d0325cbd510c',
+     videoName: '',
+     showDialog: 'true',
+     imgName: '搜索.mp4' },
+  costTime: 4 }
+[2019-03-08T15:57:47.580] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-08T15:57:51.600] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/delVideo',
+  body: 
+   { id: '5c77b9b7d204f6470409cb55',
+     videoName: '',
+     showDialog: 'true',
+     imgName: '搜索.mp4' },
+  costTime: 2 }
+[2019-03-08T15:57:51.616] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-08T15:57:58.272] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/searchVideos',
+  body: { keyWord: '搜索', pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-08T15:58:13.087] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-08T15:58:13.091] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }

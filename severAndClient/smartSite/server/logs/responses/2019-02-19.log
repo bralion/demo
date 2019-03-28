@@ -1,0 +1,60 @@
+[2019-02-19T13:48:34.192] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wy', password: '123' },
+  costTime: 26 }
+[2019-02-19T13:48:37.789] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 177 }
+[2019-02-19T14:28:26.338] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 218 }
+[2019-02-19T14:29:47.168] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 170 }
+[2019-02-19T14:33:00.143] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 97 }
+[2019-02-19T14:58:31.210] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 136 }
+[2019-02-19T15:01:22.897] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 217 }
+[2019-02-19T15:10:34.949] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 198 }
+[2019-02-19T15:14:12.638] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 122 }
+[2019-02-19T16:06:39.721] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 127 }
+[2019-02-19T16:15:28.671] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 138 }
+[2019-02-19T16:18:45.503] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 119 }
+[2019-02-19T16:34:12.581] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 198 }
+[2019-02-19T16:47:33.297] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 156 }
+[2019-02-19T16:48:05.403] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 149 }

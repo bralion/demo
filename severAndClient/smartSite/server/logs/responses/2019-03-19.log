@@ -1,0 +1,727 @@
+[2019-03-19T15:29:49.116] [INFO] response - { method: 'GET', url: '/favicon.ico', body: {}, costTime: 2 }
+[2019-03-19T15:30:06.499] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 153 }
+[2019-03-19T15:30:06.541] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 5 }
+[2019-03-19T15:30:06.545] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 12 }
+[2019-03-19T15:30:29.328] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T15:30:29.331] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-19T15:30:30.123] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-19T15:30:30.125] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-19T15:34:52.319] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 96 }
+[2019-03-19T15:34:52.363] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T15:34:52.365] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T15:36:27.548] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T15:36:27.550] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T15:39:28.044] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T15:39:28.045] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T15:39:50.153] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T15:39:50.155] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T15:39:58.898] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T15:39:58.900] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T15:40:49.046] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T15:40:49.048] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T15:40:50.808] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T15:40:50.810] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T15:40:53.589] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T15:40:53.594] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 12 }
+[2019-03-19T16:07:14.878] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T16:07:14.880] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T16:07:16.260] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-19T16:07:16.262] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-19T16:10:37.652] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 6 }
+[2019-03-19T16:10:37.655] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-19T16:11:44.480] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T16:11:44.484] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-19T16:14:27.584] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T16:14:27.585] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T16:15:20.583] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 2 }
+[2019-03-19T16:15:20.587] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T16:18:46.267] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T16:18:46.269] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T16:21:02.700] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T16:21:02.702] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T16:23:14.141] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T16:23:14.142] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T16:25:46.448] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T16:25:46.449] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T16:28:05.282] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T16:28:05.285] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T16:29:52.598] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T16:29:52.600] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T16:40:28.485] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T16:40:28.488] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T16:46:10.756] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T16:46:10.758] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T16:46:20.767] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T16:46:20.770] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T16:50:57.586] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T16:50:57.588] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T16:53:39.001] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T16:53:39.003] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T16:53:59.241] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T16:53:59.242] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T16:54:55.283] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 9 }
+[2019-03-19T16:54:55.285] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 13 }
+[2019-03-19T16:54:57.265] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T16:54:57.267] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T16:57:17.971] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T16:57:17.972] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T16:58:10.824] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T16:58:10.827] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T16:58:13.396] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T16:58:13.397] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:01:30.008] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-19T17:01:30.011] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 5 }
+[2019-03-19T17:07:55.148] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:07:55.149] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:09:50.320] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:09:50.322] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:13:05.228] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T17:13:05.230] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:14:21.217] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:14:21.218] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:15:13.941] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T17:15:13.942] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T17:18:28.168] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T17:18:28.169] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:19:08.025] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T17:19:08.028] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T17:19:26.268] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T17:19:26.269] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:20:36.213] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:20:36.215] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:28:03.301] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:28:03.303] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:30:41.501] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T17:30:41.502] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:31:03.198] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T17:31:03.200] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:32:05.930] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:32:05.931] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:33:45.877] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 24 }
+[2019-03-19T17:33:45.879] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 25 }
+[2019-03-19T17:36:35.548] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T17:36:35.550] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:38:13.158] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:38:13.160] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-19T17:38:16.839] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 1 }
+[2019-03-19T17:38:16.840] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T17:40:53.513] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T17:40:53.514] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:43:14.439] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T17:43:14.512] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 17 }
+[2019-03-19T17:43:14.573] [INFO] response - { method: 'GET',
+  url: '/statics/imgs/W7Xl4fBuC8slkJeHERzqA9R8.png',
+  body: {},
+  costTime: 0 }
+[2019-03-19T17:43:21.921] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:43:21.922] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:44:41.531] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T17:44:41.532] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T17:44:43.521] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-19T17:44:43.524] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:46:29.760] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 5 }
+[2019-03-19T17:46:29.761] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:50:26.732] [INFO] response - { method: 'POST',
+  url: '/websites/addWebsite',
+  body: 
+   { websiteName: '阿达',
+     picPath: '\\imgs\\uEJlkArtmR7YoSz4d8qLO0Iy.png',
+     picName: 'sichuancaigou.png',
+     jumpPath: '文档 ',
+     userName: 'sda',
+     password: 'asdasd',
+     showDialog: 'true' },
+  costTime: 65 }
+[2019-03-19T17:50:26.751] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:51:48.833] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:51:48.835] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:51:51.042] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:51:51.044] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:51:52.562] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:51:52.564] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:52:19.522] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:52:19.526] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-19T17:52:36.900] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-19T17:52:36.902] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 7 }
+[2019-03-19T17:53:00.291] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:53:00.294] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-19T17:53:09.217] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:53:09.221] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:53:18.656] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:53:18.658] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-19T17:53:53.111] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:53:53.113] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:53:56.119] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:53:56.120] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:53:59.270] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:53:59.274] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-19T17:54:03.817] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:54:03.819] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:54:24.478] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:54:24.480] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-19T17:54:28.633] [INFO] response - { method: 'POST',
+  url: '/equipment/getBasicInfo',
+  body: { equipmentId: 'bidding' },
+  costTime: 4 }
+[2019-03-19T17:54:28.653] [INFO] response - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: 3 }
+[2019-03-19T17:54:32.197] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:54:32.201] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-19T17:55:29.991] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-19T17:55:29.993] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-19T17:55:31.294] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:55:31.296] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:55:33.220] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:55:33.222] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:55:35.111] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 11 }
+[2019-03-19T17:55:35.115] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 17 }
+[2019-03-19T17:55:43.343] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-03-19T17:55:43.346] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-19T17:56:45.142] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:56:45.147] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-19T17:56:47.532] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 7 }
+[2019-03-19T17:56:47.535] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 12 }
+[2019-03-19T17:56:55.039] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T17:56:55.041] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:56:59.999] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-19T17:57:00.000] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-19T17:57:59.329] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T17:57:59.332] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-19T17:59:38.384] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 3 }
+[2019-03-19T17:59:38.387] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-19T17:59:41.621] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-19T17:59:41.623] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-19T18:00:10.420] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-19T18:00:10.423] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-19T18:00:20.496] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-19T18:00:20.499] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }

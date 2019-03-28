@@ -1,0 +1,464 @@
+[2019-02-26T10:25:16.024] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 155 }
+[2019-02-26T10:37:49.390] [INFO] response - { method: 'GET',
+  url: '/static/css/static/img/login.71eb61c.png',
+  body: {},
+  costTime: 2 }
+[2019-02-26T10:37:49.597] [INFO] response - { method: 'GET', url: '/favicon.ico', body: {}, costTime: 0 }
+[2019-02-26T10:38:03.309] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 216 }
+[2019-02-26T10:38:03.332] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.woff2',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:38:03.335] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.woff2',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:38:03.343] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.woff',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:38:03.345] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.woff',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:38:03.349] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.ttf',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:38:03.355] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.ttf',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:38:06.901] [INFO] response - { method: 'GET', url: '/assets/test.jpg', body: {}, costTime: 0 }
+[2019-02-26T10:40:31.268] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.woff2',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:40:31.269] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.woff2',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:40:31.342] [INFO] response - { method: 'GET', url: '/assets/test.jpg', body: {}, costTime: 0 }
+[2019-02-26T10:40:31.343] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.woff',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:40:31.382] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.woff',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:40:31.496] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.ttf',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:40:31.711] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.ttf',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:40:42.291] [INFO] response - { method: 'GET',
+  url: '/static/css/static/img/login.71eb61c.png',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:47:38.646] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 118 }
+[2019-02-26T10:47:38.671] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.woff2',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:47:38.673] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.woff2',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:47:38.693] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.woff',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:47:38.695] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.woff',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:47:38.742] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/religion27/religion27-webfont.ttf',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:47:38.767] [INFO] response - { method: 'GET',
+  url: '/src/assets/font/LedD/lcdd-webfont.ttf',
+  body: {},
+  costTime: 0 }
+[2019-02-26T10:47:42.439] [INFO] response - { method: 'GET', url: '/assets/test.jpg', body: {}, costTime: 0 }
+[2019-02-26T10:53:09.031] [INFO] response - { method: 'GET', url: '/assets/test.jpg', body: {}, costTime: 0 }
+[2019-02-26T10:53:20.326] [INFO] response - { method: 'GET', url: '/assets/test.jpg', body: {}, costTime: 0 }
+[2019-02-26T10:53:23.675] [INFO] response - { method: 'GET', url: '/assets/test.jpg', body: {}, costTime: 1 }
+[2019-02-26T10:55:43.890] [INFO] response - { method: 'GET', url: '/assets/test.jpg', body: {}, costTime: 1 }
+[2019-02-26T14:31:49.275] [INFO] response - { method: 'OPTIONS', url: '/uploadImg', body: {}, costTime: 1 }
+[2019-02-26T14:31:49.292] [INFO] response - { method: 'POST', url: '/uploadImg', body: {}, costTime: 2 }
+[2019-02-26T14:33:07.659] [INFO] response - { method: 'OPTIONS',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 0 }
+[2019-02-26T14:33:07.666] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 1 }
+[2019-02-26T14:35:23.857] [INFO] response - { method: 'OPTIONS',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 1 }
+[2019-02-26T14:35:56.710] [INFO] response - { method: 'OPTIONS',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T14:37:52.001] [INFO] response - { method: 'OPTIONS',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T14:39:46.351] [INFO] response - { method: 'OPTIONS',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 1 }
+[2019-02-26T14:39:51.844] [INFO] response - { method: 'GET',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T14:48:11.682] [INFO] response - { method: 'POST', url: '/uploadImg', body: {}, costTime: 1 }
+[2019-02-26T14:48:51.677] [INFO] response - { method: 'GET',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 0 }
+[2019-02-26T14:51:18.100] [INFO] response - { method: 'POST', url: '/uploadImg', body: {}, costTime: 1 }
+[2019-02-26T14:51:59.825] [INFO] response - { method: 'POST',
+  url: '//resourceLibrary/uploadImg',
+  body: {},
+  costTime: 0 }
+[2019-02-26T15:00:19.409] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 21213 }
+[2019-02-26T15:25:06.650] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 123 }
+[2019-02-26T15:28:07.023] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 4582 }
+[2019-02-26T15:29:13.487] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 4177 }
+[2019-02-26T15:30:51.430] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 4830 }
+[2019-02-26T15:35:47.857] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 9372 }
+[2019-02-26T15:36:38.348] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 5692 }
+[2019-02-26T15:39:20.336] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 6015 }
+[2019-02-26T15:41:03.081] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3122 }
+[2019-02-26T15:43:10.236] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 49038 }
+[2019-02-26T15:46:23.406] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2360 }
+[2019-02-26T15:46:36.415] [INFO] response - { method: 'GET',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 1 }
+[2019-02-26T15:46:55.853] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 6712 }
+[2019-02-26T15:48:14.346] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3548 }
+[2019-02-26T15:48:40.124] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2551 }
+[2019-02-26T15:50:47.394] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 11230 }
+[2019-02-26T15:50:53.335] [INFO] response - { method: 'GET',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T15:52:04.211] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T15:53:26.788] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 4 }
+[2019-02-26T15:54:28.198] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T15:56:27.139] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 131 }
+[2019-02-26T15:56:34.685] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T15:56:40.782] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 1 }
+[2019-02-26T15:57:57.702] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 6 }
+[2019-02-26T15:59:24.668] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T15:59:31.408] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T16:00:51.791] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T16:00:57.614] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3 }
+[2019-02-26T16:01:55.887] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 7 }
+[2019-02-26T16:03:00.520] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 8 }
+[2019-02-26T16:43:57.225] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 1922565 }
+[2019-02-26T16:47:57.812] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 6 }
+[2019-02-26T16:48:30.615] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 11 }
+[2019-02-26T16:51:38.393] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 11 }
+[2019-02-26T16:54:38.278] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 141336 }
+[2019-02-26T16:55:16.539] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T16:55:30.145] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 8077 }
+[2019-02-26T16:55:50.164] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2590 }
+[2019-02-26T16:57:33.076] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2850 }
+[2019-02-26T17:00:03.859] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 7197 }
+[2019-02-26T17:01:01.626] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3249 }
+[2019-02-26T17:04:06.806] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3241 }
+[2019-02-26T17:07:53.462] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T17:08:07.918] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3511 }
+[2019-02-26T17:14:49.656] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T17:14:57.624] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 5 }
+[2019-02-26T17:16:17.400] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T17:17:37.549] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 9 }
+[2019-02-26T17:18:31.904] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 1 }
+[2019-02-26T17:18:38.541] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 7 }
+[2019-02-26T17:20:23.723] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 11 }
+[2019-02-26T17:33:37.568] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 6 }
+[2019-02-26T17:35:24.480] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 4 }
+[2019-02-26T17:36:09.302] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 9886 }
+[2019-02-26T17:38:05.374] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T17:43:26.678] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T17:43:32.120] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T17:44:42.057] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 8 }
+[2019-02-26T17:46:05.917] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3 }
+[2019-02-26T17:46:53.240] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T17:46:59.970] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 6 }
+[2019-02-26T17:48:08.522] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 7 }
+[2019-02-26T17:52:25.649] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 8 }
+[2019-02-26T17:53:17.935] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 15 }
+[2019-02-26T17:54:07.200] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 11287 }
+[2019-02-26T17:56:52.091] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 28499 }
+[2019-02-26T17:57:51.193] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 19899 }
+[2019-02-26T17:58:23.373] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3834 }
+[2019-02-26T17:59:28.591] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 4 }
+[2019-02-26T18:00:31.561] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 3 }
+[2019-02-26T18:17:54.872] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 17 }
+[2019-02-26T18:29:03.088] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 4 }
+[2019-02-26T18:31:02.365] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 8 }
+[2019-02-26T18:31:37.649] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 1 }
+[2019-02-26T18:31:42.846] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 5 }
+[2019-02-26T18:33:12.083] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 10 }
+[2019-02-26T18:33:51.735] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 10 }
+[2019-02-26T18:34:18.895] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 8 }
+[2019-02-26T18:39:17.370] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 10 }
+[2019-02-26T18:41:04.690] [INFO] response - { method: 'GET',
+  url: '/static/imgs/test.jpg',
+  body: {},
+  costTime: 2 }
+[2019-02-26T18:41:09.930] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 8 }

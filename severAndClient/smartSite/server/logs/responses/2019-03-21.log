@@ -1,0 +1,2213 @@
+[2019-03-21T09:29:15.220] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 193 }
+[2019-03-21T09:29:15.262] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-21T09:29:15.264] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:29:18.661] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:29:18.663] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:29:20.734] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:29:20.735] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:29:52.280] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T09:29:52.282] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T09:32:03.677] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T09:32:03.681] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T09:39:31.509] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T09:39:31.511] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:39:47.573] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:39:47.574] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T09:39:53.265] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:39:53.266] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:42:11.370] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:42:11.373] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T09:43:13.251] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:43:13.252] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:46:23.826] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T09:46:23.828] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:46:34.501] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:46:34.504] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T09:48:59.007] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:48:59.009] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:49:00.527] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T09:49:00.529] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:49:18.685] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:49:18.687] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:50:15.925] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T09:50:15.927] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:50:21.213] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T09:50:21.215] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:51:06.004] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T09:51:06.006] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:51:10.220] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:51:10.221] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T09:52:10.786] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T09:52:10.790] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T09:52:14.392] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:52:14.394] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:52:46.012] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:52:46.013] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T09:58:21.482] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T09:58:21.484] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T10:00:04.756] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 4 }
+[2019-03-21T10:00:04.758] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T10:00:15.702] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '2' },
+  costTime: 7 }
+[2019-03-21T10:00:34.427] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: '杨超林',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: '阿达',
+     replacePersonId: '',
+     startTime: '2019-03-20T16:00:00.000Z',
+     endTime: '2019-03-21T16:00:00.000Z' },
+  costTime: 5 }
+[2019-03-21T10:00:39.750] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T10:00:39.752] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T10:01:56.946] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '2' },
+  costTime: 8 }
+[2019-03-21T10:01:59.070] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T10:05:05.320] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T10:05:05.322] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T10:05:25.734] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: '杨超林',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: '哈哈哈',
+     replacePersonId: '',
+     startTime: '2019-03-21T02:05:22.000Z',
+     endTime: '2019-03-21T02:05:24.000Z' },
+  costTime: 6 }
+[2019-03-21T10:05:34.612] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: '杨超林',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: '哈哈哈',
+     replacePersonId: '',
+     startTime: '2019-03-21T02:05:22.000Z',
+     endTime: '2019-03-21T02:05:24.000Z' },
+  costTime: 6 }
+[2019-03-21T10:05:56.715] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T10:05:56.718] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T10:06:03.558] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T10:06:03.559] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T10:06:13.891] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: '阿达',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: '第三方',
+     replacePersonId: '',
+     startTime: '2019-03-21T02:06:10.000Z',
+     endTime: '2019-03-21T02:06:12.000Z' },
+  costTime: 5 }
+[2019-03-21T10:06:13.909] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T10:06:18.538] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '2' },
+  costTime: 9 }
+[2019-03-21T10:07:13.730] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T10:08:42.649] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: '大大',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: '官方的说法',
+     replacePersonId: '',
+     startTime: '2019-03-21T02:08:33.000Z',
+     endTime: '2019-03-21T02:08:35.000Z' },
+  costTime: 6 }
+[2019-03-21T10:08:42.667] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T10:17:41.541] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T10:17:41.542] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T10:17:53.444] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/uploadImg',
+  body: {},
+  costTime: 76 }
+[2019-03-21T10:17:53.465] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T10:18:52.148] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T10:18:52.150] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T10:18:53.218] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T10:18:53.223] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T10:31:14.478] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 27 }
+[2019-03-21T10:31:14.484] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 25 }
+[2019-03-21T10:31:39.988] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: '大萨达',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: '撒打算',
+     replacePersonId: '',
+     startTime: '2019-03-21T02:31:36.000Z',
+     endTime: '2019-03-21T02:31:38.000Z' },
+  costTime: 27 }
+[2019-03-21T10:31:40.001] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T10:34:05.277] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: '阿达',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: '的冯绍峰',
+     replacePersonId: '',
+     startTime: '2019-03-21T02:34:02.000Z',
+     endTime: '2019-03-21T02:34:04.000Z' },
+  costTime: 8 }
+[2019-03-21T10:34:05.310] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 22 }
+[2019-03-21T10:34:16.800] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 5 }
+[2019-03-21T10:34:16.804] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T10:34:17.515] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T10:34:17.518] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T10:35:44.801] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T10:35:44.807] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T10:35:47.104] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-21T10:35:47.107] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T10:35:57.305] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T10:35:57.309] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T10:35:57.898] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T10:35:57.900] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T10:50:11.037] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T10:50:11.039] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T10:50:11.498] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T10:50:11.503] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T10:50:13.095] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T10:50:13.096] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T10:50:14.467] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T10:50:14.469] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T10:50:14.751] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 5 }
+[2019-03-21T10:50:14.757] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 13 }
+[2019-03-21T10:54:48.907] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T10:54:48.909] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T10:57:03.693] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 22 }
+[2019-03-21T10:57:03.695] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 23 }
+[2019-03-21T10:57:04.035] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T10:57:04.037] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T10:57:05.406] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T10:57:05.410] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T10:57:07.170] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T10:57:07.174] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T10:59:42.320] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T10:59:42.322] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T11:14:19.344] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 6 }
+[2019-03-21T11:14:19.347] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T11:14:31.978] [INFO] response - { method: 'POST',
+  url: '/equipment/getBasicInfo',
+  body: { equipmentId: 'bidding' },
+  costTime: 3 }
+[2019-03-21T11:14:31.998] [INFO] response - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: 3 }
+[2019-03-21T11:14:35.434] [INFO] response - { method: 'POST',
+  url: '/equipment/getBasicInfo',
+  body: { equipmentId: 'bidding' },
+  costTime: 5 }
+[2019-03-21T11:14:35.456] [INFO] response - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding2',
+     roomNum: '1' },
+  costTime: 3 }
+[2019-03-21T11:14:38.668] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T11:14:38.672] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T11:14:39.621] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T11:14:39.623] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T11:14:41.520] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T11:14:41.525] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T11:15:42.864] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 7 }
+[2019-03-21T11:15:42.868] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 15 }
+[2019-03-21T11:15:44.683] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T11:15:44.687] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T11:15:46.376] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T11:15:46.378] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T11:19:18.740] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 4 }
+[2019-03-21T11:19:18.744] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T11:21:32.392] [INFO] response - { method: 'POST',
+  url: '/equipment/getBasicInfo',
+  body: { equipmentId: 'bidding' },
+  costTime: 4 }
+[2019-03-21T11:21:32.404] [INFO] response - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: 2 }
+[2019-03-21T11:21:56.566] [INFO] response - { method: 'GET', url: '/favicon.ico', body: {}, costTime: 2 }
+[2019-03-21T11:22:10.038] [INFO] response - { method: 'GET', url: '/favicon.ico', body: {}, costTime: 0 }
+[2019-03-21T11:22:16.764] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '1322' },
+  costTime: 213 }
+[2019-03-21T11:22:22.091] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 138 }
+[2019-03-21T11:22:22.123] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-21T11:22:22.125] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T11:22:27.638] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T11:22:27.641] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T11:22:34.423] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 126 }
+[2019-03-21T11:22:34.462] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-21T11:22:34.465] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T11:26:37.448] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 4 }
+[2019-03-21T11:26:37.450] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T11:44:56.096] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { userName: 'wy',
+     password: '123',
+     role: 'super',
+     status: 'normal',
+     jobPosition: '科长',
+     jurisdiction: 
+      { web: true,
+        view: false,
+        expert: false,
+        out: true,
+        res: false,
+        cdLibrary: false,
+        jurisdiction: false } },
+  costTime: 169 }
+[2019-03-21T12:21:57.118] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { userName: 'wy1',
+     password: '123',
+     role: 'super',
+     status: 'normal',
+     jobPosition: '科长',
+     jurisdiction: 
+      { web: true,
+        view: false,
+        expert: false,
+        out: true,
+        res: false,
+        cdLibrary: false,
+        jurisdiction: false } },
+  costTime: 122 }
+[2019-03-21T13:58:28.745] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 21 }
+[2019-03-21T13:58:28.752] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 21 }
+[2019-03-21T13:58:30.574] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 7 }
+[2019-03-21T13:58:30.577] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 12 }
+[2019-03-21T13:58:34.408] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 5 }
+[2019-03-21T13:58:34.412] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T13:58:37.593] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 5 }
+[2019-03-21T13:58:37.596] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T13:58:42.962] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T13:58:42.965] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T13:58:46.562] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T13:58:46.568] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T13:58:53.428] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T13:58:53.431] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T13:58:55.051] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 4 }
+[2019-03-21T13:58:55.054] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T14:00:21.912] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:00:21.916] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T14:01:53.802] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:01:53.804] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:02:16.914] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:02:16.916] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:03:36.057] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 4 }
+[2019-03-21T14:03:36.059] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T14:04:14.370] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:04:14.372] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T14:08:04.886] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:08:04.890] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T14:10:56.017] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:10:56.019] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T14:11:35.601] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T14:11:35.606] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:12:23.031] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:12:23.033] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T14:13:48.531] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:13:48.534] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T14:16:23.566] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:16:23.568] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T14:24:13.142] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 18 }
+[2019-03-21T14:24:13.150] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 32 }
+[2019-03-21T14:29:30.378] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:29:30.381] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T14:29:48.644] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:29:48.646] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:32:44.469] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:32:44.472] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T14:34:36.808] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:34:36.810] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T14:34:47.914] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:34:47.916] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:35:03.069] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:35:03.072] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:35:54.464] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:35:54.466] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T14:36:52.596] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:36:52.598] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:37:25.231] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:37:25.233] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:42:08.813] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:42:08.815] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T14:45:29.858] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 2 }
+[2019-03-21T14:45:29.861] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T14:49:05.492] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T14:49:05.494] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T14:49:08.070] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:49:08.073] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T14:49:13.400] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T14:49:13.402] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T14:49:15.543] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 4 }
+[2019-03-21T14:49:15.547] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T14:50:45.218] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:50:45.220] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:51:55.547] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 3 }
+[2019-03-21T14:51:55.549] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T14:54:37.772] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T14:58:21.400] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 1 }
+[2019-03-21T14:58:42.882] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T14:59:55.501] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T15:00:14.881] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:02:00.356] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T15:09:19.779] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:09:33.001] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:12:55.828] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T15:14:45.311] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:15:50.664] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T15:16:15.779] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 1 }
+[2019-03-21T15:17:56.525] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T15:19:17.928] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T15:27:25.502] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:34:22.788] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T15:45:35.999] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:49:29.391] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T15:50:52.407] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T15:54:27.659] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:55:30.201] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { userName: 'sdd',
+     password: '123',
+     role: 'super',
+     status: 'pause',
+     jobPosition: '科长',
+     jurisdiction: 
+      { web: true,
+        view: false,
+        expert: false,
+        out: true,
+        res: false,
+        cdLibrary: false,
+        jurisdiction: false } },
+  costTime: 136 }
+[2019-03-21T15:55:49.265] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { userName: 'sd1d',
+     password: '123',
+     role: 'super',
+     status: 'logOut',
+     jobPosition: '科长',
+     jurisdiction: 
+      { web: true,
+        view: false,
+        expert: false,
+        out: true,
+        res: false,
+        cdLibrary: false,
+        jurisdiction: false } },
+  costTime: 100 }
+[2019-03-21T15:55:55.231] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:56:52.020] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T15:59:09.991] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 19 }
+[2019-03-21T15:59:35.836] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T16:01:37.090] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { userName: 'sd11d',
+     password: '123',
+     role: 'user',
+     status: 'logOut',
+     jobPosition: '科长',
+     jurisdiction: 
+      { web: true,
+        view: false,
+        expert: false,
+        out: true,
+        res: false,
+        cdLibrary: false,
+        jurisdiction: false } },
+  costTime: 108 }
+[2019-03-21T16:01:46.098] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T16:02:10.797] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:03:59.250] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:07:06.839] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:07:37.093] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T16:08:03.049] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:08:38.203] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T16:09:13.666] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:16:04.972] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:16:29.923] [INFO] response - { method: 'POST',
+  url: '/user/addUser',
+  body: 
+   { showDialog: 'true',
+     userName: '杨超林',
+     password: '123',
+     status: 'normal',
+     jobPosition: '局长',
+     role: 'super',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'true' } },
+  costTime: 5 }
+[2019-03-21T16:16:36.619] [INFO] response - { method: 'POST',
+  url: '/user/addUser',
+  body: 
+   { showDialog: 'true',
+     userName: '杨超林',
+     password: '123',
+     status: 'normal',
+     jobPosition: '局长',
+     role: 'super',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'true' } },
+  costTime: 1 }
+[2019-03-21T16:17:03.456] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:17:25.589] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: '林邱恒',
+     password: '123',
+     status: 'normal',
+     jobPosition: '国家主席',
+     role: 'super',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'true' } },
+  costTime: 119 }
+[2019-03-21T16:17:36.050] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:22:00.237] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: '',
+     password: '',
+     status: 'normal',
+     jobPosition: '',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: 113 }
+[2019-03-21T16:23:38.964] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: '林胖子',
+     password: '123',
+     status: 'normal',
+     jobPosition: '产品经理',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: 143 }
+[2019-03-21T16:23:38.994] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T16:27:31.244] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: '林胖子',
+     password: '',
+     status: 'normal',
+     jobPosition: '',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: 118 }
+[2019-03-21T16:31:36.094] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 13 }
+[2019-03-21T16:33:09.268] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:33:21.866] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:33:30.749] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'sdad' },
+  costTime: 5 }
+[2019-03-21T16:33:49.483] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'sdadda' },
+  costTime: 10 }
+[2019-03-21T16:34:16.558] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'sdaddadsa' },
+  costTime: 9 }
+[2019-03-21T16:35:20.562] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 27 }
+[2019-03-21T16:35:23.948] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'dfsfdsf' },
+  costTime: 22 }
+[2019-03-21T16:36:28.735] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'dfsfdsfassdf' },
+  costTime: 11 }
+[2019-03-21T16:36:46.176] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'dfsfdsfassdfsd' },
+  costTime: 9 }
+[2019-03-21T16:38:12.783] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'dfsfdsfassdfsdsada' },
+  costTime: 7 }
+[2019-03-21T16:38:20.275] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'dfsfdsfassdfsdsadadasd' },
+  costTime: 9 }
+[2019-03-21T16:39:08.260] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: '林胖子' },
+  costTime: 8 }
+[2019-03-21T16:39:17.259] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: '林胖子',
+     password: '',
+     status: 'normal',
+     jobPosition: '',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: 155 }
+[2019-03-21T16:39:23.654] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 15 }
+[2019-03-21T16:39:31.039] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: '刘凯' },
+  costTime: 4 }
+[2019-03-21T16:39:39.616] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: '刘凯',
+     password: '123',
+     status: 'normal',
+     jobPosition: '国家副主席',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: 110 }
+[2019-03-21T16:39:39.641] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:40:18.938] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: '林 ' },
+  costTime: 3 }
+[2019-03-21T16:40:23.126] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: '林 ',
+     password: '123',
+     status: 'normal',
+     jobPosition: '阿达',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: 119 }
+[2019-03-21T16:40:23.147] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:40:44.057] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:40:44.861] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '2' },
+  costTime: 3 }
+[2019-03-21T16:40:47.259] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 20 }
+[2019-03-21T16:41:04.865] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 22 }
+[2019-03-21T16:41:49.430] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:42:19.495] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '2' },
+  costTime: 6 }
+[2019-03-21T16:42:21.162] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 12 }
+[2019-03-21T16:42:25.097] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T16:42:25.100] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:42:35.553] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T16:42:35.555] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T16:42:36.666] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T16:42:38.455] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '2' },
+  costTime: 5 }
+[2019-03-21T16:42:40.028] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T16:42:43.470] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 1 }
+[2019-03-21T16:42:43.473] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:42:46.257] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '2' },
+  costTime: 5 }
+[2019-03-21T16:42:47.574] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '3' },
+  costTime: 5 }
+[2019-03-21T16:42:48.428] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T16:42:52.594] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:42:52.597] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:42:53.252] [INFO] response - { method: 'POST', url: '/user/getUsers', body: {}, costTime: 0 }
+[2019-03-21T16:42:53.258] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T16:43:21.817] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:43:29.541] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T16:43:32.990] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:43:35.262] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:43:35.263] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:43:36.818] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T16:44:37.536] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:47:02.447] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'admin' },
+  costTime: 2 }
+[2019-03-21T16:47:36.258] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: 'admin',
+     password: '123',
+     status: 'normal',
+     jobPosition: '科长',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'true' } },
+  costTime: 130 }
+[2019-03-21T16:47:36.275] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T16:48:07.889] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:48:30.639] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 5 }
+[2019-03-21T16:48:30.643] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T16:50:03.679] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-21T16:50:03.681] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:50:09.883] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:50:11.643] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:50:11.645] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:50:13.648] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T16:52:44.091] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-21T16:52:44.096] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T16:52:45.581] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:52:47.048] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:52:47.050] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:52:49.152] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T16:53:26.803] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T16:53:28.338] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T16:54:08.174] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:54:09.569] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 2 }
+[2019-03-21T16:54:46.677] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T16:55:49.497] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T16:56:45.455] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T16:57:35.452] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T16:58:14.575] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:58:14.577] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:58:16.587] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:58:20.493] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 2 }
+[2019-03-21T16:58:20.496] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T16:58:24.971] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T16:58:38.765] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:58:38.767] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T16:59:59.133] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:01:11.855] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:01:24.211] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 3 }
+[2019-03-21T17:01:24.215] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T17:01:28.848] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:01:29.562] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:01:29.564] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:01:30.687] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T17:01:31.530] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T17:01:31.531] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:01:31.842] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:03:09.888] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:03:12.673] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:03:12.676] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T17:03:13.531] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T17:03:23.356] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'zhangsan' },
+  costTime: 2 }
+[2019-03-21T17:03:37.874] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: 'zhangsan',
+     password: '123',
+     status: 'normal',
+     jobPosition: '科员',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: 126 }
+[2019-03-21T17:03:37.894] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:03:45.457] [INFO] response - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'lisi' },
+  costTime: 3 }
+[2019-03-21T17:04:02.241] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: 'lisi',
+     password: '123',
+     status: 'normal',
+     jobPosition: '暂无',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: 112 }
+[2019-03-21T17:04:02.261] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T17:04:52.367] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T17:06:54.177] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:06:54.587] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:06:54.589] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:06:55.572] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:06:58.094] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 5 }
+[2019-03-21T17:06:58.100] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 13 }
+[2019-03-21T17:07:01.450] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:08:25.523] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-21T17:08:25.526] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:08:32.761] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:09:56.008] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:11:42.957] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:12:36.000] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T17:18:15.720] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 3 }
+[2019-03-21T17:18:17.093] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T17:18:17.097] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T17:18:22.444] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:18:22.447] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:18:22.893] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 1 }
+[2019-03-21T17:18:22.896] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:18:57.655] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 33 }
+[2019-03-21T17:19:23.893] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 19 }
+[2019-03-21T17:19:23.919] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T17:28:51.230] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 13 }
+[2019-03-21T17:28:51.240] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 30 }
+[2019-03-21T17:28:58.293] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:28:58.297] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:29:56.384] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:29:56.386] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:31:05.003] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:31:05.008] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T17:32:33.876] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:32:33.879] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:33:46.336] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 1 }
+[2019-03-21T17:33:46.339] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:35:43.030] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 21 }
+[2019-03-21T17:35:43.036] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 21 }
+[2019-03-21T17:35:58.626] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 5 }
+[2019-03-21T17:35:58.630] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:35:59.156] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:35:59.158] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:36:00.502] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 11 }
+[2019-03-21T17:36:05.634] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:36:05.636] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:36:06.971] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T17:36:06.974] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:36:48.209] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 8 }
+[2019-03-21T17:36:48.212] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 13 }
+[2019-03-21T17:36:51.499] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T17:36:51.502] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:36:56.471] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:36:56.473] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:36:59.196] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T17:37:12.540] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:37:12.542] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:37:15.306] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T17:37:15.311] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T17:37:17.152] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:37:17.154] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:37:36.205] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:37:36.207] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:38:06.906] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: '5c93536900661f446c20773e',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: '5c93536900661f446c20773e',
+     replacePersonId: '',
+     startTime: '2019-03-21T09:38:03.000Z',
+     endTime: '2019-03-21T09:38:05.000Z' },
+  costTime: 29 }
+[2019-03-21T17:38:06.925] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T17:41:27.807] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:41:27.809] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:43:47.580] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:43:47.582] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 5 }
+[2019-03-21T17:44:54.711] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:44:54.714] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:46:20.165] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:46:20.168] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:47:43.085] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 13 }
+[2019-03-21T17:47:43.092] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 27 }
+[2019-03-21T17:47:45.714] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:47:45.715] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 4 }
+[2019-03-21T17:48:02.970] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T17:48:02.973] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:48:50.119] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:48:50.123] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:50:26.252] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:50:26.254] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:50:35.377] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:50:35.379] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:51:23.893] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:51:23.894] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T17:51:24.901] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:51:24.903] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:51:39.893] [INFO] response - { method: 'POST',
+  url: '/outRecord/addRecords',
+  body: 
+   { showDialog: 'true',
+     recordPersonId: '',
+     recordPersonName: 'zhangsan',
+     userName: 'admin',
+     userId: '',
+     replacePersonName: 'lisi',
+     replacePersonId: '',
+     startTime: '2019-03-21T09:51:36.000Z',
+     endTime: '2019-03-21T09:51:38.000Z' },
+  costTime: 32 }
+[2019-03-21T17:51:39.917] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 13 }
+[2019-03-21T17:53:17.998] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T17:53:18.001] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:53:20.783] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:53:20.784] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:53:21.333] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T17:56:10.681] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T17:56:10.683] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T17:56:12.161] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T17:56:12.164] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T17:56:15.459] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 4 }
+[2019-03-21T17:56:15.462] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T17:56:49.028] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 4 }
+[2019-03-21T17:56:49.031] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 9 }
+[2019-03-21T18:01:41.502] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T18:01:41.505] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T18:02:00.365] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T18:02:00.368] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:02:00.774] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T18:02:00.776] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T18:02:02.416] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T18:02:04.557] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 3 }
+[2019-03-21T18:02:04.560] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:02:28.488] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-03-21T18:02:28.489] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T18:06:13.350] [INFO] response - { method: 'POST',
+  url: '/websites/getWebsites',
+  body: {},
+  costTime: 5 }
+[2019-03-21T18:06:13.353] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 13 }
+[2019-03-21T18:06:17.558] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T18:06:17.564] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 10 }
+[2019-03-21T18:06:20.550] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T18:06:20.553] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T18:06:21.782] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T18:06:21.784] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T18:06:30.656] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 8 }
+[2019-03-21T18:06:30.658] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:06:32.681] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T18:15:28.447] [INFO] response - { method: 'POST',
+  url: '/equipment/getBasicInfo',
+  body: { equipmentId: 'bidding' },
+  costTime: 3 }
+[2019-03-21T18:15:28.465] [INFO] response - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: 2 }
+[2019-03-21T18:17:55.114] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:17:55.116] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:17:57.020] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 2 }
+[2019-03-21T18:17:57.023] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T18:18:22.414] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 3 }
+[2019-03-21T18:18:22.421] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 12 }
+[2019-03-21T18:19:16.068] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T18:19:16.071] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 5 }
+[2019-03-21T18:19:16.809] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T18:19:22.242] [INFO] response - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: 4 }
+[2019-03-21T18:19:22.244] [INFO] response - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:19:30.813] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 3 }
+[2019-03-21T18:19:30.815] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:20:01.346] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 6 }
+[2019-03-21T18:20:01.348] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:20:02.818] [INFO] response - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: 4 }
+[2019-03-21T18:20:25.470] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getImgs',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:20:25.472] [INFO] response - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: 7 }
+[2019-03-21T18:20:35.024] [INFO] response - { method: 'POST',
+  url: '/equipment/getBasicInfo',
+  body: { equipmentId: 'bidding' },
+  costTime: 3 }
+[2019-03-21T18:20:35.032] [INFO] response - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: 3 }
+[2019-03-21T18:20:40.416] [INFO] response - { method: 'POST',
+  url: '/equipment/getBasicInfo',
+  body: { equipmentId: 'bidding' },
+  costTime: 4 }
+[2019-03-21T18:20:40.446] [INFO] response - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding2',
+     roomNum: '1' },
+  costTime: 2 }

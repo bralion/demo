@@ -1,0 +1,104 @@
+[2019-01-09T11:10:06.478] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 17 }
+[2019-01-09T11:10:06.575] [INFO] response - { method: 'GET', url: '/baidu.png', body: {}, costTime: 1 }
+[2019-01-09T11:16:15.379] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 3 }
+[2019-01-09T11:16:19.838] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 1 }
+[2019-01-09T11:17:21.201] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 15 }
+[2019-01-09T11:17:21.228] [INFO] response - { method: 'GET', url: '/baidu.png', body: {}, costTime: 0 }
+[2019-01-09T11:23:30.106] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:31:07.772] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 13 }
+[2019-01-09T11:31:08.049] [INFO] response - { method: 'GET', url: '/baidu.png', body: {}, costTime: 1 }
+[2019-01-09T11:33:52.680] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 3 }
+[2019-01-09T11:33:52.963] [INFO] response - { method: 'GET', url: '/baidu.png', body: {}, costTime: 0 }
+[2019-01-09T11:34:13.244] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:34:13.532] [INFO] response - { method: 'GET', url: '/baidu.png', body: {}, costTime: 1 }
+[2019-01-09T11:35:23.356] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:35:23.645] [INFO] response - { method: 'GET', url: '/baidu.png', body: {}, costTime: 0 }
+[2019-01-09T11:35:48.319] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 1 }
+[2019-01-09T11:35:48.605] [INFO] response - { method: 'GET', url: '/baidu.png', body: {}, costTime: 0 }
+[2019-01-09T11:36:16.948] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:36:16.968] [INFO] response - { method: 'GET', url: '/baidu.png', body: {}, costTime: 0 }
+[2019-01-09T11:37:26.392] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:37:26.662] [INFO] response - { method: 'GET',
+  url: '/static/img/baidu.png',
+  body: {},
+  costTime: 0 }
+[2019-01-09T11:37:29.247] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:37:29.307] [INFO] response - { method: 'GET',
+  url: '/static/img/baidu.png',
+  body: {},
+  costTime: 1 }
+[2019-01-09T11:37:36.003] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:37:36.268] [INFO] response - { method: 'GET',
+  url: '/static/img/baidu.png',
+  body: {},
+  costTime: 1 }
+[2019-01-09T11:37:42.311] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 1 }
+[2019-01-09T11:37:42.595] [INFO] response - { method: 'GET',
+  url: '/static/img/baidu.png',
+  body: {},
+  costTime: 0 }
+[2019-01-09T11:38:10.165] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:38:15.681] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 2 }
+[2019-01-09T11:39:22.994] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 10 }
+[2019-01-09T13:44:12.043] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 10 }
+[2019-01-09T13:49:08.656] [INFO] response - { method: 'POST',
+  url: '/integratedMachine/getUrl',
+  body: {},
+  costTime: 4 }

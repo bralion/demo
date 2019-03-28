@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+@font-face {
+    font-family: "LcdD";
+    src:
+            url("./assets/font/LedD/lcdd-webfont.woff2") format("woff2"),
+            url("./assets/font/LedD/lcdd-webfont.woff") format("woff"),
+            url("./assets/font/LedD/lcdd-webfont.ttf") format("truetype"),
+            url("./assets/font/LedD/lcdd-webfont.eot") format("embedded-opentype"),
+            url("./assets/font/LedD/lcdd-webfont.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "religion27";
+    src:
+            url("./assets/font/religion27/religion27-webfont.woff2") format("woff2"),
+            url("./assets/font/religion27/religion27-webfont.woff") format("woff"),
+            url("./assets/font/religion27/religion27-webfont.ttf") format("truetype"),
+            url("./assets/font/religion27/religion27-webfont.eot") format("embedded-opentype"),
+            url("./assets/font/religion27/religion27-webfont.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*全局样式覆盖*/
+.el-dialog__header{
+    text-align: left;
+    border-bottom: 1px solid #E6E6E6;
+    line-height: 40px;
+}
+
+.el-dialog__footer{
+    text-align: center;
+    background-color: #f5f5f5;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+}
+
+.el-dialog__footer .el-button{
+    width:80px;
+    height:30px;
+    border-radius: 15px;
+    line-height: 30px;
+    padding: 0;
+    border: 1px solid #46C4D3;
+    color: #46C4D3;
+}
+.el-dialog__footer .el-button.el-button--primary{
+  background-color: #46C4D3;
+    color:#ffffff;
+}
+
+.container {
+    padding: 0 20px;
+    height: 100%;
+    position: relative;
+}
+.el-input__inner{
+    background-color: transparent;
+}
+.el-range-input{
+    background-color: transparent;
+}
+
+.el-pager > li {
+    background-color: #ffffff !important;
+}
+.el-pager > li.active {
+    background-color: #409EFF !important;
+}
+
+.btn-prev {
+    background-color: #ffffff !important;
+}
+
+.btn-next {
+    background-color: #ffffff !important;
+}
+.el-table tbody tr:hover>td { background-color: #c6f4f9 !important; }

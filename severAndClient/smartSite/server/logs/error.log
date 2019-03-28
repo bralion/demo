@@ -1,0 +1,1458 @@
+[2019-03-01T11:02:46.928] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: reqBody is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:95:5)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:58:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-01T11:03:16.633] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: reqBody is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:95:5)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:58:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-01T11:04:09.988] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: reqBody is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:95:5)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:58:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-01T11:04:20.436] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: Cannot read property 'data' of undefined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:94:44)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:58:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-01T11:05:40.329] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: Cannot read property 'currentPage' of undefined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:96:16)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:58:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-01T11:06:19.288] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: Cannot read property 'currentPage' of undefined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:96:16)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:58:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-01T11:07:11.408] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: Img is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:105:10)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7) }
+[2019-03-01T11:13:17.956] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: Img is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:105:10)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7) }
+[2019-03-01T11:13:21.705] [ERROR] error - { method: 'POST',
+  url: '/resourceLibrary/getVideos',
+  body: { pageSize: '18', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: Img is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\resourceLibrary.js:105:10)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7) }
+[2019-03-04T17:22:45.746] [ERROR] error - { method: 'GET',
+  url: '/videos/FKzYWayRYNYK77se85AAP1AA.mp4',
+  body: {},
+  costTime: undefined,
+  err: 
+   { Error: read ECONNRESET
+       at _errnoException (util.js:1022:11)
+       at TCP.onread (net.js:610:25)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     headerSent: true } }
+[2019-03-04T17:22:57.951] [ERROR] error - { method: 'GET',
+  url: '/videos/FKzYWayRYNYK77se85AAP1AA.mp4',
+  body: {},
+  costTime: undefined,
+  err: 
+   { Error: read ECONNRESET
+       at _errnoException (util.js:1022:11)
+       at TCP.onread (net.js:610:25)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     headerSent: true } }
+[2019-03-04T17:23:00.212] [ERROR] error - { method: 'GET',
+  url: '/videos/jEo9FAj4TEV3EMCuQq0a2eY8.mp4',
+  body: {},
+  costTime: undefined,
+  err: 
+   { Error: read ECONNRESET
+       at _errnoException (util.js:1022:11)
+       at TCP.onread (net.js:610:25)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     headerSent: true } }
+[2019-03-04T17:23:03.576] [ERROR] error - { method: 'GET',
+  url: '/videos/L6qsWZyi0qTIJtBMxtm-tLpd.mp4',
+  body: {},
+  costTime: undefined,
+  err: 
+   { Error: read ECONNRESET
+       at _errnoException (util.js:1022:11)
+       at TCP.onread (net.js:610:25)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     headerSent: true } }
+[2019-03-05T13:57:52.797] [ERROR] error - { method: 'GET',
+  url: '/videos/FKzYWayRYNYK77se85AAP1AA.mp4',
+  body: {},
+  costTime: undefined,
+  err: 
+   { Error: read ECONNRESET
+       at _errnoException (util.js:1022:11)
+       at TCP.onread (net.js:610:25)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     headerSent: true } }
+[2019-03-11T15:13:01.046] [ERROR] error - { method: 'GET',
+  url: '/videos/DMW6byyLCz8mpY_85plV1HeC.mp4',
+  body: {},
+  costTime: undefined,
+  err: 
+   { Error: read ECONNRESET
+       at _errnoException (util.js:1022:11)
+       at TCP.onread (net.js:610:25)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     headerSent: true } }
+[2019-03-11T15:13:45.504] [ERROR] error - { method: 'GET',
+  url: '/videos/DMW6byyLCz8mpY_85plV1HeC.mp4',
+  body: {},
+  costTime: undefined,
+  err: 
+   { Error: read ECONNRESET
+       at _errnoException (util.js:1022:11)
+       at TCP.onread (net.js:610:25)
+     code: 'ECONNRESET',
+     errno: 'ECONNRESET',
+     syscall: 'read',
+     headerSent: true } }
+[2019-03-11T17:10:53.790] [ERROR] error - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: Cannot read property 'readyState' of undefined
+       at Mongoose.Collection (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\collection.js:46:37)
+       at Mongoose.NativeCollection [as Collection] (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:25:22)
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:33:26)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32) }
+[2019-03-11T17:18:59.919] [ERROR] error - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: Cannot read property 'readyState' of undefined
+       at Mongoose.Collection (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\collection.js:46:37)
+       at Mongoose.NativeCollection [as Collection] (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:25:22)
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:33:26)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32) }
+[2019-03-11T17:19:20.777] [ERROR] error - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: Cannot read property 'readyState' of undefined
+       at Mongoose.Collection (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\collection.js:46:37)
+       at Mongoose.NativeCollection [as Collection] (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:25:22)
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:33:26)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32) }
+[2019-03-11T17:19:28.745] [ERROR] error - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: mongoose.getcollection is not a function
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:33:26)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-11T17:25:28.768] [ERROR] error - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: Equipment is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:36:73)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-11T17:35:12.711] [ERROR] error - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: db is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:36:84)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-11T17:36:09.348] [ERROR] error - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: db.getCollection is not a function
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:37:20)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-11T17:38:27.378] [ERROR] error - { method: 'POST',
+  url: '/equipment/getDetailInfo',
+  body: 
+   { equipmentId: 'equipmentId',
+     currentMoudleId: 'bidding1',
+     roomNum: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: db.getCollection is not a function
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:37:20)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-12T14:25:26.315] [ERROR] error - { method: 'POST',
+  url: '/equipment/saveModule',
+  body: 
+   { equipmentId: 'bidding',
+     _id: '5c8729e694e2e845f8fb34d3',
+     moudleId: 'bidding2',
+     title: '龙泉驿区公共资源交易中心开标场地使用情况',
+     line1Title: '开标场地',
+     line1Value: '招标室1',
+     line2Title: '项目名称1',
+     line2Value: '招标室1',
+     line3Title: '招标人',
+     line3Value: '林胖子1',
+     line4Title: '代理机构1',
+     line4Value: '数之联',
+     line5Title: '标书收取截止时间及开标时间',
+     line5Value: '2019/01/31-09:30',
+     width: '220',
+     roomId: '1',
+     __v: '0' },
+  costTime: undefined,
+  err: 
+   ReferenceError: Equipment is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:80:13)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-12T14:25:33.057] [ERROR] error - { method: 'POST',
+  url: '/equipment/saveModule',
+  body: 
+   { equipmentId: 'bidding',
+     _id: '5c8729e694e2e845f8fb34d3',
+     moudleId: 'bidding2',
+     title: '龙泉驿区公共资源交易中心开标场地使用情况',
+     line1Title: '开标场地',
+     line1Value: '招标室1',
+     line2Title: '项目名称1',
+     line2Value: '招标室1',
+     line3Title: '招标人',
+     line3Value: '林胖子1',
+     line4Title: '代理机构1',
+     line4Value: '数之联',
+     line5Title: '标书收取截止时间及开标时间',
+     line5Value: '2019/01/31-09:30',
+     width: '220',
+     roomId: '1',
+     __v: '0' },
+  costTime: undefined,
+  err: 
+   ReferenceError: Equipment is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\equipment.js:80:13)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:60:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-13T10:34:59.526] [ERROR] error - { method: 'POST',
+  url: '/integratedMachine/addUrl',
+  body: undefined,
+  costTime: undefined,
+  err: 
+   { SyntaxError: Unexpected token ' in JSON at position 6
+       at JSON.parse (<anonymous>)
+       at parse (C:\Users\Administrator\Desktop\smartSite\server\node_modules\co-body\lib\json.js:57:17)
+       at AsyncFunction.module.exports [as json] (C:\Users\Administrator\Desktop\smartSite\server\node_modules\co-body\lib\json.js:41:20)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7)
+     status: 400,
+     body: '{     \'pictureUrl\':\'/baidu.png\',     \'urlName\':\'百度网址\',     \'url\':\'http://www.baidu.com\' }{}' } }
+[2019-03-14T14:22:48.522] [ERROR] error - { method: 'POST',
+  url: '/integratedMachine/addUrl',
+  body: 
+   { websiteName: 'sdadasda',
+     picPath: '\\imgs\\W7Xl4fBuC8slkJeHERzqA9R8.png',
+     picName: '2016521113059.png',
+     jumpPath: 'http://www.baidu.com',
+     showDialog: 'true' },
+  costTime: undefined,
+  err: 
+   ReferenceError: Url is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\integratedMachine.js:12:120)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:74:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:62:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-20T16:47:58.433] [ERROR] error - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '10', currentPage: '0' },
+  costTime: undefined,
+  err: 
+   ReferenceError: reqBody is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\outRecord.js:12:5)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:76:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:64:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-20T16:48:04.599] [ERROR] error - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '10', currentPage: '0' },
+  costTime: undefined,
+  err: 
+   ReferenceError: reqBody is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\outRecord.js:12:5)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:76:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:64:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-20T16:49:06.551] [ERROR] error - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '10', currentPage: '0' },
+  costTime: undefined,
+  err: 
+   ReferenceError: reqBody is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\outRecord.js:12:5)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:76:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:64:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-20T16:49:24.451] [ERROR] error - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '10', currentPage: '0' },
+  costTime: undefined,
+  err: 
+   { Error: $regex has to be a string
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:581:63
+       at authenticateStragglers (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:504:16)
+       at Connection.messageHandler (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:540:5)
+       at emitMessageHandler (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\connection.js:310:10)
+       at Socket.<anonymous> (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\connection.js:453:17)
+       at emitOne (events.js:115:13)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:589:20)
+     ok: 0,
+     errmsg: '$regex has to be a string',
+     code: 2,
+     codeName: 'BadValue',
+     name: 'MongoError',
+     [Symbol(mongoErrorContextSymbol)]: {} } }
+[2019-03-20T16:50:21.700] [ERROR] error - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '10', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   { Error: $regex has to be a string
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:581:63
+       at authenticateStragglers (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:504:16)
+       at Connection.messageHandler (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:540:5)
+       at emitMessageHandler (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\connection.js:310:10)
+       at Socket.<anonymous> (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\connection.js:453:17)
+       at emitOne (events.js:115:13)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:589:20)
+     ok: 0,
+     errmsg: '$regex has to be a string',
+     code: 2,
+     codeName: 'BadValue',
+     name: 'MongoError',
+     [Symbol(mongoErrorContextSymbol)]: {} } }
+[2019-03-20T16:50:23.128] [ERROR] error - { method: 'POST',
+  url: '/outRecord/getRecords',
+  body: { pageSize: '10', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   { Error: $regex has to be a string
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:581:63
+       at authenticateStragglers (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:504:16)
+       at Connection.messageHandler (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:540:5)
+       at emitMessageHandler (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\connection.js:310:10)
+       at Socket.<anonymous> (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\connection.js:453:17)
+       at emitOne (events.js:115:13)
+       at Socket.emit (events.js:210:7)
+       at addChunk (_stream_readable.js:252:12)
+       at readableAddChunk (_stream_readable.js:239:11)
+       at Socket.Readable.push (_stream_readable.js:197:10)
+       at TCP.onread (net.js:589:20)
+     ok: 0,
+     errmsg: '$regex has to be a string',
+     code: 2,
+     codeName: 'BadValue',
+     name: 'MongoError',
+     [Symbol(mongoErrorContextSymbol)]: {} } }
+[2019-03-21T12:21:33.946] [ERROR] error - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { userName: 'wy',
+     password: '123',
+     role: 'super',
+     status: 'normal',
+     jobPosition: '科长',
+     jurisdiction: 
+      { web: true,
+        view: false,
+        expert: false,
+        out: true,
+        res: false,
+        cdLibrary: false,
+        jurisdiction: false } },
+  costTime: undefined,
+  err: 
+   { Error: E11000 duplicate key error collection: smartSite.user index: userName_1 dup key: { : "wy" }
+       at Function.create (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\error.js:43:12)
+       at toError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb\lib\utils.js:149:22)
+       at coll.s.topology.insert (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb\lib\operations\collection_ops.js:844:39)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:532:18
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg: 'E11000 duplicate key error collection: smartSite.user index: userName_1 dup key: { : "wy" }',
+     [Symbol(mongoErrorContextSymbol)]: {} } }
+[2019-03-21T15:55:14.801] [ERROR] error - { method: 'POST',
+  url: '/user/save',
+  body: undefined,
+  costTime: undefined,
+  err: 
+   { SyntaxError: Unexpected token ' in JSON at position 7
+       at JSON.parse (<anonymous>)
+       at parse (C:\Users\Administrator\Desktop\smartSite\server\node_modules\co-body\lib\json.js:57:17)
+       at AsyncFunction.module.exports [as json] (C:\Users\Administrator\Desktop\smartSite\server\node_modules\co-body\lib\json.js:41:20)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7)
+     status: 400,
+     body: '{\r\n    \'userName\'\r\n:\r\n    \'sdd\', \'password\'\r\n:\r\n    \'123\', \'role\'\r\n:\r\n    \'super\', \'status\'\r\n:\r\n    \'pause\', \'jobPosition\'\r\n:\r\n    \'科长\', \'role\'\r\n:\r\n    \'super\', \'jurisdiction\'\r\n:\r\n    {\r\n        \'web\'\r\n    :\r\n        true, \'view\'\r\n    :\r\n        false, \'expert\'\r\n    :\r\n        false, \'out\'\r\n    :\r\n        true, \'res\'\r\n    :\r\n        false, \'cdLibrary\'\r\n    :\r\n        false\r\n        \'jurisdiction\'\r\n    :\r\n        false,\r\n    }\r\n,\r\n}' } }
+[2019-03-21T15:55:39.565] [ERROR] error - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { userName: 'sdd',
+     password: '123',
+     role: 'super',
+     status: 'logOut',
+     jobPosition: '科长',
+     jurisdiction: 
+      { web: true,
+        view: false,
+        expert: false,
+        out: true,
+        res: false,
+        cdLibrary: false,
+        jurisdiction: false } },
+  costTime: undefined,
+  err: 
+   { Error: E11000 duplicate key error collection: smartSite.user index: userName_1 dup key: { : "sdd" }
+       at Function.create (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\error.js:43:12)
+       at toError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb\lib\utils.js:149:22)
+       at coll.s.topology.insert (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb\lib\operations\collection_ops.js:844:39)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:532:18
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg: 'E11000 duplicate key error collection: smartSite.user index: userName_1 dup key: { : "sdd" }',
+     [Symbol(mongoErrorContextSymbol)]: {} } }
+[2019-03-21T16:01:21.834] [ERROR] error - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { userName: 'sd1d',
+     password: '123',
+     role: 'super',
+     status: 'logOut',
+     jobPosition: '科长',
+     jurisdiction: 
+      { web: true,
+        view: false,
+        expert: false,
+        out: true,
+        res: false,
+        cdLibrary: false,
+        jurisdiction: false } },
+  costTime: undefined,
+  err: 
+   { Error: E11000 duplicate key error collection: smartSite.user index: userName_1 dup key: { : "sd1d" }
+       at Function.create (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\error.js:43:12)
+       at toError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb\lib\utils.js:149:22)
+       at coll.s.topology.insert (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb\lib\operations\collection_ops.js:844:39)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:532:18
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg: 'E11000 duplicate key error collection: smartSite.user index: userName_1 dup key: { : "sd1d" }',
+     [Symbol(mongoErrorContextSymbol)]: {} } }
+[2019-03-21T16:26:47.806] [ERROR] error - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: '林胖子',
+     password: '',
+     status: 'normal',
+     jobPosition: '',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: undefined,
+  err: 
+   { Error: E11000 duplicate key error collection: smartSite.user index: userName_1 dup key: { : "林胖子" }
+       at Function.create (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\error.js:43:12)
+       at toError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb\lib\utils.js:149:22)
+       at coll.s.topology.insert (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb\lib\operations\collection_ops.js:844:39)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongodb-core\lib\connection\pool.js:532:18
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     driver: true,
+     name: 'MongoError',
+     index: 0,
+     code: 11000,
+     errmsg: 'E11000 duplicate key error collection: smartSite.user index: userName_1 dup key: { : "林胖子" }',
+     [Symbol(mongoErrorContextSymbol)]: {} } }
+[2019-03-21T16:36:06.595] [ERROR] error - { method: 'POST',
+  url: '/user/check',
+  body: { userName: 'dfsfdsfas' },
+  costTime: undefined,
+  err: 
+   ReferenceError: consoel is not defined
+       at User.count.then.catch.err (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:71:3)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7) }
+[2019-03-21T17:18:57.633] [ERROR] error - { method: 'POST',
+  url: '/user/getUsersName',
+  body: {},
+  costTime: undefined,
+  err: 
+   ReferenceError: reqBody is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:105:69)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:76:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:64:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T09:40:15.373] [ERROR] error - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: User is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:102:38)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:85:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:73:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T09:40:26.391] [ERROR] error - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: User is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:102:38)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:85:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:73:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T10:11:43.562] [ERROR] error - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   ReferenceError: check is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:89:37)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:93:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:81:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T10:19:27.523] [ERROR] error - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: check is not a function
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:90:11)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:82:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T10:20:28.438] [ERROR] error - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: check is not a function
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:90:11)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:82:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T10:21:00.150] [ERROR] error - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: check is not a function
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:90:11)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:82:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T11:12:53.590] [ERROR] error - { method: 'POST',
+  url: '/user/getUsers',
+  body: { pageSize: '9', currentPage: '1' },
+  costTime: undefined,
+  err: 
+   TypeError: User.check is not a function
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:94:24)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:82:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T14:11:30.407] [ERROR] error - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: 'asasas',
+     password: '123',
+     status: 'normal',
+     jobPosition: 'sasas',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: undefined,
+  err: 
+   ReferenceError: newUser is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:66:24)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:82:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T14:11:34.894] [ERROR] error - { method: 'POST',
+  url: '/user/save',
+  body: 
+   { showDialog: 'true',
+     userName: 'asasas',
+     password: '123',
+     status: 'normal',
+     jobPosition: 'sasas',
+     role: 'admin',
+     jurisdiction: 
+      { web: 'true',
+        view: 'true',
+        expert: 'true',
+        out: 'true',
+        res: 'true',
+        cdLibrary: 'true',
+        jurisdiction: 'false' } },
+  costTime: undefined,
+  err: 
+   ReferenceError: newUser is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:66:24)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:82:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:70:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at bodyParser (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-bodyparser\index.js:86:11)
+       at <anonymous> }
+[2019-03-27T16:47:32.043] [ERROR] error - { method: 'POST',
+  url: '/outRecord/searchRecords',
+  body: 
+   { name: '张三',
+     startTime: '2019-03-03T16:00:00.000Z',
+     endTime: '2019-04-16T16:00:00.000Z',
+     currentPage: '1',
+     pageSize: '9',
+     count: '6' },
+  costTime: undefined,
+  err: 
+   { CastError: Cast to date failed for value "{}" at path "startTime"
+       at CastError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\error\cast.js:29:11)
+       at SchemaDate.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:297:11)
+       at SchemaDate.SchemaType.applySetters (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schematype.js:812:12)
+       at SchemaDate.SchemaType._castForQuery (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schematype.js:1215:15)
+       at SchemaDate.castForQuery (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:330:17)
+       at SchemaDate.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schematype.js:1184:15)
+       at cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\cast.js:251:34)
+       at model.Query.Query.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:4227:12)
+       at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:1720:10)
+       at model.Query.Query._find (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:1735:8)
+       at process.nextTick (C:\Users\Administrator\Desktop\smartSite\server\node_modules\kareem\index.js:369:33)
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     message: 'Cast to date failed for value "{}" at path "startTime" for model "OutRecord"',
+     name: 'CastError',
+     stringValue: '"{}"',
+     kind: 'date',
+     value: {},
+     path: 'startTime',
+     reason: undefined,
+     model: 
+      { [Function: model]
+        hooks: [Object],
+        base: [Object],
+        modelName: 'OutRecord',
+        model: [Function: model],
+        db: [Object],
+        discriminators: undefined,
+        events: [Object],
+        '$appliedMethods': true,
+        '$appliedHooks': true,
+        schema: [Object],
+        collection: [Object],
+        Query: [Object],
+        '$__insertMany': [Function],
+        '$init': [Object],
+        '$caught': true,
+        [Symbol(mongoose#Model)]: true } } }
+[2019-03-27T17:56:31.618] [ERROR] error - { method: 'POST',
+  url: '/user/searchUser',
+  body: 
+   { status: '',
+     name: '',
+     startTime: '2019-03-25T16:00:00.000Z',
+     endTime: '2019-04-27T16:00:00.000Z',
+     currentPage: '1',
+     pageSize: '9',
+     count: '4' },
+  costTime: undefined,
+  err: 
+   ReferenceError: OutRecord is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:243:136)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7) }
+[2019-03-27T17:56:35.132] [ERROR] error - { method: 'POST',
+  url: '/user/searchUser',
+  body: 
+   { status: '',
+     name: '',
+     startTime: '2019-03-25T16:00:00.000Z',
+     endTime: '2019-04-27T16:00:00.000Z',
+     currentPage: '1',
+     pageSize: '9',
+     count: '4' },
+  costTime: undefined,
+  err: 
+   ReferenceError: OutRecord is not defined
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\user.js:243:136)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7) }
+[2019-03-27T18:09:01.470] [ERROR] error - { method: 'POST',
+  url: '/user/searchUser',
+  body: 
+   { status: 'normal',
+     name: '',
+     currentPage: '1',
+     pageSize: '9',
+     count: '4' },
+  costTime: undefined,
+  err: 
+   { CastError: Cast to date failed for value "Invalid Date" at path "lastLoginAt"
+       at CastError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\error\cast.js:29:11)
+       at SchemaDate.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:297:11)
+       at SchemaDate.handleSingle (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:308:15)
+       at SchemaDate.castForQuery (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:339:18)
+       at SchemaDate.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schematype.js:1179:17)
+       at cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\cast.js:287:39)
+       at model.Query.Query.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:4227:12)
+       at model.Query.Query._count (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:2069:10)
+       at process.nextTick (C:\Users\Administrator\Desktop\smartSite\server\node_modules\kareem\index.js:369:33)
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     message: 'Cast to date failed for value "Invalid Date" at path "lastLoginAt" for model "User"',
+     name: 'CastError',
+     stringValue: '"Invalid Date"',
+     kind: 'date',
+     value: Invalid Date,
+     path: 'lastLoginAt',
+     reason: undefined,
+     model: 
+      { [Function: model]
+        hooks: [Object],
+        base: [Object],
+        modelName: 'User',
+        model: [Function: model],
+        db: [Object],
+        discriminators: undefined,
+        events: [Object],
+        '$appliedMethods': true,
+        '$appliedHooks': true,
+        schema: [Object],
+        collection: [Object],
+        Query: [Object],
+        '$__insertMany': [Function],
+        '$init': [Object],
+        '$caught': true,
+        [Symbol(mongoose#Model)]: true } } }
+[2019-03-27T18:09:06.593] [ERROR] error - { method: 'POST',
+  url: '/user/searchUser',
+  body: 
+   { status: 'normal',
+     name: '',
+     currentPage: '1',
+     pageSize: '9',
+     count: '4' },
+  costTime: undefined,
+  err: 
+   { CastError: Cast to date failed for value "Invalid Date" at path "lastLoginAt"
+       at CastError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\error\cast.js:29:11)
+       at SchemaDate.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:297:11)
+       at SchemaDate.handleSingle (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:308:15)
+       at SchemaDate.castForQuery (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:339:18)
+       at SchemaDate.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schematype.js:1179:17)
+       at cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\cast.js:287:39)
+       at model.Query.Query.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:4227:12)
+       at model.Query.Query._count (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:2069:10)
+       at process.nextTick (C:\Users\Administrator\Desktop\smartSite\server\node_modules\kareem\index.js:369:33)
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     message: 'Cast to date failed for value "Invalid Date" at path "lastLoginAt" for model "User"',
+     name: 'CastError',
+     stringValue: '"Invalid Date"',
+     kind: 'date',
+     value: Invalid Date,
+     path: 'lastLoginAt',
+     reason: undefined,
+     model: 
+      { [Function: model]
+        hooks: [Object],
+        base: [Object],
+        modelName: 'User',
+        model: [Function: model],
+        db: [Object],
+        discriminators: undefined,
+        events: [Object],
+        '$appliedMethods': true,
+        '$appliedHooks': true,
+        schema: [Object],
+        collection: [Object],
+        Query: [Object],
+        '$__insertMany': [Function],
+        '$init': [Object],
+        '$caught': true,
+        [Symbol(mongoose#Model)]: true } } }
+[2019-03-27T18:12:46.116] [ERROR] error - { method: 'POST',
+  url: '/user/searchUser',
+  body: 
+   { status: 'normal',
+     name: '',
+     currentPage: '1',
+     pageSize: '9',
+     count: '4' },
+  costTime: undefined,
+  err: 
+   { CastError: Cast to date failed for value "Invalid Date" at path "lastLoginAt"
+       at CastError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\error\cast.js:29:11)
+       at SchemaDate.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:297:11)
+       at SchemaDate.handleSingle (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:308:15)
+       at SchemaDate.castForQuery (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:339:18)
+       at SchemaDate.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schematype.js:1179:17)
+       at cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\cast.js:287:39)
+       at model.Query.Query.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:4227:12)
+       at model.Query.Query._count (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:2069:10)
+       at process.nextTick (C:\Users\Administrator\Desktop\smartSite\server\node_modules\kareem\index.js:369:33)
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     message: 'Cast to date failed for value "Invalid Date" at path "lastLoginAt" for model "User"',
+     name: 'CastError',
+     stringValue: '"Invalid Date"',
+     kind: 'date',
+     value: Invalid Date,
+     path: 'lastLoginAt',
+     reason: undefined,
+     model: 
+      { [Function: model]
+        hooks: [Object],
+        base: [Object],
+        modelName: 'User',
+        model: [Function: model],
+        db: [Object],
+        discriminators: undefined,
+        events: [Object],
+        '$appliedMethods': true,
+        '$appliedHooks': true,
+        schema: [Object],
+        collection: [Object],
+        Query: [Object],
+        '$__insertMany': [Function],
+        '$init': [Object],
+        '$caught': true,
+        [Symbol(mongoose#Model)]: true } } }
+[2019-03-28T10:17:17.450] [ERROR] error - { method: 'POST',
+  url: '/outRecord/searchRecords',
+  body: { name: 'test2', currentPage: '1', pageSize: '9', count: '18' },
+  costTime: undefined,
+  err: 
+   { CastError: Cast to date failed for value "Invalid Date" at path "startTime"
+       at CastError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\error\cast.js:29:11)
+       at SchemaDate.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:297:11)
+       at SchemaDate.handleSingle (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:308:15)
+       at SchemaDate.castForQuery (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:339:18)
+       at SchemaDate.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schematype.js:1179:17)
+       at cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\cast.js:287:39)
+       at model.Query.Query.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:4227:12)
+       at model.Query.Query._count (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:2069:10)
+       at process.nextTick (C:\Users\Administrator\Desktop\smartSite\server\node_modules\kareem\index.js:369:33)
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     message: 'Cast to date failed for value "Invalid Date" at path "startTime" for model "OutRecord"',
+     name: 'CastError',
+     stringValue: '"Invalid Date"',
+     kind: 'date',
+     value: Invalid Date,
+     path: 'startTime',
+     reason: undefined,
+     model: 
+      { [Function: model]
+        hooks: [Object],
+        base: [Object],
+        modelName: 'OutRecord',
+        model: [Function: model],
+        db: [Object],
+        discriminators: undefined,
+        events: [Object],
+        '$appliedMethods': true,
+        '$appliedHooks': true,
+        schema: [Object],
+        collection: [Object],
+        Query: [Object],
+        '$__insertMany': [Function],
+        '$init': [Object],
+        '$caught': true,
+        [Symbol(mongoose#Model)]: true } } }
+[2019-03-28T10:18:38.259] [ERROR] error - { method: 'POST',
+  url: '/outRecord/searchRecords',
+  body: { name: 'test2', currentPage: '1', pageSize: '9', count: '18' },
+  costTime: undefined,
+  err: 
+   { CastError: Cast to date failed for value "Invalid Date" at path "startTime"
+       at CastError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\error\cast.js:29:11)
+       at SchemaDate.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:297:11)
+       at SchemaDate.handleSingle (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:308:15)
+       at SchemaDate.castForQuery (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schema\date.js:339:18)
+       at SchemaDate.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\schematype.js:1179:17)
+       at cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\cast.js:287:39)
+       at model.Query.Query.cast (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:4227:12)
+       at model.Query.Query._count (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\query.js:2069:10)
+       at process.nextTick (C:\Users\Administrator\Desktop\smartSite\server\node_modules\kareem\index.js:369:33)
+       at _combinedTickCallback (internal/process/next_tick.js:131:7)
+       at process._tickCallback (internal/process/next_tick.js:180:9)
+     message: 'Cast to date failed for value "Invalid Date" at path "startTime" for model "OutRecord"',
+     name: 'CastError',
+     stringValue: '"Invalid Date"',
+     kind: 'date',
+     value: Invalid Date,
+     path: 'startTime',
+     reason: undefined,
+     model: 
+      { [Function: model]
+        hooks: [Object],
+        base: [Object],
+        modelName: 'OutRecord',
+        model: [Function: model],
+        db: [Object],
+        discriminators: undefined,
+        events: [Object],
+        '$appliedMethods': true,
+        '$appliedHooks': true,
+        schema: [Object],
+        collection: [Object],
+        Query: [Object],
+        '$__insertMany': [Function],
+        '$init': [Object],
+        '$caught': true,
+        [Symbol(mongoose#Model)]: true } } }
+[2019-03-28T16:37:37.825] [ERROR] error - { method: 'POST',
+  url: '/project/addProject',
+  body: 
+   { projectName: '项目1',
+     tenderingName: '林邱恒',
+     agency: '成都数之联',
+     startTime: '2018-12-11 10:12:30',
+     endTime: '2018-12-11 10:12:30',
+     startEvaluateTime: '2018-12-11 10:12:30',
+     endEvaluateTime: '2018-12-11 10:12:30',
+     projectAddress: '招标室1',
+     projectAddressId: 'room1' },
+  costTime: undefined,
+  err: 
+   { MissingSchemaError: Schema hasn't been registered for model "Project".
+   Use mongoose.model(name, schema)
+       at MissingSchemaError (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\error\missingSchema.js:22:11)
+       at Mongoose.model (C:\Users\Administrator\Desktop\smartSite\server\node_modules\mongoose\lib\index.js:421:13)
+       at router.post (C:\Users\Administrator\Desktop\smartSite\server\appApi\project.js:29:28)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at next (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:346:16
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+       at C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-router\lib\router.js:351:31)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:84:9)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at app.use (C:\Users\Administrator\Desktop\smartSite\server\index.js:72:8)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+       at serve (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-static\index.js:53:15)
+       at dispatch (C:\Users\Administrator\Desktop\smartSite\server\node_modules\koa-compose\index.js:42:32)
+     message: 'Schema hasn\'t been registered for model "Project".\nUse mongoose.model(name, schema)',
+     name: 'MissingSchemaError' } }
+[2019-03-28T17:01:41.296] [ERROR] error - { method: 'POST',
+  url: '/expert/addExpert',
+  body: undefined,
+  costTime: undefined,
+  err: 
+   { SyntaxError: Unexpected token ' in JSON at position 3
+       at JSON.parse (<anonymous>)
+       at parse (C:\Users\Administrator\Desktop\smartSite\server\node_modules\co-body\lib\json.js:57:17)
+       at AsyncFunction.module.exports [as json] (C:\Users\Administrator\Desktop\smartSite\server\node_modules\co-body\lib\json.js:41:20)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7)
+     status: 400,
+     body: '{\r\n\'expertName\':\'单文远\',\r\n\'expertLeave\':\'leave1\'},\r\n\'expertRate\':\'200\',\r\n\'expertNum\':\'513030198606138888\',}' } }
+[2019-03-28T17:01:48.801] [ERROR] error - { method: 'POST',
+  url: '/expert/addExpert',
+  body: undefined,
+  costTime: undefined,
+  err: 
+   { SyntaxError: Unexpected token ' in JSON at position 3
+       at JSON.parse (<anonymous>)
+       at parse (C:\Users\Administrator\Desktop\smartSite\server\node_modules\co-body\lib\json.js:57:17)
+       at AsyncFunction.module.exports [as json] (C:\Users\Administrator\Desktop\smartSite\server\node_modules\co-body\lib\json.js:41:20)
+       at <anonymous>
+       at process._tickCallback (internal/process/next_tick.js:188:7)
+     status: 400,
+     body: '{\r\n\'expertName\':\'单文远\',\r\n\'expertLeave\':\'leave1\'},\r\n\'expertRate\':\'200\',\r\n\'expertNum\':\'513030198606138888\',}' } }

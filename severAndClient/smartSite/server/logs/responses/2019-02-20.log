@@ -1,0 +1,16 @@
+[2019-02-20T13:54:24.402] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 195 }
+[2019-02-20T13:59:54.945] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123456' },
+  costTime: 196 }
+[2019-02-20T13:59:56.624] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123456' },
+  costTime: 119 }
+[2019-02-20T13:59:59.389] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 165 }

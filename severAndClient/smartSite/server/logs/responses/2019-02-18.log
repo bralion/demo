@@ -1,0 +1,96 @@
+[2019-02-18T11:55:40.720] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123456' },
+  costTime: 12 }
+[2019-02-18T11:55:53.782] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wxy', password: '123' },
+  costTime: 5 }
+[2019-02-18T11:58:49.903] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: { userName: 'wy', password: '123', role: 'super' },
+  costTime: 126 }
+[2019-02-18T11:59:01.488] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wxy', password: '123' },
+  costTime: 4 }
+[2019-02-18T11:59:03.630] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wxy', password: '123' },
+  costTime: 3 }
+[2019-02-18T11:59:06.276] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wxy', password: '123' },
+  costTime: 3 }
+[2019-02-18T11:59:10.833] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wxy', password: '123' },
+  costTime: 5 }
+[2019-02-18T11:59:17.688] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wxy', password: '123' },
+  costTime: 2 }
+[2019-02-18T12:01:03.946] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wy', password: '123' },
+  costTime: 94 }
+[2019-02-18T12:05:34.373] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wx', password: '123' },
+  costTime: 4 }
+[2019-02-18T12:05:46.516] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wy', password: '123' },
+  costTime: 108 }
+[2019-02-18T12:17:19.486] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'wy', password: '123' },
+  costTime: 16 }
+[2019-02-18T12:17:36.675] [INFO] response - { method: 'POST',
+  url: '/user/save',
+  body: { userName: 'admin', password: '123', role: 'super' },
+  costTime: 132 }
+[2019-02-18T12:18:07.248] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123456' },
+  costTime: 97 }
+[2019-02-18T12:18:21.769] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 133 }
+[2019-02-18T12:18:28.616] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 150 }
+[2019-02-18T12:18:32.815] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 134 }
+[2019-02-18T13:35:13.696] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 167 }
+[2019-02-18T13:50:33.435] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 115 }
+[2019-02-18T14:31:10.874] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 156 }
+[2019-02-18T16:11:09.368] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 172 }
+[2019-02-18T16:20:32.140] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 124 }
+[2019-02-18T18:04:55.793] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 114 }
+[2019-02-18T18:05:33.429] [INFO] response - { method: 'POST',
+  url: '/user/login',
+  body: { userName: 'admin', password: '123' },
+  costTime: 147 }
