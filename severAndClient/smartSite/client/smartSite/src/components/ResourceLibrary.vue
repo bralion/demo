@@ -3,6 +3,10 @@
         <el-tabs v-model="activeName" @tab-click="handleClick" :before-leave="changeTabs">
             <el-tab-pane label="图片" name="first">
                 <div class="btns">
+                    <el-breadcrumb class="breadcrumb" separator-class="el-icon-arrow-right">
+                        <el-breadcrumb-item :class="{crumb:index!=dirImgPath.length-1,crumbActive:index===dirImgPath.length-1}" v-for="(item,index) in dirImgPath" >{{item.label}}</el-breadcrumb-item>
+                    </el-breadcrumb>
+                    <el-button class="create" @click="createDir('img')"> 新建文件夹</el-button>
                     <el-button class="upload" @click="handleUpload('img')"> 上 传</el-button>
                     <el-button class="del" @click="delImg" :disabled="editStyleNum==-1"> 删 除</el-button>
                     <el-input class="search"
@@ -168,6 +172,31 @@
                 </span>
         </el-dialog>
         <el-dialog
+                title="创建文件夹"
+                :visible.sync="createDirForm.showDialog"
+                width="40%"
+        >
+            <el-form label-position="left" label-width="120px" ref="editForm"  :model="createDirForm">
+                <el-form-item label="文件夹名称" >
+                    <el-input v-model="createDirForm.dirLabel"></el-input>
+                </el-form-item>
+                <el-form-item label="是否加密" >
+                    <el-switch
+                            v-model="createDirForm.isPassWord"
+                            active-color="#13ce66"
+                            inactive-color="#ff4949">
+                    </el-switch>
+                </el-form-item>
+                <el-form-item label="密码" v-if="createDirForm.isPassWord" >
+                    <el-input v-model="createDirForm.passWord"></el-input>
+                </el-form-item>
+            </el-form>
+            <span slot="footer" class="dialog-footer">
+                    <el-button type="primary" @click="handleCreateDir">确定</el-button>
+                    <el-button @click="createDirForm.showDialog = false">取 消</el-button>
+                </span>
+        </el-dialog>
+        <el-dialog
                 title="视频上传"
                 :visible.sync="uploadVideoForm.showDialog"
                 width="40%"
@@ -223,6 +252,16 @@
         },
         data () {
             return {
+	            dirImgPath:[{label:"公共图片",id:'image'}],//图片面包屑导航----》id必须为image  后端用这个去匹配根目录
+                createDirForm:{//创建文件夹的表单
+	                dirLabel:'' ,//文件夹名称
+	                path: [],//当前文件夹路径
+                    parentDirId:'',//当前文件夹的eid
+	                passWord: '',//当前文件夹密码
+	                isPassWord:false,//是否加密   只用于前端显示  后端数据库不存在这个字段
+	                showDialog:false //弹框显示
+                },
+	            dirVideoPath:[{label:"公共视频",id:'video'}],//图片面包屑导航 ---》id必须固定为video  后端才能找到
                 activeName: 'first',//激活的tab名称
                 imgWord: '',//图片视图上的关键词====用于显示
                 searchImgWord: '',//搜索图片的关键词===用于搜索
@@ -305,6 +344,43 @@
                     this.uploadVideoForm.showDialog = true
                 }
             },
+	        createDir(type){//创建文件夹
+            	//创建文件夹
+                if(type==='img'){//新建图片文件夹
+	                this.createDirForm.parentId=this.dirImgPath[this.dirImgPath.length-1].id//当前文件夹的id
+	                this.createDirForm.path=JSON.stringify(this.dirImgPath)//当前文件夹的path
+                }else if(type==='video'){//新建图片文件夹
+	                this.createDirForm.parentId=this.dirVideoPath[this.dirVideoPath.length-1].id//当前文件夹的id
+	                this.createDirForm.path=JSON.stringify(this.dirVideoPath)//当前文件夹的路径
+                }
+                this.createDirForm.showDialog=true;
+		     
+            },
+            handleCreateDir(){//触发向后端发送请求  创建文件夹
+	            let data={
+		            dirLabel:this.createDirForm.dirLabel,//文件夹名称
+		            path: this.createDirForm.path,//当前文件夹路径
+		            passWord: this.createDirForm.passWord,//当前文件夹密码
+		            parentId: this.createDirForm.parentId,//当前文件夹创建在那个文件下
+	            }
+	            // 请求
+	            this.request(
+		            {
+			            url: 'dir/createDir',
+			            data:data
+		            },
+		            (data) => {
+			            this.createDirForm={//创建文件夹的表单
+				            dirLabel:'' ,//文件夹名称
+				            path: [],//当前文件夹路径
+				            parentDirId:'',//当前文件夹的eid
+				            passWord: '',//当前文件夹密码
+				            showDialog:false //弹框显示
+			            }
+			            this.getImgs()
+		            }
+	            )
+            },
             startUpload () {//开始上传图片
                 this.$refs.uploadImgRef.submit()
                 this.uploadForm.showDialog = false
@@ -337,6 +413,7 @@
                 formData.append(
                     'data',
                     JSON.stringify({
+	                    parentDirId:this.dirImgPath[this.dirImgPath.length-1].id,
                         ...this.uploadForm
                     })
                 )
@@ -395,7 +472,7 @@
                             data: {
                                 keyWord: this.searchImgWord,
                                 pageSize: this.imgPageInfo.pageSize,
-                                currentPage: this.imgPageInfo.currentPage
+                                currentPage: this.imgPageInfo.currentPage,
                             }
                         },
                         (data) => {
@@ -409,7 +486,8 @@
                             url: 'resourceLibrary/getImgs',
                             data: {
                                 pageSize: this.imgPageInfo.pageSize,
-                                currentPage: this.imgPageInfo.currentPage
+                                currentPage: this.imgPageInfo.currentPage,
+	                            parentDirId:this.dirImgPath[this.dirImgPath.length-1].id
                             }
                         },
                         (data) => {
@@ -619,10 +697,19 @@
     .btns > .el-button {
         width: 110px;
     }
+    .breadcrumb{
+        display: inline-block;
+    }
 
     .upload {
         background-color: #46C4D3;
         color: #ffffff;
+    }
+    
+    .create{
+        background-color: #46C4D3;
+        color: #ffffff;
+        margin-left: 52px;
     }
 
     .del {
@@ -735,5 +822,22 @@
         border: 1px solid #2993AA !important;
     }
 
+    .crumbActive{
+        font-size: 16px;
+    }
+    
+    .crumbAcitve >>> .el-breadcrumb__inner{
+        font-size: 16px;
+    }
+    
+    .crumb{
+        font-weight: bold;
+        cursor:pointer;
+        font-size: 16px;
+    }
+    .crumb >>> .el-breadcrumb__inner:hover{
+        color:#2993AA;
+        font-size: 16px;
+    }
 </style>
 

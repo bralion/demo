@@ -159,60 +159,90 @@ const BiddingMoudle2 = new Schema({
 
 mongoose.model('BiddingMoudle2', BiddingMoudle2)
 
+//创建一条记录代表一个专家在一个项目上的费用记录
+const Dir=new Schema({
+		dirLabel:{type:String},//文件夹名称
+		parentId:{type:String},//父文件夹ID
+		path:{type:Array},//当前文件夹路径 [{id:'aaaa',label:"图片首页"}]  ----》用于显示层级目录面包屑
+		passWord:{type:String},//当前文件夹密码
+		createAt:{type:Date,default:Date.now},//创建时间
+	},
+	{collection:'dir'}//数据集命名
+)
+//发布模型
+mongoose.model('Dir',Dir);//模型名称叫Dir   模型叫Dir
+
 let initDatabase = () => {//初始化数据库
-    //初始化用户
-    const User = mongoose.model('User')
-    let oneUser = new User({userName:'admin', password: '123', role: 'super'})
-    oneUser.save()
-    //初始化设备类别
-    const Equipment = mongoose.model('Equipment')
-    let date = new Date()
-    let oneEquipment = new Equipment({
-        equipmentId:'bidding',
-        equipmentName: '招投标室',
-        currentVersion: 10000,
-        currentMoudleId: 'bidding1',
-        currentMoudleName: '模板1',
-        updateTime: date
+    // //初始化用户
+    // const User = mongoose.model('User')
+    // let oneUser = new User({userName:'admin', password: '123', role: 'super'})
+    // oneUser.save()
+    // //初始化设备类别
+    // const Equipment = mongoose.model('Equipment')
+    // let date = new Date()
+    // let oneEquipment = new Equipment({
+    //     equipmentId:'bidding',
+    //     equipmentName: '招投标室',
+    //     currentVersion: 10000,
+    //     currentMoudleId: 'bidding1',
+    //     currentMoudleName: '模板1',
+    //     updateTime: date
+    // })
+    // oneEquipment.save()
+    // //初始化招投标模板1信息
+    // const BiddingMoudle1 = mongoose.model('BiddingMoudle1')
+    // const BiddingMoudle2 = mongoose.model('BiddingMoudle2')
+    // let oneBiddingMoudle1 = new BiddingMoudle1({
+    //     moudleId:'bidding1',
+    //     title: '龙泉驿区公共资源交易中心开标场地使用情况',
+    //     line1Title: '开标场地',
+    //     line1Value: '招标室1',
+    //     line2Title: '项目名称',
+    //     line2Value: '招标室1',
+    //     line3Title: '招标人',
+    //     line3Value: '林胖子',
+    //     line4Title: '代理机构',
+    //     line4Value: '数之联',
+    //     line5Title: '标书收取截止时间及开标时间',
+    //     line5Value: '2019/01/31-09:30',
+    //     width:220,
+    //     roomId:1,//房间号
+    // })
+    // oneBiddingMoudle1.save()
+    // let oneBiddingMoudle2 = new BiddingMoudle2({
+    //     moudleId:'bidding2',
+    //     title: '龙泉驿区公共资源交易中心开标场地使用情况',
+    //     line1Title: '开标场地1',
+    //     line1Value: '招标室1',
+    //     line2Title: '项目名称1',
+    //     line2Value: '招标室1',
+    //     line3Title: '招标人',
+    //     line3Value: '林胖子1',
+    //     line4Title: '代理机构1',
+    //     line4Value: '数之联',
+    //     line5Title: '标书收取截止时间及开标时间',
+    //     line5Value: '2019/01/31-09:30',
+    //     width:220,
+    //     roomId:1,//房间号
+    // })
+    // oneBiddingMoudle2.save();
+    
+    
+	const Dir = mongoose.model('Dir')
+	let oneDir = new Dir({
+		dirLabel:'公共图片',//文件夹名称
+		parentId:'',//父文件夹ID
+		path:[{id:'aaaa',label:"公共图片"}],//图片文件的根目录
+		passWord:'',//当前文件夹密码
     })
-    oneEquipment.save()
-    //初始化招投标模板1信息
-    const BiddingMoudle1 = mongoose.model('BiddingMoudle1')
-    const BiddingMoudle2 = mongoose.model('BiddingMoudle2')
-    let oneBiddingMoudle1 = new BiddingMoudle1({
-        moudleId:'bidding1',
-        title: '龙泉驿区公共资源交易中心开标场地使用情况',
-        line1Title: '开标场地',
-        line1Value: '招标室1',
-        line2Title: '项目名称',
-        line2Value: '招标室1',
-        line3Title: '招标人',
-        line3Value: '林胖子',
-        line4Title: '代理机构',
-        line4Value: '数之联',
-        line5Title: '标书收取截止时间及开标时间',
-        line5Value: '2019/01/31-09:30',
-        width:220,
-        roomId:1,//房间号
+	oneDir.save()
+	let oneDir1 = new Dir({
+		dirLabel:'公共视频',//文件夹名称
+		parentId:'',//父文件夹ID
+		path:[{id:'bbbb',label:"公共视频"}],//视频文件的根目录
+		passWord:'',//当前文件夹密码
     })
-    oneBiddingMoudle1.save()
-    let oneBiddingMoudle2 = new BiddingMoudle2({
-        moudleId:'bidding2',
-        title: '龙泉驿区公共资源交易中心开标场地使用情况',
-        line1Title: '开标场地1',
-        line1Value: '招标室1',
-        line2Title: '项目名称1',
-        line2Value: '招标室1',
-        line3Title: '招标人',
-        line3Value: '林胖子1',
-        line4Title: '代理机构1',
-        line4Value: '数之联',
-        line5Title: '标书收取截止时间及开标时间',
-        line5Value: '2019/01/31-09:30',
-        width:220,
-        roomId:1,//房间号
-    })
-    oneBiddingMoudle2.save()
+	oneDir1.save()
 }
 
 connect().then(initDatabase)//连接数据库

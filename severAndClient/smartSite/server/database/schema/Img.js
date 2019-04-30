@@ -9,6 +9,7 @@ const Img=new Schema({
         picName:{type:String},//图片名称
         picPath:{type:String},//图片路径连接
         picDesc:{type:String},//图片描述
+		parentDirId:{type:String},//图片文件夹的id
         createAt:{type:Date,default:Date.now},//创建时间
     },
     {collection:'img'}//数据集命名

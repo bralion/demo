@@ -29,6 +29,7 @@ let websites=require('./appApi/websites.js')
 let outRecord=require('./appApi/outRecord.js')
 let project=require('./appApi/project.js')
 let expert=require('./appApi/expert.js')
+let dir=require('./appApi/dir.js')
 
 
 //配置中间件
@@ -65,6 +66,7 @@ router.use('/websites',websites.routes())
 router.use('/outRecord',outRecord.routes())
 router.use('/expert',expert.routes())
 router.use('/cost',cost.routes())
+router.use('/dir',dir.routes())
 
 router.get('/test',async(ctx)=>{
 	console.log(ctx.request);

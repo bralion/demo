@@ -12,6 +12,7 @@ router.post('/uploadImg', multiparty({uploadDir: './static/imgs'}), async (ctx) 
     let oneImg = new Img({
         picName: ctx.req.files.file.originalFilename,
         picDesc: reqBody.desc,
+	    parentDirId: reqBody.parentDirId,
         picPath: ctx.req.files.file.path
     })
     await oneImg.save().then(() => {
@@ -23,6 +24,7 @@ router.post('/uploadImg', multiparty({uploadDir: './static/imgs'}), async (ctx) 
 
 router.post('/getImgs', async (ctx) => {
     const Img = mongoose.model('Img')
+    const Dir = mongoose.model('Dir')
     const reqBody=ctx.request.body;
     //检查参数
     if(!reqBody.currentPage){
@@ -31,19 +33,50 @@ router.post('/getImgs', async (ctx) => {
     }else if(!reqBody.pageSize){
         ctx.body={code:'04',message:'pageSize 是必须的'};
         return
+    }else if(!reqBody.parentDirId){
+        ctx.body={code:'04',message:'文件夹id 是必须的'};
+        return
     }
 
     // 获取结果
-    let count = await Img.count({}).exec();
-    let result= await Img.find({}).skip(parseInt(reqBody.pageSize) * (reqBody.currentPage-1))
-        .limit(parseInt(reqBody.pageSize))
-        .sort({'createAt':-1})
-        .exec();
+		//获取文件夹的数量
+	let count1 = await Dir.count({parentId:reqBody.parentDirId}).exec();
+	let count = await Img.count({parentDirId:reqBody.parentDirId}).exec();
+	let result=[];
+	//如果文件夹的数量大于等于当前页的最大数量  则全部为文件夹
+    if(count1>=parseInt(reqBody.pageSize) * (reqBody.currentPage)){
+        result= await Dir.find({parentId:reqBody.parentDirId}).skip(parseInt(reqBody.pageSize) * (reqBody.currentPage-1))
+		    .limit(parseInt(reqBody.pageSize))
+		    .sort({'createAt':-1})
+		    .exec();
+    }
+    //如果文件夹数量小于等于当前页的最小数量 则全部为文件
+	else if(count1<=parseInt(reqBody.pageSize) * (reqBody.currentPage-1)){
+	    result= await Img.find({parentDirId:reqBody.parentDirId}).skip(parseInt(reqBody.pageSize) * (reqBody.currentPage-1)-count1)
+		    .limit(parseInt(reqBody.pageSize))
+		    .sort({'createAt':-1})
+		    .exec();
+	    result.map(item=>{
+		    item.picPath=item.picPath.slice(6)
+	    })
+	}
+	else{//当前页即有文件又有文件夹
+	    let resultDir= await Dir.find({parentId:reqBody.parentDirId}).skip(parseInt(reqBody.pageSize) * (reqBody.currentPage-1))
+		    .limit(count1-parseInt(reqBody.pageSize)*parseInt(reqBody.currentPage-1))
+		    .sort({'createAt':-1})
+		    .exec();
+	    let resultImg= await Img.find({parentDirId:reqBody.parentDirId}).skip(0)
+		    .limit(parseInt(reqBody.pageSize)*parseInt(reqBody.currentPage)-count1)
+		    .sort({'createAt':-1})
+		    .exec();
+	    resultImg.map(item=>{
+		    item.picPath=item.picPath.slice(6)
+	    })
+	    result=[].concat(resultDir).concat(resultImg);
+    }
+
     if (result) {
-        result.map(item=>{
-            item.picPath=item.picPath.slice(6)
-        })
-        ctx.body={code:'01',data:{data:result,count:count}}
+        ctx.body={code:'01',data:{data:result,count:count+count1}}
     }else{
         ctx.body={code:'02',message:'没有相关信息',data:{}}
     }
