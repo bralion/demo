@@ -4,7 +4,7 @@
             <el-tab-pane label="图片" name="first">
                 <div class="btns">
                     <el-breadcrumb class="breadcrumb" separator-class="el-icon-arrow-right">
-                        <el-breadcrumb-item :class="{crumb:index!=dirImgPath.length-1,crumbActive:index===dirImgPath.length-1}" v-for="(item,index) in dirImgPath" >{{item.label}}</el-breadcrumb-item>
+                        <el-breadcrumb-item  :class="{crumb:index!=dirImgPath.length-1,crumbActive:index===dirImgPath.length-1}" v-for="(item,index) in dirImgPath" ><span @click="jumpToPath(index,'img')">{{item.label}}</span></el-breadcrumb-item>
                     </el-breadcrumb>
                     <el-button class="create" @click="createDir('img')"> 新建文件夹</el-button>
                     <el-button class="upload" @click="handleUpload('img')"> 上 传</el-button>
@@ -18,14 +18,25 @@
                 </div>
                 <div style="height:100%;">
                     <ul class="image">
-                        <li :class="{isEdit:editStyleNum==index}" class="imgItem" v-for="(item,index) in imgs">
-                            <div v-if="editStyleNum==index" class="isEditIcon" @click="handleEditStart(index)"></div>
-                            <div style="margin:  5%; width: 90%;height:150px;">
-                                <img style="width: 100%;height:150px;" :src=item.picPath :alt="item.picDesc"
-                                     @click="handleEditStyle(index)" @dblclick="showImg(item.picPath)">
+                        <li :class="{isEdit:editStyleNum==index&&!item.path}" class="imgItem" v-for="(item,index) in imgs">
+                            <div v-if="!item.path">
+                                <div v-if="editStyleNum==index" class="isEditIcon" @click="handleEditStart(index)"></div>
+                                <div style="margin:  5%; width: 90%;height:150px;">
+                                    <img style="width: 100%;height:150px;" :src=item.picPath :alt="item.picDesc"
+                                         @click="handleEditStyle(index)" @dblclick="showImg(item.picPath)">
+                                </div>
+                                <p v-if="item.createAt"><span class="bg-title" :title="item.picName">{{item.picName}}</span>
+                                    <span class="bgTime">{{item.createAt.slice(0,10)}}</span></p>
                             </div>
-                            <p v-if="item.createAt"><span class="bg-title" :title="item.picName">{{item.picName}}</span>
-                                <span class="bgTime">{{item.createAt.slice(0,10)}}</span></p>
+                            <div v-if="item.path">
+                                <div style="margin:  5%; width: 90%;height:150px;">
+                                    <img style="width: 100%;height:150px;" :src=item.picPath :alt="item.dirLabel"
+                                         @dblclick="enterDir(item,'img')">
+                                </div>
+                                <p v-if="item.createAt"><span class="bg-title" :title="item.dirLabel">{{item.dirLabel}}</span>
+                                    <span class="bgTime">{{item.createAt.slice(0,10)}}</span></p>
+                            </div>
+
                         </li>
                     </ul>
                 </div>
@@ -66,6 +77,7 @@
                     background
                     layout="prev, pager, next,total"
                     :current-page="imgPageInfo.currentPage"
+                    :page-size="imgPageInfo.pageSize"
                     @current-change="imgCurrentPageChange"
                     :total="imgPageInfo.count">
             </el-pagination>
@@ -77,6 +89,7 @@
                     layout="prev, pager, next,total"
                     :current-page="videoPageInfo.currentPage"
                     @current-change="videoCurrentPageChange"
+                    :page-size="videoPageInfo.pageSize"
                     :total="videoPageInfo.count">
             </el-pagination>
         </div>
@@ -116,7 +129,7 @@
                             accept="image/png,image/jpeg"
                             :before-remove="beforeRemove"
                             multiple
-                            :limit="3"
+                            :limit="300"
                             :on-exceed="handleExceed"
                             :http-request='handleUpdateFile'
                             list-type="picture"
@@ -354,7 +367,7 @@
 	                this.createDirForm.path=JSON.stringify(this.dirVideoPath)//当前文件夹的路径
                 }
                 this.createDirForm.showDialog=true;
-		     
+
             },
             handleCreateDir(){//触发向后端发送请求  创建文件夹
 	            let data={
@@ -643,6 +656,20 @@
                         this.getImgs();
                     }
                 )
+            },
+            enterDir(item,type){//进入文件夹
+                if(type==='img'){
+                    this.dirImgPath.push({label:item.dirLabel,id:item._id});
+                }
+                this.getImgs()
+            },
+
+            jumpToPath(index,type){//点击面包屑导航跳转路径
+                this.imgPageInfo.currentPage=1;
+                if(type==='img'){
+                   this.dirImgPath.splice(index+1,this.dirImgPath.length-1-index);
+                }
+                this.getImgs()
             }
         }
     }
@@ -705,7 +732,7 @@
         background-color: #46C4D3;
         color: #ffffff;
     }
-    
+
     .create{
         background-color: #46C4D3;
         color: #ffffff;
@@ -825,11 +852,11 @@
     .crumbActive{
         font-size: 16px;
     }
-    
+
     .crumbAcitve >>> .el-breadcrumb__inner{
         font-size: 16px;
     }
-    
+
     .crumb{
         font-weight: bold;
         cursor:pointer;
