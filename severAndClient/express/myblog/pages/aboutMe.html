@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <title>aboutMe</title>
+</head>
+<script type="text/javascript" charset="utf-8" src="../src/js/jquery.js"></script>
+<link rel="stylesheet" href="../src/css/public.css">
+<link rel="stylesheet" href="../src/css/bootstrap.css"/>
+<link rel="stylesheet" href="../src/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="../src/css/animate.css"/>
+<body style="padding-top:60px;height: 100%;">
+<div id="container" style="overflow: hidden">
+    <ul class="navigation">
+        <li><a targetPosition="1" class="active">自我介绍</a></li>
+        <li><a targetPosition="2">个人能力</a></li>
+        <li><a targetPosition="3">作品概览</a></li>
+        <li><a targetPosition="4">联系我</a></li>
+    </ul>
+<div style='height:5000px' id="main">
+    <!--自我介绍-->
+    <div id="firstScreen"  class="screen">
+        <p><span><i class="fa fa-user-circle-o"></i></span>杨超林</p>
+        <p><span><i class="fa fa-university"></i></span>2012-2016年就读于西华大学</p>
+        <p><span><i class="fa fa-stack-exchange"></i></span>目前从事前端、就职于东方国信科技股份有限公司。</p>
+        <p><span><i class="fa fa-life-bouy"></i></span>平时喜欢打篮球、踢足球、喜欢打乒乓球、喜欢一个人跑步。</p>
+    </div>
+    <div id="secondScreen"  class="screen">
+        <ul>
+            <li>熟练掌握语义化的 HTML 和具有兼容性的 CSS 模式，熟练手写符合 W3C 标准的结构和代码。</li>
+            <li>精通JQUERY，了解 Ajax 工作原理和实现方法。</li>
+            <li>对 可用性、可访问性、前端性能优化、最优实践 等有一定的了解和实践。</li>
+            <li>对 HTML5 和 CSS3 有一定了解和运用。</li>
+            <li>能熟练操作photoShop完成切图等操作。</li>
+            <li>版本控制svn和git平时都有使用，编辑器只要是webStorm，对web
+            Storm集成的svn和nodejs能熟练操作。</li>
+            <li>熟悉Nodejs、MySQl，有一定 NODE.js 后端相关知识。</li>
+            <li>熟悉jsp开发模式、webpack+vue的开发模式</li>
+            <li>对前端canvas、svg有一定了解。</li>
+            <li>有过兼容ie9以上的项目经验。</li>
+            <li>服务器使用阿里云ECS，对 Linux 有一定了解。</li>
+            <li>喜欢研究新技术，有一定的自学能力。</li>
+        </ul>
+    </div>
+    <div id="thirdScreen" class="screen">
+        <p>项目经历</p>
+        <ul>
+            <li><img src="../src/images/banner_1.jpg" alt=""></li>
+            <li><img src="../src/images/banner_1.jpg" alt=""></li>
+            <li><img src="../src/images/banner_1.jpg" alt=""></li>
+            <li><img src="../src/images/banner_1.jpg" alt=""></li>
+        </ul>
+    </div>
+    <div id="fourScreen" class="screen">
+       <div class="borderBox">
+           <p>社交网络</p>
+           <ul>
+               <li>
+                   <span>邮箱：</span>
+                   18380461355@163.com
+               </li>
+               <li>
+                   <span>QQ：</span>
+                   289459620
+               </li>
+               <li>
+                   <span> WEIBO：</span>
+                   <a target="_blank" href="https://weibo.com/bralion">@特别Bai</a>
+               </li>
+               <li>
+                   <span>GIT：</span>
+                   <a target="_blank" href="https://github.com/bralion">@bralion</a>
+               </li>
+           </ul>
+       </div>
+        <!--<div class="borderBox">项目外包</div>-->
+    </div>
+</div>
+</div>
+<style>
+#container{
+    height:100%;
+    width:100%;
+    position: relative;
+}
+#main{
+    background: url("../src/images/bg-tile.png");
+    position: absolute;
+    top:0;
+    width:100%;
+}
+.navigation{
+    position: fixed;
+    left:88%;
+    top:50%;
+    z-index: 10;
+}
+.navigation>li{
+    padding:8px 5px;
+}
+.navigation>li>a{
+     color:#666;
+ }
+.navigation>li>a.active{
+     color:#5d91d8;
+ }
+.navigation>li>a:hover{
+    text-decoration:none;
+    cursor: pointer;
+}
+.borderBox{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+#firstScreen{
+    font-size: 25px;
+    font-weight: bold;
+    width: 60%;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+#firstScreen>p{
+   line-height: 60px;
+    display: none;
+}
+#firstScreen>p>span{
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    width: 135px;
+    text-align: center;
+}
+#firstScreen i{
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.screen{
+    font-size: 20px;
+    font-weight: normal;
+    width: 60%;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+#thirdScreen{
+    width: 70%;
+}
+#thirdScreen>ul>li{
+    display: inline-block;
+}
+#thirdScreen>ul>li>img{
+        width:400px;
+    margin:10px 10px;
+}
+#fourScreen>div>ul>li{
+    margin-top: 16px;
+}
+@media screen and (max-width:600px) {
+    .navigation{
+        visibility: hidden;
+    }
+    .screen{
+        font-size: 13px!important;
+        font-weight: normal;
+        width: 80%;
+        margin-left: 6%;
+        padding-top: 5%;
+    }
+    #firstScreen>p>span{
+        font-size: 15px !important;
+        width: 48px!important;
+        text-align: center;
+    }
+    #firstScreen i{
+        font-size: 20px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+    #firstScreen>p{
+        line-height: 30px;
+    }
+    #thirdScreen>ul>li>img {
+        width: 95%;
+    }
+}
+</style>
+<script>
+    (function () {//入口函数
+        window.parent.setIframeHeight('fromAboutMe')
+        //获取每一屏的高度
+        var eachScreenHeight=$('#container').css('height');
+        //设置每一屏的高度
+        $("#main>div").css('height',eachScreenHeight);
+        //右侧导航的切换
+        $('.navigation>li').click(activeToggle);
+        //设置每一屏的切换动画并根据点击触发该屏内的动画
+        animate(eachScreenHeight);
+        firstScreenAnimate()//默认加载第一屏
+        //滚动滑轮触发scrollFunc方法  //ie 谷歌
+        window.onmousewheel = document.onmousewheel = scrollFunc;
+        if (document.addEventListener) {//firefox
+            document.addEventListener('DOMMouseScroll', scrollFunc, false);
+        }
+    })()
+    var currentScreen=1;
+    var flag=0;
+    //右侧导航的切换
+    function activeToggle(e) {
+        //移除所以active属性
+        $('.navigation >li>a').removeClass('active');
+        //给对应a添加类active
+        if(e.target.tagName=='A'){
+            $(e.target).addClass('active');
+        }else{
+            $(e.target).find('a').addClass('active');
+        }
+    }
+    function animate(height){
+        $(".navigation >li>a").click(function(){
+            var current= parseInt($(this).attr("targetPosition"));
+            currentScreen=current;
+            if(current==1){//执行第一页动画
+                $("#main").animate({ top:-(parseInt(current)-1)*(parseInt(height))+ "px"},1000,'', firstScreenAnimate);
+            }
+            else if(current==2){//执行第2页动画
+                removeFirstScreenAnimate()
+                $("#main").animate({ top:-(parseInt(current)-1)*(parseInt(height))+ "px"},1000,'');
+            }
+            else if(current==3){//执行第3页动画
+                removeFirstScreenAnimate()
+                $("#main").animate({ top:-(parseInt(current)-1)*(parseInt(height))+ "px"},1000,'');
+            }
+            else if(current==4){//执行第4页动画
+                removeFirstScreenAnimate()
+                $("#main").animate({ top:-(parseInt(current)-1)*(parseInt(height))+ "px"},1000,'');
+            }
+        });
+    }
+    function firstScreenAnimate() {
+        var a=0
+        function abc() {
+            $($('#firstScreen>p')[a]).css('display','block');
+            $($('#firstScreen>p')[a]).addClass('animated bounceInUp')
+            a++
+        }
+        setTimeout(abc,500*(1))
+        setTimeout(abc,500*(2))
+        setTimeout(abc,500*(3))
+        setTimeout(abc,500*(4))
+    }
+    function removeFirstScreenAnimate() {
+            $($('#firstScreen>p')).css('display','none');
+            $($('#firstScreen>p')).removeClass('animated bounceInUp')
+    }
+    function scrollFunc (e) {
+        e = e || window.event;
+        if (e.wheelDelta) {  //第一步：先判断浏览器IE，谷歌滑轮事件
+            if(flag==1){//表示当前正在执行动画
+//                触发无效
+            }else{//触发有效
+                if (e.wheelDelta > 0) { //当滑轮向上滚动时
+                    if(currentScreen-2>=0){
+                        var time=1000;
+                        if(currentScreen-2==0){
+                            time=3000;
+                        }
+                        flag=1;
+                        $($(".navigation >li>a")[currentScreen-2]).click();
+                        setTimeout(clearFlag,time)
+                    }
+                }
+                if (e.wheelDelta < 0) { //当滑轮向下滚动时
+                    if (currentScreen <= 3) {
+                        var time=1000;
+                        if(currentScreen==0){
+                            time=3000;
+                        }
+                        flag=1;
+                        $($(".navigation >li>a")[currentScreen]).click();
+                        setTimeout(clearFlag,time);
+                    }
+                }
+            }
+
+        } else if (e.detail) {  //Firefox滑轮事件
+            if(flag==1){//表示当前正在执行动画
+//                触发无效
+            }else{//触发有效
+                if (e.detail < 0) { //当滑轮向上滚动时
+                    if(currentScreen-2>=0){
+                        var time=1000;
+                        if(currentScreen-2==0){
+                            time=3000;
+                        }
+                        flag=1;
+                        $($(".navigation >li>a")[currentScreen-2]).click();
+                        setTimeout(clearFlag,time)
+                    }
+                }
+                if (e.detail > 0) { //当滑轮向下滚动时
+                    if (currentScreen <= 3) {
+                        var time=1000;
+                        if(currentScreen==0){
+                            time=3000;
+                        }
+                        flag=1;
+                        $($(".navigation >li>a")[currentScreen]).click();
+                        setTimeout(clearFlag,time);
+                    }
+                }
+            }
+        }
+    }
+    function clearFlag(){//scroll函数防抖
+        flag=0;
+    }
+</script>
+</body>
+</html>

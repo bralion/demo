@@ -1,0 +1,19 @@
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+.clear:after{
+    clear:both;
+    content:'';
+    display:table;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+}
+
+.canClick{
+    cursor: pointer;
+    color:blue;
+}

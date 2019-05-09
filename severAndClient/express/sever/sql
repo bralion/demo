@@ -1,0 +1,19 @@
+create database blog charset utf8;
+use blog;
+--mapId 地图数据的id，每条数据对应一个id；name 用户名
+create table map(mapId int UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,name varchar(32),map text);
+create table bloguser(userId int UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,userName varchar(32),password varchar(32));
+create table bbs(bbsId int UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,userId int, message text);
+create table ueditor(boWenId int UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT,userId int, blogTitle text,content MEDIUMTEXT,contentTxt text,editTime DATETIME,classifyId int,viewNumber int not null default 0,isAllowComment boolean);
+create table blogClassify(classifyId int UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT, classifyName varchar(32));
+
+INSERT INTO bloguser(userName,password) VALUES (杨超林,ycl123456)
+
+INSERT INTO blogClassify(classifyName) values('html');
+INSERT INTO blogClassify(classifyName) values('css');
+INSERT INTO blogClassify(classifyName) values('js');
+INSERT INTO blogClassify(classifyName) values('NBA');
+INSERT INTO blogClassify(classifyName) values('VUE');
+INSERT INTO blogClassify(classifyName) values('NODE.JS');
+ALTER TABLE  blogclassify ADD classifyNumber INT NOT NULL DEFAULT 0 AFTER classifyName;
+ALTER TABLE map ADD ipAdr TEXT AFTER map;

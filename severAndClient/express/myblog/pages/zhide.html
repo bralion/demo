@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="../src/images/favicon.ico"/>
+    <link rel="bookmark" href="../src/images/favicon.ico">
+    <title>个人博客--谈心，交友，娱乐</title>
+    <link rel="stylesheet" href="../src/css/public.css"/>
+    <link rel="stylesheet" href="../src/css/layui.css">
+    <link rel="stylesheet" href="../src/css/index.css">
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.1&key=8cb84bccfaae7fd44fbf47ff615455a1&plugin=AMap.CitySearch"></script>
+    <script src="../src/js/jquery.js"></script>
+    <script src="../src/js/public.js"></script>
+    <style>
+        .layui-nav .layui-nav-item{
+            width:150px;
+        }
+        .layui-nav .layui-nav-item a{
+            text-align: center !important;
+        }
+        .layui-nav .layui-nav-item a:hover{
+            text-align: center !important;
+        }
+        #user{
+            color:#fff;
+        }
+        .modelBox{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: rgba(100,100,100,.5);
+            z-index: 1000;
+            display: none;
+        }
+        .modelBox-main{
+            position: fixed;
+            left: 45%;
+            top:45%;
+            color: #fff;
+        }
+        .modelBox-main>img{
+            -webkit-animation:loadRotate 3s linear infinite;
+        }
+        @-webkit-keyframes loadRotate{
+            from{
+                -webkit-transform:rotateZ(0deg);
+            }
+            to{
+                -webkit-transform:rotateZ(360deg);
+            }
+        }
+        @keyframes loadRotate{
+            from{
+                transform:rotateZ(0deg);
+            }
+            to{
+                transform:rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+<body style="background-color: #f1f1f1">
+<canvas id="myCanvas" style="width:100%;height:60px;position:fixed;top:0;background-color:#393D49; z-index: 100 "></canvas>
+<div  class="layui-nav clear" >
+    <div class="logo"></div>
+    <div  style="display: inline-block ; position: relative;top:-8px;" >
+        <p id="weather" style="color:#ccc;font-size: 12px;"></p>
+        <p id="city"  style="color:#ccc;text-align: center;font-size: 12px;"></p>
+    </div>
+    <div class="menu layui-hide-sm" onclick="menuToggle()" style="margin-left: 21%;"></div>
+    <!--手机上显示-->
+    <div class=" layui-nav-tree mobile" style="float:right;width:100%">
+        <ul class=" float-right nav-right  layui-nav-tree" style="margin-right: 4%;width: 150px;background:#356">
+            <li class="layui-nav-item " data-src="index.html"><a>首页</a></li>
+            <li class="layui-nav-item  " data-src="music.html"><a>音乐</a></li>
+            <li class="layui-nav-item" data-src="map.html"><a>地图</a></li>
+            <li class="layui-nav-item" data-src="../ueditor/index.html"  style="display: none"><a>写博客</a></li>
+            <li class="layui-nav-item"  data-src="../ueditor/index.html?type=mood" style="display: none" ><a>写心情</a></li>
+            <li class="layui-nav-item"  data-src="myblog.html"><a>我的博客</a></li>
+            <!--<li class="layui-nav-item" data-src="#"><a>留言</a></li>-->
+            <li class="layui-nav-item"  data-src="aboutMe.html"><a>关于</a></li>
+            <li class="layui-nav-item"  data-src="login.html"><a>登录</a></li>
+            <!--<li class="layui-nav-item layui-hide-xs">-->
+                <!--<div class="layui-inline">-->
+                    <!--<form class="layui-form layui-form-pane" action="">-->
+                        <!--<select name="city"  lay-verify="required" lay-search>-->
+                            <!--<option value="">搜索</option>-->
+                            <!--<option value="1">layer</option>-->
+                            <!--<option value="2">form</option>-->
+                            <!--<option value="3">layim</option>-->
+                            <!--<option value="4">element</option>-->
+                            <!--<option value="5">laytpl</option>-->
+                            <!--<option value="6">upload</option>-->
+                            <!--<option value="7">laydate</option>-->
+                        <!--</select>-->
+                    <!--</form>-->
+                <!--</div>-->
+            <!--</li>-->
+        </ul>
+    </div>
+    <!--手机上隐藏-->
+    <ul class=" float-right nav-right layui-hide-xs"   lay-filter="">
+        <li class="layui-nav-item  layui-this" data-src="index.html"><a>首页</a></li>
+        <li class="layui-nav-item" data-src="music.html"><a>音乐</a></li>
+        <li class="layui-nav-item" data-src="map.html"><a>地图</a></li>
+        <li class="layui-nav-item">
+            <a>博客</a>
+            <dl class="layui-nav-child"> <!-- 二级菜单 -->
+                <dd><a data-src="../ueditor/index.html" style="display: none">写博客</a></dd>
+                <dd><a data-src="../ueditor/index.html?type=mood" style="display: none">写心情</a></dd>
+                <dd><a data-src="myblog.html">我的博客</a></dd>
+            </dl>
+        </li>
+        <!--<li class="layui-nav-item" data-src="#"><a>留言</a></li>-->
+        <li class="layui-nav-item"  data-src="aboutMe.html"><a>关于</a></li>
+        <li class="layui-nav-item"  data-src="login.html"><a>登录</a></li>
+        <li id="user"></li>
+        <!--<li class="layui-nav-item layui-hide-xs">-->
+            <!--<div class="layui-inline">-->
+                <!--<form class="layui-form layui-form-pane" action="">-->
+                    <!--<select name="city"  lay-verify="required" lay-search>-->
+                        <!--<option value="">搜索</option>-->
+                        <!--<option value="1">layer</option>-->
+                        <!--<option value="2">form</option>-->
+                        <!--<option value="3">layim</option>-->
+                        <!--<option value="4">element</option>-->
+                        <!--<option value="5">laytpl</option>-->
+                        <!--<option value="6">upload</option>-->
+                        <!--<option value="7">laydate</option>-->
+                    <!--</select>-->
+                    <!--</form>-->
+            <!--</div>-->
+        <!--</li>-->
+    </ul>
+    <div class="clear"></div>
+
+</div>
+<div class="modelBox">
+    <div class="modelBox-main"><img src="../src/images/loading.svg" width="32px" height="32px" >博客正在提交，请不要刷新页面。。。</div>
+</div>
+<div style='min-height:600px' >
+    <iframe id="iframeIndex" src="index.html" frameborder="0" width="100%" style='min-height:600px' ></iframe>
+</div>
+<div class="footer">
+    <div class="footer-inner">
+        <div style="padding:5px 20px;overflow:hidden;">
+            <div class="copyright pull-left">
+
+                <a data-src="aboutMe.html">关于</a> |
+
+                <a data-src="myblog.html">博客</a> |
+
+                <a data-src="music.html">音乐</a> |
+
+                <a style="font-size: 12px">Copyright © 2018, Yangchaolin All Rights Reserved. </a>| <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">蜀ICP备18007261号-1</a> <a  data-src="map.html">网站地图</a></div>
+        </div>
+    </div>
+</div>
+<script src="../src/js/layui.js"></script>
+<script>
+    (function(){//主函数
+        //注意：导航 依赖 element 模块，否则无法进行功能性操作
+        layui.use('element', function(){
+            var element = layui.element;
+        });
+        layui.use('form', function(){
+            var form = layui.form;
+        });
+        layui.use('carousel', function(){
+            var carousel = layui.carousel;
+            //建造实例
+            carousel.render({
+                elem: '#test1'
+                , width: '100%' //设置容器宽度
+                , arrow: 'hover' //始终显示箭头
+                //,anim: 'updown' //切换动画方式
+                , autoplay: true
+            });
+        });
+
+        getWeather();
+        //天气接口调用
+        function getWeather() {
+            //实例化城市查询类
+            var citysearch = new AMap.CitySearch();
+
+            //自动获取用户IP，返回当前城市adcode
+            citysearch.getLocalCity(function(status, result) {
+                if (status === 'complete' && result.info === 'OK') {
+                    if (result && result.city && result.bounds) {
+                        //查询当前城市天气
+                        $.ajax({
+                            url: "http://restapi.amap.com/v3/weather/weatherInfo?key=b128a877c2eec7d91e565a13c0b67630&city=" +result.adcode,
+                            async: false,
+                            success:function(result){
+                                console.dir(result)
+                                $("#weather").html(result.lives[0].weather+"&nbsp&nbsp气温:"+result.lives[0].temperature+"℃");
+                                $("#city").html(result.lives[0].city)
+                            }
+                        });
+                    }
+                } else {
+                }
+            });
+
+
+        }
+
+        //头部动态星空
+        top1();
+        function top1(){
+            var canvasPage3 = document.getElementById("myCanvas");
+
+            canvasPage3.width = 1400;
+            if(window.screen.height<768){
+                canvasPage3.width = 768;
+            }
+            canvasPage3.height = 60;
+            var ctx = canvasPage3.getContext("2d");
+            var zhongX = 800;
+            var zhongY = 385;
+            function randomNum(x,y)
+            {
+                return Math.floor(Math.random() * (y - x + 1) + x);
+            }
+
+            function randomColor() {
+                return "rgb(" + randomNum(0, 255) + "," + randomNum(0, 255) + "," + randomNum(0, 255) + ")";
+            }
+
+            function Ball() {
+                this.r = randomNum(0.1, 3);
+                this.color = "white";
+
+                this.x = randomNum(this.r, canvasPage3.width - this.r);
+                this.y = randomNum(this.r, canvasPage3.height - this.r);
+
+                this.speedX = randomNum(1, 3) * (randomNum(0, 1) ? 1 : -1);
+                this.speedY = randomNum(1, 3) * (randomNum(0, 1) ? 1 : -1);
+            }
+
+            Ball.prototype.move = function () {
+                this.x += this.speedX*0.1;
+                this.y += this.speedY*0.1;
+
+                if(this.x<=this.r)
+                {
+                    this.x = this.r;
+                    this.speedX *= -1;
+                }
+                if(this.x>=canvasPage3.width -this.r)
+                {
+                    this.x = canvasPage3.width - this.r
+                    this.speedX *= -1;
+                }
+                //小球碰到上边界的处理 反弹
+                if (this.y <= this.r) {
+                    this.y = this.r;
+                    //反弹
+                    this.speedY *= -1;
+                }
+                //小球碰到下边界的处理 反弹
+                if (this.y >= canvasPage3.height - this.r) {
+                    this.y = canvasPage3.height - this.r;
+                    //反弹
+                    this.speedY *= -1;
+                }
+            }
+
+            Ball.prototype.draw = function () {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, false);
+                ctx.fillStyle = this.color;
+                ctx.fill();
+            }
+
+            var balls = [];
+            var arr = [];
+            for (var i = 0; i < 0.0002 * canvasPage3.width * canvasPage3.height; i++) {
+                var ball = new Ball();
+                balls.push(ball);
+            }
+
+            setInterval(function () {
+                arr = [];
+                ctx.clearRect(0, 0, canvasPage3.width, canvasPage3.height);
+                for (var i = 0; i < balls.length; i++) {
+                    balls[i].move();
+                    balls[i].draw();
+                    if (ballAndMouse(balls[i]) < 130) {
+                        ctx.lineWidth = (130 - ballAndMouse(balls[i])) * 1.5 / 130;
+                        ctx.beginPath();
+                        ctx.moveTo(balls[i].x, balls[i].y);
+                        ctx.lineTo(zhongX, zhongY);
+                        ctx.strokeStyle = balls[i].color;
+                        ctx.stroke();
+                    }
+                }
+
+
+                for (var i = 0; i < balls.length; i++) {
+                    for (var j = 0; j < balls.length; j++) {
+                        if (ballAndBall(balls[i], balls[j]) < 80) {
+                            ctx.lineWidth = (80 - ballAndBall(balls[i], balls[j])) * 0.6 / 80;
+                            ctx.globalAlpha = (130 - ballAndBall(balls[i], balls[j])) * 1 / 80;
+                            ctx.beginPath();
+                            ctx.moveTo(balls[i].x, balls[i].y);
+                            ctx.lineTo(balls[j].x, balls[j].y);
+                            ctx.strokeStyle = balls[i].color;
+                            ctx.stroke();
+                        }
+                    }
+                }
+                ctx.globalAlpha = 1.0;
+
+            }, 118);
+
+            canvasPage3.onmousemove = function (event) {
+                event = event || window.event;
+                zhongX = event.offsetX;
+                zhongY = event.offsetY;
+            }
+
+            function ballAndMouse(obj) {
+                var disX = Math.abs(zhongX - obj.x);
+                var disY = Math.abs(zhongY - obj.y);
+                return Math.sqrt(disX * disX + disY * disY);
+            }
+            function ballAndBall(obj1, obj2) {
+                var disX = Math.abs(obj1.x - obj2.x);
+                var disY = Math.abs(obj1.y - obj2.y);
+                return Math.sqrt(disX * disX + disY * disY);
+            }
+        }
+
+        //导航点击事件
+//        $(".layui-nav [data-src]").click(function(e){
+       $("[data-src]").click(function(e){
+            if($(e.target).attr('data-src')=='aboutMe.html'||$(e.target).attr('data-src')=='login.html'){
+                console.log($(e.target).attr('data-src'))
+                $('.footer').css('display','none')
+            }else{
+                console.log($(e.target).attr('data-src'))
+                $('.footer').css('display','block')
+            }
+            $(".layui-nav [data-src]").removeClass("layui-this");
+            console.log($(this).attr("data-src"));
+            $("#iframeIndex").attr("src",$(this).attr("data-src"));
+
+            $(this).addClass("layui-this");
+            e.stopPropagation();
+        });
+        $(".mobile li").click(menuSlideUp)
+        isLogin()//判断是否登录
+    })()
+    function isLogin(){
+        $.ajax({
+            url : "isLogin",
+            type : "post",
+            dataType:'json',
+            success:function (data) {
+                if(data.code=='001'){//已经登录
+                    $('[data-src="login.html"]').css('display','none');
+                    $('[data-src="../ueditor/index.html"]').css('display','block');
+                    $('[data-src="../ueditor/index.html?type=mood"]').css('display','block');
+                    $('#user').css('display','inline-block')
+                    $('#user').html('你好！'+data.name)
+                    $('#user').attr('usrId',data.userId)
+                }else if(data.code=='002'){//未登录
+
+                }else{
+                    alert('系统异常')
+                }
+            }
+        })
+    }
+    function menuToggle(){
+        console.log("123");
+        $(".mobile").slideToggle();
+    }
+    function menuSlideUp(){
+        console.log("1234");
+        $(".mobile").slideUp();
+    }
+    //设置iframe src
+    function setIframeSrc(src){//改变src
+            var srcUrl='[data-src="'+src+'"]';
+            if($(srcUrl).attr('data-src')){//导航中有该事件则触发点击
+                $(srcUrl).click()
+            }else{
+                $("#iframeIndex").attr('src',src);
+            }
+        }
+    //设置iframe的高度
+    function setIframeHeight(height){//传了高度以传过来的为主
+    if(height=='fromAboutMe'){//如果是来自于aboutMe页面的请求
+            var currentHeight=document.documentElement.clientHeight;
+            console.log(currentHeight);
+            $("#iframeIndex").height(currentHeight-60);
+        }
+    else if(height){
+            $("#iframeIndex").height(height);
+        }
+
+    else{//没传高度按照 内容高度设置
+            try{
+                var iframe = document.getElementById('iframeIndex');
+                if(iframe.attachEvent){
+                        var height =  iframe.contentWindow.document.documentElement.scrollHeight+20;
+                        $('iframe').css('height',height)
+                    return;
+                }else{
+                        var height = iframe.contentDocument.body.scrollHeight+20;
+                        $('iframe').css('height',height)
+                    return;
+                }
+            }catch(e){
+                throw new Error('setIframeHeight 出错');
+            }
+        }
+    }
+    function modelBox(message){//显示模态框
+    $('.modelBox').css('display','block');
+    $('.modelBox-main').html(message)
+    }
+    function modelBoxHide(message){//隐藏模态框
+    $('.modelBox').css('display','none');
+    }
+</script>
+</body>
+</html>

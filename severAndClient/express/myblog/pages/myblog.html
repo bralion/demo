@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的博客</title>
+</head>
+<script type="text/javascript" charset="utf-8" src="../src/js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../src/js/public.js"></script>
+<link rel="stylesheet" href="../src/css/public.css">
+<link rel="stylesheet" href="../src/css/font-awesome.min.css">
+<body style="padding-top:68px">
+<p id="currentPosition">当前位置：<span data-src="index.html">首页</span> 》 <span>博客</span> 》 <span >我的博客</span> </p>
+<div style="padding:0 50px" id="contentParent">
+    <div id="content">
+        <ul id="contentMain">
+            <li class="blogItem">
+                <!--<p style="line-height: 25px">-->
+                    <!--<span class="contentTime">2018-02-16 12:12:18</span>-->
+                    <!--<span class="contentTitle">清华毕业生当保安是不是资源浪费？</span>-->
+                    <!--<span class="contentUser">杨超林</span>-->
+                    <!--<span class="contentClassify">生活</span>-->
+                <!--</p>-->
+            </li>
+        </ul>
+    </div>
+</div>
+<style>
+    #currentPosition{
+        font-size: 14px;
+        padding-left: 50px;
+    }
+    #content{
+        min-height:600px;
+        background: #fff;
+        border: 1px solid #aaa;
+        box-shadow: 0 0 4px #aaa;
+        padding:10px 20px;
+    }
+    .contentTime{
+        color: #aaaaaa;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        padding-left:15px;
+    }
+    .contentClassify{
+        color: #aaaaaa;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        padding-left:15px;
+    }
+    .contentUser{
+        color: #aaaaaa;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        padding-left:15px;
+    }
+    .contentTitle{
+        padding-left:20px;
+        display: inline-block;
+        width: 50%;
+    }
+    .blogItem{
+        cursor: pointer;
+        list-style: none;
+    }
+    .blogItem:hover{
+        color:green;
+    }
+    @media screen and (max-width:600px){
+        #contentParent{
+            padding:0 5px !important;
+        }
+        #currentPosition{
+            padding-left: 5px;
+        }
+        #content>ul{
+            padding: 0;
+        }
+        .contentTitle{
+            padding-left: 0!important;
+            width: 98%;
+        }
+        .contentTime{
+            padding-left: 0!important;
+        }
+        .contentUser{
+            padding-left: 0!important;
+        }
+    }
+</style>
+<script>
+    window.parent.dataSrc();//调用全局data-src方法
+    (function(){
+        var data={};//获取博客文章概览
+        $.ajax({
+            url : "getBlogs",
+            type : "post",
+            data:data,
+            dataType:'json',
+            success : function(a) {
+                var html=''
+                for(var i=0,itemNumber=a.length;i<itemNumber;i++){
+                    var time=transfromTime(a[i].editTime)
+                    html+=  '<li class="blogItem" blogId="'+a[i].boWenId+'">'
+                    html+=   '<p style="line-height: 25px">'
+                    html+=  '<span class="contentTime"> <i class="fa fa-clock-o"></i> '+time+'</span>'
+                    html+= '<span class="contentTitle">'+a[i].blogTitle+'</span>'
+                    html+= '<span class="contentUser"><i class="fa fa-user"></i>'+' 作者：'+a[i].userName+'</span>'
+                    html+=    ' <span class="contentClassify">'+'分类：'+a[i].classifyName+'</span>'
+                    html+=    ' </p>'
+                    html+=    ' </li>'
+                }
+                $("#contentMain").html(html);
+                $('li.blogItem').click(function(){
+                    var src='myblogDetail.html?id='+$(this).attr('blogId')
+                    window.parent.setIframeSrc(src)
+                })
+                window.parent.setIframeHeight()
+                $('#content').height('90%')
+                $("<a href='#'></a>").click();//回到顶部
+            }
+        });
+
+    })()
+
+</script>
+</body>
+</html>

@@ -1,0 +1,434 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>音乐播放器</title>
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="viewport" content="width=device-width initial-scale=1.0 minimum-scale=1.0 maximum-scale=1.4">
+    <meta name="MobileOptimized" content="240">
+
+    <link href="../src/css/blue.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="../src/js/jquery.js"></script>
+    <script type="text/javascript" src="../src/js/jqplayer.js"></script>
+    <!--音乐歌词的js-->
+    <script type="text/javascript" src="../src/js/lrc.js"></script>
+    <!--星空绘制的js-->
+    <script src="../src/js/pixi.min.js"></script>
+    <link rel="stylesheet" href="../src/css/animate.css">
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            outline:none;
+        }
+        ul, ol, dl {
+            list-style: none;
+        }
+      body{
+            background-image: -webkit-radial-gradient(
+                    ellipse farthest-corner at center top,
+                    #000b4d 0%,
+                    #000105 100%
+            );
+            background-image: radial-gradient(
+                    ellipse farthest-corner at center top,
+                    #000b4d  0%,
+                    #000105 100%
+            );
+        }
+
+
+        .content {width: 402px;height:183px;overflow:hidden;padding:25px;background:#ccc;}
+        #lrc_list{margin:10px auto;background:#ccc;}
+        #lrc_list li{font:normal 14px/2.1 'microsoft yahei';text-align:center;}
+        canvas{
+       position: absolute;
+            top: 0;
+            left: 0;
+            z-index:-1;
+        }
+        #lrc_list li{
+            color:rgba(255,255,255,0.3);
+            background: transparent !important;
+            font-size:16px;
+        }
+        #lrc_list{
+            background:transparent !important;
+        }
+        .content{
+            background:transparent !important;
+        }
+        /*当前歌词颜色*/
+        #lrc_list li.hover{
+            color:rgba(255,255,255,0.8);
+        }
+        div.jp-interface{
+            background: transparent;
+        }
+        div.jp-audio, div.jp-audio-stream, div.jp-video{
+            background:transparent;
+           border:none;
+            /*float: left;*/
+            width: 80%;
+            margin: 50px;
+            color:#383f6c;
+            font-size: 1.1em;
+            font-weight: normal;
+            padding-left:20px;
+        }
+        .music_box{
+            width:422px;
+            float:left;
+            margin: 50px;
+            margin-left: 520px;
+            position: relative;
+            top:-213px;
+        }
+        .musicNameActive{
+            color:#aaa;
+        }
+        div.jp-seek-bar{
+            background: none;
+        }
+        div.jp-progress{
+            background: none;
+            height:4px !important;
+            border: 1px solid rgba(118,118,118,0.3);
+        }
+        div.jp-play-bar{
+            background-image: none;
+            background: rgba(120,120,255,0.3);
+        }
+        #musicList{
+            width:34%;
+        }
+        #musicList>li{
+            cursor: pointer;
+        }
+        .allMusic{
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+        div.jp-audio div.jp-type-single div.jp-progress{
+            width:80%;
+        }
+        div.jp-current-time{
+            color:#fff;
+        }
+        div.jp-duration{
+            color:#fff;
+        }
+        div.jp-audio div.jp-type-single div.jp-time-holder{
+            width:80%;
+        }
+        a.jp-mute{
+            margin-left: 0 !important;
+        }
+        div.jp-audio div.jp-volume-bar{
+            top:77px;
+            left:55px;
+        }
+        a.jp-play{
+            background: url("../src/font/music/play.svg") no-repeat;
+            background-size: 32px 32px;
+        }
+        a.jp-play:hover{
+            background: url("../src/font/music/play1.svg") no-repeat;
+            background-size: 32px 32px;
+        }
+        a.jp-stop{
+            background: url("../src/font/music/stop.svg") no-repeat;
+            background-size: 32px 32px;
+            width: 32px;
+            height: 32px;
+            margin:0 0 0 5px;
+        }
+        a.jp-stop:hover{
+            background: url("../src/font/music/stop1.svg") no-repeat;
+            background-size: 32px 32px;
+            width: 32px;
+            height: 32px;
+        }
+        a.jp-pause{
+            background: url("../src/font/music/pause.svg") no-repeat;
+            background-size: 32px 32px;
+        }
+        a.jp-pause:hover{
+            background: url("../src/font/music/pause1.svg") no-repeat;
+            background-size: 32px 32px;
+        }
+        a.jp-mute{
+            background: url("../src/font/music/mute1.svg") no-repeat;
+            background-size: 32px 32px;
+            width:32px;
+            height:32px;
+        }
+        .jp-mute-parent{
+
+        }
+        a.jp-mute:hover{
+            background: url("../src/font/music/mute.svg") no-repeat;
+            background-size: 32px 32px;
+            width:32px;
+            height:32px;
+        }
+        a.jp-unmute{
+            background: url("../src/font/music/unmute.svg") no-repeat;
+            background-size: 32px 32px;
+            width:32px;
+            height:32px;
+            margin-left: 0 !important;
+        }
+        a.jp-unmute:hover{
+            background: url("../src/font/music/unmute1.svg") no-repeat;
+            background-size: 32px 32px;
+            width:32px;
+            height:32px;
+            margin-left: 0 !important;
+        }
+        div.jp-audio ul.jp-controls{
+            width: 80px;
+        }
+        @media screen and (max-width:600px){
+            div.jp-audio div.jp-type-single div.jp-progress {
+                width: 43%;
+            }
+            div.jp-audio div.jp-type-single div.jp-time-holder {
+                width: 43%;
+            }
+        }
+    </style>
+
+</head>
+<body style="position: relative ;height:675px;margin-top:80px;">
+<img src="../src/images/smile.png" style="position: absolute;z-index: -10;">
+<img src="../src/images/smile1.png" id="manImage" style="position: absolute;z-index: -10; top:365px;left:76%; width: 220px;display: none">
+
+<textarea id="lrc_content" name="textfield" cols="70" rows="10" style="display:none;">
+
+</textarea>
+<div id="jp_container_1" class="jp-audio">
+    <div class="jp-type-single">
+        <div class="jp-gui jp-interface">
+            <ul class="jp-controls">
+                <li><a href="javascript:;" class="jp-play" tabindex="1">play</a></li>
+                <li><a href="javascript:;" class="jp-pause" tabindex="1">pause</a></li>
+                <li><a href="javascript:;" class="jp-stop" tabindex="1">stop</a></li>
+                <li class="jp-mute-parent"><a href="javascript:;" class="jp-mute" tabindex="1" title="mute">mute</a></li>
+                <li><a href="javascript:;" class="jp-unmute" tabindex="1" title="unmute">unmute</a></li>
+            </ul>
+            <div class="jp-progress">
+                <div class="jp-seek-bar">
+                    <div class="jp-play-bar"></div>
+                </div>
+            </div>
+            <div class="jp-volume-bar">
+                <div class="jp-volume-bar-value"></div>
+            </div>
+            <div class="jp-time-holder">
+                <div class="jp-current-time"></div>
+                <div class="jp-duration"></div>
+            </div>
+        </div>
+        <!--全部歌曲列表-->
+        <div class="allMusic">
+            <p style="color:#abb511">全部歌曲</p>
+            <ul id="musicList">
+                <li music-src="../src/music/ifyou.mp3">ifyou</li>
+                <li music-src="../src/music/today.mp3">today</li>
+                <li music-src="../src/music/yangcong.mp3">洋葱</li>
+                <li music-src="../src/music/yaobukejideni.mp3">遥不可及的你</li>
+                <li music-src="../src/music/tonghuazhen.mp3">童话镇</li>
+                <li music-src="../src/music/qishidoumeiyou.mp3">其实都没有</li>
+            </ul>
+        </div>
+        <input type="file" id="files" hidden>
+    </div>
+</div>
+<div class="music_box">
+    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+
+    <div class="content">
+        <ul id="lrc_list">
+            <li>点击开始播放</li>
+        </ul>
+    </div>
+    <!--<div class="container">-->
+        <!--<button id="full-screen">全屏</button>-->
+        <!--<button id="exit-fullscreen">退出</button>-->
+    <!--</div>-->
+</div>
+
+<script>
+    //<![CDATA[
+
+    $(document).ready(function(){
+        $("#jquery_jplayer_1").jPlayer({
+            ready: function (event) {
+                $(this).jPlayer("setMedia", {
+                    mp3:"../src/music/ifyou.mp3" //mp3的播放地址
+                });
+            },
+            timeupdate: function(event) {
+                if(event.jPlayer.status.currentTime==0){
+                    time = "";
+                }else {
+                    time = event.jPlayer.status.currentTime;
+                }
+            },
+            play: function(event) {
+                //获取歌词
+
+                //点击开始方法调用lrc。start歌词方法 返回时间time
+                $.lrc.start($('#lrc_content').val(), function() {
+                    return time;
+                });
+            },
+            ended:function(event){
+                $("#lrc_list").removeAttr("style").html("<li>歌曲播放完毕！</li>");
+                $('#manImage').css('display','block')
+                setTimeout(function () {
+                    $('#manImage').css('display','none')
+                },3000)
+            },
+            swfPath: "/js",  		//存放jplayer.swf的决定路径
+            solution:"html, flash", //支持的页面
+            supplied: "mp3",		//支持的音频的格式
+            wmode: "window"
+        });
+    });
+    //]]>
+    $("#musicList").click(function(e){//点击获取播放音乐到标签中
+        console.dir(e.target)
+        $("#musicList>li").removeClass('musicNameActive')
+        $(e.target).addClass('animated pulse')
+        setTimeout(function(){
+            $(e.target).removeClass('animated pulse')
+        },3000);
+        $(e.target).addClass('musicNameActive')
+        $("#jp_audio_0").attr("src",$(e.target).attr("music-src"));
+        $('a.jp-stop').click()
+        $('a.jp-pause').css('display','none');
+        $('a.jp-play').css('display','block');
+        $('#lrc_content').html('');//清空歌词
+        var srcArr=$(e.target).attr("music-src").split('/');//获取歌词名称
+        var src=srcArr[srcArr.length-1].slice(0,-3)+'lrc';//拼接歌词名称
+        readLrc(src);//获取歌词
+    });
+    $($("#musicList>li")[0]).click()//初始化第一首歌
+    function readLrc(src){//写入歌词文件
+        var data={};
+        data.src=src;
+        $.ajax({
+            url : "getSrc",
+            type : "post",
+            data:data,
+            dataType:'json',
+            success : function(a) {
+                if(a=='未有相关歌词'){
+                    $("#lrc_list").removeAttr("style").html("<li>"+a+"</li>");
+                }
+                else{
+                    $("#lrc_list").removeAttr("style").html("<li>点击开始播放</li>");
+                    $('#lrc_content').html(a)
+                }
+            }
+        });
+    }
+    //设置iframe的高度
+    window.parent.setIframeHeight(780);
+</script>
+<script>
+
+    const app = new PIXI.Application({
+        width:       $(document.body).width(),
+        height:     $(document.body).height(),
+        autoStart: false,
+        transparent: true
+    });
+
+    document.body.appendChild(app.view);
+
+
+    function random(min, max) {
+        if (arguments.length < 2) {
+            max = min;
+            min = 0;
+        }
+        if (min > max) {
+            var hold = max;
+            max = min;
+            min = hold;
+        }
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    var createStar = function(centerX, centerY, orbitRadius, maxStars) {
+        var radius = random(100, orbitRadius) / 30;
+        var timePassed = random(0, maxStars);
+        var speed = random(orbitRadius) / 500000;
+        var star =  new PIXI.Sprite(app.loader.resources['star'].texture);
+        star.anchor.set(0.5);
+        star.width = radius;
+        star.height = radius;
+        star.alpha = random(2, 10) / 10;
+        app.stage.addChild(star);
+        app.ticker.add(function() {
+            star.x = Math.cos(timePassed + 1) * orbitRadius + centerX;
+            star.y = Math.sin(timePassed) * orbitRadius / 2 + centerY;
+            timePassed += speed;
+            var twinkle = random(10);
+            if (twinkle === 1 && star.alpha > 0) {
+                star.alpha -= 0.2;
+            } else if (twinkle === 2 && star.alpha < 1) {
+                star.alpha += 0.2;
+            }
+        });
+        return star;
+    };
+
+    var starRun = function() {
+        var stars = [];
+        var maxStars = 1200;
+        var starCenterX = app.renderer.width / 2;
+        var starCenterY = app.renderer.height / 2;
+        for (var i = 0; i < maxStars; i++) {
+            stars.push(createStar(starCenterX, starCenterY, random(starCenterX - 10), maxStars));
+        }
+    };
+    var starRun2 = function() {
+        var stars = [];
+        var maxStars = 200;
+        var starCenterX = app.renderer.width / 2;
+        var starCenterY = app.renderer.height / 2;
+        var radiusMax = starCenterX - 10;
+        for (var i = 0; i < maxStars; i++) {
+            stars[i] = createStar(starCenterX, starCenterY, radiusMax, maxStars);
+        }
+
+        for (var j = 0; j < maxStars; j++) {
+            stars[j] = createStar(starCenterX - 10, starCenterY - 10, radiusMax / 10 * 7, maxStars);
+        }
+
+        for (var k = 0; k < maxStars; k++) {
+            stars[k] = createStar(starCenterX - 30, starCenterY - 30, radiusMax / 10 * 3, maxStars);
+        }
+    };
+
+    function onAssetsLoaded(loader, res) {
+        console.log('All files loaded');
+
+        starRun();
+        // starRun2();
+
+        app.start();
+    }
+
+    app.loader
+        .add('star','../src/images/star.png')
+        .load(onAssetsLoaded);</script>
+<script src="../src/js/fullScreen.js"></script>
+</body>
+</html>

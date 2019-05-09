@@ -1,0 +1,63 @@
+function getNotice(){
+	$.ajax({
+		type : "POST",
+		url : basePath+"notice/getNotice",
+		async : false,
+		dataType : "json",
+		success : function(result) {
+			if(result.noticeTitle!=undefined && result.noticeContent!=undefined){
+				$_eBox({
+					title : { html : result.noticeTitle },
+					content : { html : "<ul>"+result.noticeContent+"</ul>"},
+//					content : { html : "<ul>"+result.noticeContent+"</ul><p style='padding-top: 5px'>请亲爱的学员及时设置密保问题，欢迎有问题及时反馈</p>"},
+					effect : {
+						type : "slide",
+						speed : 1500
+					},
+					openOnce : true
+				});
+			}
+		}
+	});
+}
+$(document).ready(function() {
+	$.ajax({
+		type: "post", 
+		url: TTS_URL+"studentCenter/getStage", 
+		dataType: "json",
+		data:{},
+  		success: function (data) {
+  			setStage(data.stage);
+//			console.log(data.stage+"\t"+data.result);
+    	}, 
+   		error: function (XMLHttpRequest, textStatus, errorThrown) { 
+   			console.debug("取出教历进度错误");
+		}
+	});
+});
+function setStage(str){
+	var n=0;
+	if(str==null||str==''){return;}
+	if(str.indexOf(",")!=-1){
+		for(var j=0;j<$(".theopen").length;j++){
+			for(var i=0;i<str.split(",").length;i++){
+				if($(".theopen:eq("+j+") > .t").html()==str.split(",")[i]){
+//					console.log($(".theopen:eq("+j+") > .t").html());
+					++n;break;
+				}
+			}
+			if(n>0){--n;continue;}
+			$(".theopen:eq("+j+")").next("div").children("div").children("ul").children("li").children("p").attr("style","color:#B3B3B3;").find("a").removeAttr("href target").attr("style","cursor:default;color:#B3B3B3;");
+			$(".theopen:eq("+j+")").next("div").children("div").children("ul").children("li").children("div").find("a").removeAttr("href target").attr("style","cursor:default;color:#B3B3B3;");
+		}
+	}else{
+		for(var j=0;j<$(".theopen").length;j++){
+			if($(".theopen:eq("+j+") > .t").html()==str){
+//				console.log($(".theopen:eq("+j+") > .t").html());
+				++n;continue;
+			}
+			$(".theopen:eq("+j+")").next("div").children("div").children("ul").children("li").children("p").attr("style","color:#B3B3B3;").find("a").removeAttr("href target").attr("style","cursor:default;color:#B3B3B3;");
+			$(".theopen:eq("+j+")").next("div").children("div").children("ul").children("li").children("div").find("a").removeAttr("href target").attr("style","cursor:default;color:#B3B3B3;");
+		}
+	}
+}

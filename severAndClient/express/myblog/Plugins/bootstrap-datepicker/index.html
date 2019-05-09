@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="datepicker.css">
+    <script src="jquery.js"></script>
+    <script src="bootstrap-datepicker.js"></script>
+</head>
+<body>
+<div>
+    <label for="ycl">请选择时间</label> <input type="text" id="date">
+</div>
+<script>
+    $("#date").datepicker(
+        {
+            format: 'yyyymm',
+            weekStart: 1,
+            autoclose: true,
+//       startView: 3,
+            maxViewMode: 1,
+            minViewMode:1,
+            startDate:new Date('2017','03','02'), //开始时间，在这时间之前都不可选
+            endDate:new Date('2018','06','02')//结束时间，在这时间之后都不可选
+        }
+    )
+</script>
+</body>
+</html>

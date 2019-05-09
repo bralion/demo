@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>写博客/写心情</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="../src/js/jquery.js"></script>
+    <script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="../src/js/public.js"> </script>
+    <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+    <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+    <script type="text/javascript" charset="utf-8" src="lang/zh-cn/zh-cn.js"></script>
+    <link rel="stylesheet" href="../src/css/public.css">
+    <style type="text/css">
+        #currentPosition{
+            font-size: 14px;
+            padding-left: 50px;
+        }
+        div{
+            width:100%;
+        }
+        #blogTitle{
+            background: transparent;
+            width:80%;
+            height:24px;
+            border:none;
+            font-size: 18px;
+        }
+        @media screen and (max-width:600px){
+            #editor{
+               margin: 0px 6px !important;
+           }
+            #blogTitleContainer{
+               margin: 0px 6px !important;
+           }
+            #currentPosition{
+                padding-left: 6px !important;
+            }
+            #form{
+                margin: 0 6px !important;
+            }
+        }
+    </style>
+</head>
+<body style="padding-top:68px">
+
+<div>
+    <p id="currentPosition">当前位置：<span data-src="index.html">首页</span> 》 <span>博客</span> 》 <span id="writeBlog">写博客</span> <span id="writeMood" style="display: none">写动态</span></p>
+    <div style="margin:0 50px;width:auto;" id="blogTitleContainer">
+        <h3>标题 : <input type="text" id="blogTitle"></h3>
+        <hr style="border-color: green;border-top: none;">
+    </div>
+    <div id="editor" type="text/plain" style="width:auto;height:500px; margin:0 50px;"></div>
+    <div style="margin:0 50px;width:auto;" id="form">
+        <form action="">
+            <label for="">归类：</label>
+            <select id="classify">
+                <!--<option value="html">html</option>-->
+                <!--<option value="css">css</option>-->
+                <!--<option value="js">js</option>-->
+            </select>
+            <br>
+            <label>设置:</label><input name="d1" type="radio" value="1" checked>允许所有人看到<input name="d1" value="0" type="radio">仅自己可见
+            <br>
+            <button type="button" id="commit">发布</button>
+        </form>
+    </div>
+
+</div>
+<script type="text/javascript">
+    $(function(){
+        var type=geturl('type');
+        if(type=='mood'){//进入的是写心情界面
+            //面包屑导航更改
+            $("#writeMood").css('display','inline')
+            $("#writeBlog").css('display','none')
+            $("#blogTitleContainer").css('display','none')
+            $('#classify').html('<option value="dongtai" selected>动态</option>')
+        }else{
+            getTag();
+        }
+        var blogId=geturl('bowenId');
+        window.parent.dataSrc();//调用全局data-src方法
+        //实例化编辑器
+        //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+        var ue = UE.getEditor('editor');
+        ue.ready(function() {
+            ue.setHeight(500);
+        });
+        if(blogId){//从查看页面点击编辑而来，url传参为blogId
+            var data={};
+            data.pages=blogId;
+            $.ajax({
+                url : "/pages/readBlog",
+                type : "post",
+                data:data,
+                dataType:'json',
+                success : function(a) {
+                    ue.addListener("ready", function () {//将内容传入其中
+                        // editor准备好之后才可以使用
+                        ue.setContent(a[0].content);
+                    });
+                    $('#blogTitle').val(a[0].blogTitle);
+                    console.log(a[0].classifyId)
+                    console.log($('#classify'))
+                    $('#classify').val(a[0].classifyId);
+                    $('#classify').attr('disabled','');
+                }
+            });
+        };
+        $('#commit').on('click',commitBlog)
+        window.parent.setIframeHeight(840);
+        $("<a href='#'></a>").click();//回到顶部
+    });
+    function getTag() {//获取文章分类标签
+        $.ajax({
+            url: "../pages/getTag",
+            type: "post",
+            dataType: 'json',
+            success: function (data) {
+                if(data.code='001'){
+                    var html=''
+                    for(var i=0;i<data.data.length;i++){
+                        html +=`<option value="${data.data[i].classifyId}">${data.data[i].classifyName}</option>`
+                    }
+                    $("#classify").html(html)
+                }
+                else{
+                    alert(data.message)
+                }
+            }
+        })
+    }
+    function commitBlog(type){//发送请求插入数据库博客文章内容。
+        var type=geturl('type');
+        console.log(type);
+        var blogContent={};
+        if(type=='mood'){
+            var title='动态';
+        }else{
+            var title=$("#blogTitle").val()
+            if(!title){
+                alert('请填写文章标题!');
+                return false
+            }
+        }
+        var blogId=geturl('bowenId');
+        if(blogId) {//从查看页面点击编辑而来，url传参增加blogId，服务器以此判断是否是更新操作
+            blogContent.bowenId=blogId;
+        }
+        var text=UE.getEditor('editor').getContent();
+        var txt = UE.getEditor('editor').getContentTxt().slice(0,288);
+        var isAllowComment=$('input[name="d1"]:checked').val();
+        var classify=$('#classify option:selected').val();
+        blogContent.text=text;//博客的标签内容
+        blogContent.date=new Date();
+        blogContent.isAllow=isAllowComment;
+        blogContent.classify=classify;
+        blogContent.txt=txt;//博客的文本内容，用于首页展示大概内容
+        blogContent.title=title;
+        var data=blogContent;
+        console.log(data);
+        window.parent.modelBox('博客正在上传，请不要离开页面。。。');
+        $.ajax({
+            url : "commitBlog",
+            type : "post",
+            data:data,
+            dataType:'json',
+            success : function(data) {
+                if(data.code=='001'){
+                    window.parent.modelBoxHide();
+                    window.parent.setIframeSrc('myblog.html')
+                }
+                else{
+                    window.parent.modelBoxHide();
+                    window.parent.setIframeSrc('login.html')
+                    alert(data.content);
+                }
+            }
+        });
+    }
+
+</script>
+</body>
+</html>

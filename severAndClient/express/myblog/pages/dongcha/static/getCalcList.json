@@ -1,0 +1,34 @@
+{
+    "resultCode":"001",
+    "resultContent":{
+      "currentPageNum":2,
+      "totalPageNum":5,
+      "data":[
+          {
+            "batchNo":"201712050001",
+            "calcName":"测试用户群1",
+            "createTime":"2017-12-05"
+          },
+          {
+            "batchNo":"201712050001",
+            "calcName":"测试用户群1",
+            "createTime":"2017-12-05"
+          },
+          {
+            "batchNo":"201712050001",
+            "calcName":"测试用户群1",
+            "createTime":"2017-12-05"
+          },
+          {
+            "batchNo":"201712050001",
+            "calcName":"测试用户群1",
+            "createTime":"2017-12-05"
+          },
+          {
+            "batchNo":"201712050001",
+            "calcName":"测试用户群1",
+            "createTime":"2017-12-05"
+          }
+      ]
+    }
+}

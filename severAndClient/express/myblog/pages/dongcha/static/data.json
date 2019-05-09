@@ -1,0 +1,4297 @@
+{
+    "getCompareUser":{
+        "resultCode": "001",
+        "resultContent": {
+            "sysCommandUsers":[
+                {
+                    "batchId": "ddj121",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                },{
+                    "batchId": "ddj123",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                },{
+                    "batchId": "ddj124",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                },{
+                    "batchId": "ddj125",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                }
+            ],
+            "mytargetUsers":[
+                {
+                    "batchId": "ddj120",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群4G用户目标用户群4G用户目标用户群4G用户目标用户群4G用",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                },{
+                    "batchId": "ddj223",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                },{
+                    "batchId": "ddj221",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                },{
+                    "batchId": "ddj323",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                },{
+                    "batchId": "ddj423",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                },{
+                    "batchId": "ddj523",
+                    "creatTime": "2017-10-08",
+                    "batchName": "4G用户目标用户群",
+                    "batchNum": "2020220",
+                    "isChecked":false
+                }
+            ]
+        }
+    },
+    "screen":{
+        "resultCode": "001",
+        "resultContent":"100011"
+    },
+    "getClacResult":{
+        "resultCode": "001",
+        "resultContent": {
+            "startTime":"2017-1",
+            "endTime":"2018-5",
+            "cycTime":"2018-1",
+            "bardata":{
+                "input":[
+                    {
+                        "desc":"送话费",
+                        "name":"fee",
+                        "data":{
+                            "2017":{
+                                "isActive":true,
+                                "id":"fee2017",
+                                "value":{
+                                    "users":{
+                                        "desc":"累计参与用户",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"6月",
+                                                "value":"84"
+                                            },
+                                            {
+                                                "name":"7月",
+                                                "value":"97"
+                                            },
+                                            {
+                                                "name":"8月",
+                                                "value":"33"
+                                            },
+                                            {
+                                                "name":"9月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"10月",
+                                                "value":"70"
+                                            },
+                                            {
+                                                "name":"11月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"12月",
+                                                "value":"50"
+                                            }
+                                        ]
+                                    },
+                                    "money":{
+                                        "desc":"当月投入",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"6月",
+                                                "value":"84"
+                                            },
+                                            {
+                                                "name":"7月",
+                                                "value":"97"
+                                            },
+                                            {
+                                                "name":"8月",
+                                                "value":"33"
+                                            },
+                                            {
+                                                "name":"9月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"10月",
+                                                "value":"70"
+                                            },
+                                            {
+                                                "name":"11月",
+                                                "value":"46"
+                                            },
+                                            {
+                                                "name":"12月",
+                                                "value":"76"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "2018":{
+                                "isActive":false,
+                                "id":"fee2018",
+                                "value":{
+                                    "users":{
+                                        "desc":"累计参与用户",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            }
+                                        ]
+                                    },
+                                    "money":{
+                                        "desc":"当月投入",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "desc":"送流量",
+                        "name":"flow",
+                        "data":{
+                            "2017":{
+                                "isActive":false,
+                                "id":"flow2017",
+                                "value":{
+                                    "users":{
+                                        "desc":"累计参与用户",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"6月",
+                                                "value":"84"
+                                            },
+                                            {
+                                                "name":"7月",
+                                                "value":"97"
+                                            },
+                                            {
+                                                "name":"8月",
+                                                "value":"33"
+                                            },
+                                            {
+                                                "name":"9月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"10月",
+                                                "value":"70"
+                                            },
+                                            {
+                                                "name":"11月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"12月",
+                                                "value":"50"
+                                            }
+                                        ]
+                                    },
+                                    "money":{
+                                        "desc":"当月投入",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"6月",
+                                                "value":"84"
+                                            },
+                                            {
+                                                "name":"7月",
+                                                "value":"97"
+                                            },
+                                            {
+                                                "name":"8月",
+                                                "value":"33"
+                                            },
+                                            {
+                                                "name":"9月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"10月",
+                                                "value":"70"
+                                            },
+                                            {
+                                                "name":"11月",
+                                                "value":"46"
+                                            },
+                                            {
+                                                "name":"12月",
+                                                "value":"76"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "2018":{
+                                "isActive":true,
+                                "id":"flow2018",
+                                "value":{
+                                    "users":{
+                                        "desc":"累计参与用户",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            }
+                                        ]
+                                    },
+                                    "money":{
+                                        "desc":"当月投入",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ],
+                "income":[
+                    {
+                        "desc":"收入",
+                        "name":"fee",
+                        "data":{
+                            "2017":{
+                                "isActive":true,
+                                "id":"income2017",
+                                "value":{
+                                    "users":{
+                                        "desc":"累计参与用户",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"6月",
+                                                "value":"84"
+                                            },
+                                            {
+                                                "name":"7月",
+                                                "value":"97"
+                                            },
+                                            {
+                                                "name":"8月",
+                                                "value":"33"
+                                            },
+                                            {
+                                                "name":"9月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"10月",
+                                                "value":"70"
+                                            },
+                                            {
+                                                "name":"11月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"12月",
+                                                "value":"50"
+                                            }
+                                        ]
+                                    },
+                                    "money":{
+                                        "desc":"当月投入",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"6月",
+                                                "value":"84"
+                                            },
+                                            {
+                                                "name":"7月",
+                                                "value":"97"
+                                            },
+                                            {
+                                                "name":"8月",
+                                                "value":"33"
+                                            },
+                                            {
+                                                "name":"9月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"10月",
+                                                "value":"70"
+                                            },
+                                            {
+                                                "name":"11月",
+                                                "value":"46"
+                                            },
+                                            {
+                                                "name":"12月",
+                                                "value":"76"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "2018":{
+                                "isActive":false,
+                                "id":"income2018",
+                                "value":{
+                                    "users":{
+                                        "desc":"累计参与用户",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            }
+                                        ]
+                                    },
+                                    "money":{
+                                        "desc":"当月投入",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "desc":"语音",
+                        "name":"fee",
+                        "data":{
+                            "2017":{
+                                "isActive":true,
+                                "id":"call2017",
+                                "value":{
+                                    "users":{
+                                        "desc":"累计参与用户",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"6月",
+                                                "value":"84"
+                                            },
+                                            {
+                                                "name":"7月",
+                                                "value":"97"
+                                            },
+                                            {
+                                                "name":"8月",
+                                                "value":"33"
+                                            },
+                                            {
+                                                "name":"9月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"10月",
+                                                "value":"70"
+                                            },
+                                            {
+                                                "name":"11月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"12月",
+                                                "value":"50"
+                                            }
+                                        ]
+                                    },
+                                    "money":{
+                                        "desc":"当月投入",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"6月",
+                                                "value":"84"
+                                            },
+                                            {
+                                                "name":"7月",
+                                                "value":"97"
+                                            },
+                                            {
+                                                "name":"8月",
+                                                "value":"33"
+                                            },
+                                            {
+                                                "name":"9月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"10月",
+                                                "value":"70"
+                                            },
+                                            {
+                                                "name":"11月",
+                                                "value":"46"
+                                            },
+                                            {
+                                                "name":"12月",
+                                                "value":"76"
+                                            }
+                                        ]
+                                    }
+                                }
+                            },
+                            "2018":{
+                                "isActive":false,
+                                "id":"call2018",
+                                "value":{
+                                    "users":{
+                                        "desc":"累计参与用户",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            }
+                                        ]
+                                    },
+                                    "money":{
+                                        "desc":"当月投入",
+                                        "value":[
+                                            {
+                                                "name":"1月",
+                                                "value":"74"
+                                            },
+                                            {
+                                                "name":"2月",
+                                                "value":"54"
+                                            },
+                                            {
+                                                "name":"3月",
+                                                "value":"45"
+                                            },
+                                            {
+                                                "name":"4月",
+                                                "value":"62"
+                                            },
+                                            {
+                                                "name":"5月",
+                                                "value":"74"
+                                            }
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "sumTab":{
+                "input":[
+                    {
+                        "desc":"送话费",
+                        "name":"fee",
+                        "tags":[
+                            {
+                                "tagValue":"1",
+                                "tagDesc":"是"
+                            },
+                            {
+                                "tagValue":"0",
+                                "tagDesc":"否"
+                            }
+                        ]
+                    },
+                    {
+                        "desc":"送语音",
+                        "name":"call",
+                        "tags":[
+                            {
+                                "tagValue":"1",
+                                "tagDesc":"是"
+                            },
+                            {
+                                "tagValue":"0",
+                                "tagDesc":"否"
+                            }
+                        ]
+                    }
+                ],
+                "income":[
+                    {
+                        "desc":"收入",
+                        "name":"income",
+                        "tags":[
+                            {
+                                "tagValue":"1",
+                                "tagDesc":"是"
+                            },
+                            {
+                                "tagValue":"0",
+                                "tagDesc":"否"
+                            }
+                        ]
+                    },
+                    {
+                        "desc":"结算",
+                        "name":"settlement",
+                        "tags":[
+                            {
+                                "tagValue":"1",
+                                "tagDesc":"是"
+                            },
+                            {
+                                "tagValue":"0",
+                                "tagDesc":"否"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sumDetial":[
+                    {
+                        "name":"totalIncome",
+                        "desc":"总净收益",
+                        "value":"20"
+                    },
+                    {
+                        "name":"totalIncomeMon",
+                        "desc":"月均净收益",
+                        "value":"6"
+                    },
+                    {
+                        "name":"Income2017",
+                        "desc":"2017年总净收益",
+                        "value":"10"
+                    },
+                    {
+                        "name":"IncomeMon2017",
+                        "desc":"2017年月均净收益",
+                        "value":"1"
+                    },
+                    {
+                        "name":"Income2018",
+                        "desc":"2018年总净收益",
+                        "value":"8"
+                    },
+                    {
+                        "name":"IncomeMon2018",
+                        "desc":"2018年月均净收益",
+                        "value":"2"
+                    }
+            ]
+        }
+    },
+"getIndexByTagName":{
+      "resultCode": "001",
+      "resultContent": [
+       {
+          "indexInfo": {
+            "endTime": "2011-10-10",
+            "fieldName": "campus",
+            "startTime": "2011-10-10",
+            "tabName": "tb_user",
+            "tagDown": "100",
+            "tagId": "001",
+            "tagDesc": "描述描述描述*************描述描述",
+            "tagName": "校园用户",
+            "tagType": "1",
+            "tagUp": "200"
+          },
+          "indexVice": [
+            {
+              "endTime": "2011-10-10",
+              "startTime": "2011-10-10",
+              "tagAssId": "002",
+              "tagDesc": "4G用户",
+              "tagId": "0001",
+              "tagValue": "1"
+            }, {
+              "endTime": "2011-10-10",
+              "startTime": "2011-10-10",
+              "tagAssId": "002",
+              "tagDesc": "非4G用户",
+              "tagId": "0002",
+              "tagValue": "0"
+            }
+          ]
+        },
+        {
+          "indexInfo": {
+            "endTime": "2011-10-10",
+            "fieldName": "userStat",
+            "startTime": "2011-10-10",
+            "tabName": "tb_user",
+            "tagDown": "100",
+            "tagId": "001",
+            "tagDesc": "描述描述描述*************描述描述",
+            "tagName": "用户状态",
+            "tagType": "2",
+            "tagUp": "200"
+          },
+          "indexVice": [
+            {
+              "endTime": "2011-10-10",
+              "startTime": "2011-10-10",
+              "tagAssId": "003",
+              "tagDesc": "停机",
+              "tagId": "0003",
+              "tagValue": "1"
+            }, {
+              "endTime": "2011-10-10",
+              "startTime": "2011-10-10",
+              "tagAssId": "003",
+              "tagDesc": "正常",
+              "tagId": "0004",
+              "tagValue": "0"
+            }
+          ]
+        },
+        {
+          "indexInfo": {
+            "endTime": "2011-10-10",
+            "fieldName": "arpu",
+            "startTime": "2011-10-10",
+            "tabName": "DWV_M_USR_MB_USER_INFO",
+            "tagDesc": "MOU",
+            "tagDown": "0",
+            "tagId": "30100",
+            "tagLeve": "2",
+            "tagDesc": "描述描述描述*************描述描述",
+            "tagName": "ARPU",
+            "tagType": "3",
+            "tagUp": "1000",
+            "upTagId": "30000"
+          }
+        },
+        {
+          "indexInfo": {
+            "endTime": "2011-10-10",
+            "fieldName": "fourG",
+            "startTime": "2011-10-10",
+            "tabName": "DWV_M_USR_MB_USER_INFO",
+            "tagDesc": "MOU",
+            "tagDown": "0",
+            "tagId": "30100",
+            "tagLeve": "2",
+            "tagDesc": "描述描述描述*************描述描述",
+            "tagName": "4G用户",
+            "tagType": "3",
+            "tagUp": "1000",
+            "upTagId": "30000"
+          }
+        },
+        {
+          "indexInfo": {
+            "endTime": "2011-10-10",
+            "fieldName": "bandwidth",
+            "startTime": "2011-10-10",
+            "tabName": "DWV_M_USR_MB_USER_INFO",
+            "tagDesc": "MOU",
+            "tagDown": "0",
+            "tagId": "30100",
+            "tagLeve": "2",
+            "tagDesc": "描述描述描述*************描述描述",
+            "tagName": "潜在宽带用户",
+            "tagType": "3",
+            "tagUp": "1000",
+            "upTagId": "30000"
+          }
+        },
+        {
+          "indexInfo": {
+            "endTime": "2011-10-10",
+            "fieldName": "dou",
+            "startTime": "2011-10-10",
+            "tabName": "DWV_M_USR_MB_USER_INFO",
+            "tagDesc": "MOU",
+            "tagDown": "0",
+            "tagId": "30100",
+            "tagLeve": "2",
+            "tagDesc": "描述描述描述*************描述描述",
+            "tagName": "DOU",
+            "tagType": "3",
+            "tagUp": "1000",
+            "upTagId": "30000"
+          }
+        }
+      ]
+    },
+  "getSearchList": {
+    "resultCode":"001",
+    "resultContent":{
+      "currentPageNum":2,
+      "totalPageNum":5,
+      "data":[
+          {
+                  "id":"0",
+                  "batchId":"0c9aa147-c0c3-4a65-85c2-33b9356b1136",
+                  "name":"测试用户群1",
+                  "createType":false,
+                  "users":"50000",
+                  "fileAddr":"D:/home/test1/test1.keytab",
+                  "desc":"描述信息"
+                },{
+                  "id":"1",
+                  "batchId":"0c9aa147-c0c3-4a65-85c2-33b9356b1136",
+                  "name":"测试用户群2",
+                  "createType":true,
+                  "users":"50000",
+                  "fileAddr":"D:/home/test1/test1.keytab",
+                  "desc":"描述信息"
+                },{
+                  "id":"2",
+                  "batchId":"0c9aa147-c0c3-4a65-85c2-33b9356b1136",
+                  "name":"测试用户群3",
+                  "createType":true,
+                  "users":"50000",
+                  "fileAddr":"D:/home/test1/test1.keytab",
+                  "desc":"描述信息"
+                },{
+                  "id":"3",
+                  "batchId":"0c9aa147-c0c3-4a65-85c2-33b9356b1136",
+                  "name":"测试用户群4",
+                  "createType":false,
+                  "users":"50000",
+                  "fileAddr":"D:/home/test1/test1.keytab",
+                  "desc":"描述信息"
+                }
+      ]
+    }
+  },
+  "getCompareData":{
+    "resultCode": "001",
+    "resultContent": {
+        "allUser":"5001",
+        "targetUser":"1001",
+        "targetUserName":"我的用户群",
+        "allUserName":"全网用户",
+        "data": [
+            {
+                "indexValue": [
+                    {
+                        "chartType": "8",
+                        "thirdName": "性别对比",
+                        "secondId": "1010000",
+                        "secondName": "性别对比",
+                        "data": {
+                            "xaxis": [
+                                "男",
+                                "女"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "男",
+                                        "value": "100"
+                                    },
+                                    {
+                                        "name": "女",
+                                        "value": "0"
+                                    }
+                                ],
+                                "divid": "10d47c63-83af-4436-8c53-0d992238f9ef",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "男",
+                                        "value": "74"
+                                    },
+                                    {
+                                        "name": "女",
+                                        "value": "45"
+                                    }
+                                ],
+                                "divid": "22de7a1f-c948-4a7d-a4aa-eec6e9336dde",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "1010100",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "3",
+                        "thirdName": "4G、2,3G用户",
+                        "secondId": "1020000",
+                        "secondName": "4G、2,3G用户",
+                        "data": {
+                            "xaxis": [
+                                "4G用户",
+                                "非4G用户"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "4G用户",
+                                        "value": "85"
+                                    },
+                                    {
+                                        "name": "非4G用户",
+                                        "value": "14"
+                                    }
+                                ],
+                                "divid": "af89e147-f32d-4113-ba45-ba5912e39372",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "4G用户",
+                                        "value": "85"
+                                    },
+                                    {
+                                        "name": "非4G用户",
+                                        "value": "14"
+                                    }
+                                ],
+                                "divid": "5fb4f792-618c-4d4d-aeb8-e50329e37bb6",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "1020100",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "4",
+                        "thirdName": "在网时长",
+                        "secondId": "1030000",
+                        "secondName": "在网时长",
+                        "data": {
+                            "xaxis": [
+                                "0-3",
+                                "3-6",
+                                "6-12",
+                                "12-24",
+                                "24-36",
+                                "36-48",
+                                "48-60",
+                                "60以上"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "0-3",
+                                        "value": "12"
+                                    },
+                                    {
+                                        "name": "3-6",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "6-12",
+                                        "value": "47"
+                                    },
+                                    {
+                                        "name": "12-24",
+                                        "value": "83"
+                                    },
+                                    {
+                                        "name": "24-36",
+                                        "value": "77"
+                                    },
+                                    {
+                                        "name": "36-48",
+                                        "value": "33"
+                                    },
+                                    {
+                                        "name": "48-60",
+                                        "value": "35"
+                                    },
+                                    {
+                                        "name": "60以上",
+                                        "value": "99.98"
+                                    }
+                                ],
+                                "divid": "ca6de4d2-3005-44ac-8490-d8084f7b04f8",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "0-3",
+                                        "value": "12"
+                                    },
+                                    {
+                                        "name": "3-6",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "6-12",
+                                        "value": "47"
+                                    },
+                                    {
+                                        "name": "12-24",
+                                        "value": "83"
+                                    },
+                                    {
+                                        "name": "24-36",
+                                        "value": "77"
+                                    },
+                                    {
+                                        "name": "36-48",
+                                        "value": "33"
+                                    },
+                                    {
+                                        "name": "48-60",
+                                        "value": "35"
+                                    },
+                                    {
+                                        "name": "60以上",
+                                        "value": "76"
+                                    }
+                                ],
+                                "divid": "eb5b65a9-b219-456a-9766-a3f772850d8d",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "1030100",
+                        "secondShow": false,
+                        "uint": "月"
+                    },
+                    {
+                        "chartType": "2",
+                        "thirdName": "客户量级",
+                        "secondId": "1040000",
+                        "secondName": "客户量级",
+                        "data": {
+                            "xaxis": [
+                                "0星",
+                                "1星",
+                                "2星",
+                                "3星",
+                                "4星",
+                                "5星"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "0星",
+                                        "value": "47"
+                                    },
+                                    {
+                                        "name": "1星",
+                                        "value": "9"
+                                    },
+                                    {
+                                        "name": "2星",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "name": "3星",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "name": "4星",
+                                        "value": "66"
+                                    },
+                                    {
+                                        "name": "5星",
+                                        "value": "42"
+                                    }
+                                ],
+                                "divid": "a4fd2083-dcd0-4955-9fdf-6980c8466f9a",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "0星",
+                                        "value": "47"
+                                    },
+                                    {
+                                        "name": "1星",
+                                        "value": "9"
+                                    },
+                                    {
+                                        "name": "2星",
+                                        "value": "5"
+                                    },
+                                    {
+                                        "name": "3星",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "name": "4星",
+                                        "value": "66"
+                                    },
+                                    {
+                                        "name": "5星",
+                                        "value": "42"
+                                    }
+                                ],
+                                "divid": "e200edd7-8bd8-4979-bad5-5c9b9215f523",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "1040100",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "4",
+                        "thirdName": "用户状态",
+                        "secondId": "1050000",
+                        "secondName": "用户状态",
+                        "data": {
+                            "xaxis": [
+                                "正常在用",
+                                "停机",
+                                "在网但不可用",
+                                "不在网",
+                                "无法查询"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "正常在用",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "停机",
+                                        "value": "68"
+                                    },
+                                    {
+                                        "name": "在网但不可用",
+                                        "value": "84"
+                                    },
+                                    {
+                                        "name": "不在网",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "无法查询",
+                                        "value": "28"
+                                    }
+                                ],
+                                "divid": "e1cf686b-86bb-4611-ae4b-df640e62adcb",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "正常在用",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "停机",
+                                        "value": "68"
+                                    },
+                                    {
+                                        "name": "在网但不可用",
+                                        "value": "84"
+                                    },
+                                    {
+                                        "name": "不在网",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "无法查询",
+                                        "value": "28"
+                                    }
+                                ],
+                                "divid": "ccd63cb2-0672-4399-a16f-11341cde8f54",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "1050100",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "2",
+                        "thirdName": "属地区域特性",
+                        "secondId": "1060000",
+                        "secondName": "属地区域特性",
+                        "data": {
+                            "xaxis": [
+                                "城市",
+                                "校园",
+                                "农村"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "城市",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "校园",
+                                        "value": "75"
+                                    },
+                                    {
+                                        "name": "农村",
+                                        "value": "96"
+                                    }
+                                ],
+                                "divid": "9616a1f7-9150-4702-9a01-865517cb92ce",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "城市",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "校园",
+                                        "value": "75"
+                                    },
+                                    {
+                                        "name": "农村",
+                                        "value": "96"
+                                    }
+                                ],
+                                "divid": "7ad1d358-a010-4c4f-84ed-21ad5995b5b7",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "1060100",
+                        "secondShow": false,
+                        "uint": ""
+                    }
+                ],
+                "indexUp": {
+                    "indexId": "1000000",
+                    "indexName": "基础属性分析"
+                }
+            },
+            {
+                "indexValue": [
+                    {
+                        "chartType": "7",
+                        "thirdName": "ARUP",
+                        "secondId": "2010000",
+                        "secondName": "ARUP",
+                        "data": {
+                            "xaxis": [
+                                "月人均消费"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "月人均消费",
+                                        "value": "96"
+                                    }
+                                ],
+                                "divid": "d377108f-c786-4fcd-9b4a-6c6550dc2e8d",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "月人均消费",
+                                        "value": "96"
+                                    }
+                                ],
+                                "divid": "e994cd67-a478-442c-9be2-889349175b3d",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "2010100",
+                        "secondShow": false,
+                        "uint": "分"
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "收入分段",
+                        "secondId": "2020000",
+                        "secondName": "收入分段",
+                        "data": {
+                            "xaxis": [
+                                "<=0",
+                                "0-20",
+                                "20-50",
+                                "50-100",
+                                "100-200",
+                                "200-300",
+                                "300-500",
+                                "500-800",
+                                "800-1000",
+                                "1000-"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "<=0",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "0-20",
+                                        "value": "50"
+                                    },
+                                    {
+                                        "name": "20-50",
+                                        "value": "26"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "81"
+                                    },
+                                    {
+                                        "name": "100-200",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "200-300",
+                                        "value": "78"
+                                    },
+                                    {
+                                        "name": "300-500",
+                                        "value": "17"
+                                    },
+                                    {
+                                        "name": "500-800",
+                                        "value": "50"
+                                    },
+                                    {
+                                        "name": "800-1000",
+                                        "value": "99"
+                                    },
+                                    {
+                                        "name": "1000-",
+                                        "value": "43"
+                                    }
+                                ],
+                                "divid": "119c88e4-fc38-4dcd-914f-445ddebb608e",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "<=0",
+                                        "value": "0"
+                                    },
+                                    {
+                                        "name": "0-20",
+                                        "value": "50"
+                                    },
+                                    {
+                                        "name": "20-50",
+                                        "value": "26"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "81"
+                                    },
+                                    {
+                                        "name": "100-200",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "200-300",
+                                        "value": "78"
+                                    },
+                                    {
+                                        "name": "300-500",
+                                        "value": "17"
+                                    },
+                                    {
+                                        "name": "500-800",
+                                        "value": "50"
+                                    },
+                                    {
+                                        "name": "800-1000",
+                                        "value": "99"
+                                    },
+                                    {
+                                        "name": "1000-",
+                                        "value": "43"
+                                    }
+                                ],
+                                "divid": "f69ece7c-2c95-47d6-ac79-902914d42c84",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "2020100",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "7",
+                        "thirdName": "DARUP",
+                        "secondId": "2030000",
+                        "secondName": "DARUP",
+                        "data": {
+                            "xaxis": [
+                                "月人均消费"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "月人均消费",
+                                        "value": "19"
+                                    }
+                                ],
+                                "divid": "cc152c11-f254-482e-ac46-e9ce070a15de",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "月人均消费",
+                                        "value": "19"
+                                    }
+                                ],
+                                "divid": "fbb21a73-85bd-47e1-a8d7-8c31958ee6c8",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "2030100",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "流量收入分段",
+                        "secondId": "2040000",
+                        "secondName": "流量收入分段",
+                        "data": {
+                            "xaxis": [
+                                "0-25",
+                                "25-50",
+                                "50-100",
+                                "100-250",
+                                "250-500",
+                                "500-1000",
+                                "1000-2000",
+                                "2000-"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "0-25",
+                                        "value": "23"
+                                    },
+                                    {
+                                        "name": "25-50",
+                                        "value": "40"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "100-250",
+                                        "value": "13"
+                                    },
+                                    {
+                                        "name": "250-500",
+                                        "value": "93"
+                                    },
+                                    {
+                                        "name": "500-1000",
+                                        "value": "25"
+                                    },
+                                    {
+                                        "name": "1000-2000",
+                                        "value": "77"
+                                    },
+                                    {
+                                        "name": "2000-",
+                                        "value": "27"
+                                    }
+                                ],
+                                "divid": "355930a3-8b55-4947-99b9-82d30125becd",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "0-25",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "25-50",
+                                        "value": "60"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "100-250",
+                                        "value": "73"
+                                    },
+                                    {
+                                        "name": "250-500",
+                                        "value": "33"
+                                    },
+                                    {
+                                        "name": "500-1000",
+                                        "value": "45"
+                                    },
+                                    {
+                                        "name": "1000-2000",
+                                        "value": "27"
+                                    },
+                                    {
+                                        "name": "2000-",
+                                        "value": "97"
+                                    }
+                                ],
+                                "divid": "7f741793-1312-4603-a112-65dbe190ef13",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "2040100",
+                        "secondShow": false,
+                        "uint": "用户占比(%)"
+                    },
+                    {
+                        "chartType": "7",
+                        "thirdName": "月人均语音通话费",
+                        "secondId": "2050000",
+                        "secondName": "月人均语音通话费",
+                        "data": {
+                            "xaxis": [
+                                "月人均消费"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "月人均消费",
+                                        "value": "2"
+                                    }
+                                ],
+                                "divid": "05ecb148-6479-4724-a514-7abd35b540a3",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "月人均消费",
+                                        "value": "2"
+                                    }
+                                ],
+                                "divid": "98a2109e-1a9e-425d-b010-932118be0caf",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "2050100",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "流量通话费分段",
+                        "secondId": "2060000",
+                        "secondName": "流量通话费分段",
+                        "data": {
+                            "xaxis": [
+                                "<=0",
+                                "0-20",
+                                "20-50",
+                                "50-100",
+                                "100-200",
+                                "200-300",
+                                "300-500",
+                                "500-800",
+                                "800-1000",
+                                "1000-"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "<=0",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "name": "0-20",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "20-50",
+                                        "value": "46"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "name": "100-200",
+                                        "value": "73"
+                                    },
+                                    {
+                                        "name": "200-300",
+                                        "value": "98"
+                                    },
+                                    {
+                                        "name": "300-500",
+                                        "value": "68"
+                                    },
+                                    {
+                                        "name": "500-800",
+                                        "value": "48"
+                                    },
+                                    {
+                                        "name": "800-1000",
+                                        "value": "37"
+                                    },
+                                    {
+                                        "name": "1000-",
+                                        "value": "37"
+                                    }
+                                ],
+                                "divid": "2b6cd183-b1f7-4ec9-b5ef-b62b071f0cef",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "<=0",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "name": "0-20",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "20-50",
+                                        "value": "46"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "name": "100-200",
+                                        "value": "73"
+                                    },
+                                    {
+                                        "name": "200-300",
+                                        "value": "98"
+                                    },
+                                    {
+                                        "name": "300-500",
+                                        "value": "68"
+                                    },
+                                    {
+                                        "name": "500-800",
+                                        "value": "48"
+                                    },
+                                    {
+                                        "name": "800-1000",
+                                        "value": "37"
+                                    },
+                                    {
+                                        "name": "1000-",
+                                        "value": "37"
+                                    }
+                                ],
+                                "divid": "29959897-8ef4-4f0c-b5df-a0496c6a498b",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "2060100",
+                        "secondShow": false,
+                        "uint": ""
+                    }
+                ],
+                "indexUp": {
+                    "indexId": "2000000",
+                    "indexName": "消费特征分析"
+                }
+            },
+            {
+                "indexValue": [
+                    {
+                        "chartType": "7",
+                        "thirdName": "MOU",
+                        "secondId": "3010000",
+                        "secondName": "MOU",
+                        "data": {
+                            "xaxis": [
+                                "月人均（值）"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "月人均（值）",
+                                        "value": "76"
+                                    }
+                                ],
+                                "divid": "fd09b810-913c-42d6-81bb-c62b2188c152",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "月人均（值）",
+                                        "value": "76"
+                                    }
+                                ],
+                                "divid": "99426688-18cb-42f1-97db-eb26ba19d928",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3010100",
+                        "secondShow": false,
+                        "uint": "分钟"
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "通话时长",
+                        "secondId": "3010000",
+                        "secondName": "MOU",
+                        "data": {
+                            "xaxis": [
+                                "0-50",
+                                "50-100",
+                                "100-500",
+                                "500-1000",
+                                "1000-2000",
+                                "2000-"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "0-50",
+                                        "value": "66"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "21"
+                                    },
+                                    {
+                                        "name": "100-500",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "500-1000",
+                                        "value": "61"
+                                    },
+                                    {
+                                        "name": "1000-2000",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "2000-",
+                                        "value": "30"
+                                    }
+                                ],
+                                "divid": "5277e090-c554-446f-929d-01b17c394d7c",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "0-50",
+                                        "value": "66"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "20"
+                                    },
+                                    {
+                                        "name": "100-500",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "500-1000",
+                                        "value": "61"
+                                    },
+                                    {
+                                        "name": "1000-2000",
+                                        "value": "26"
+                                    },
+                                    {
+                                        "name": "2000-",
+                                        "value": "10"
+                                    }
+                                ],
+                                "divid": "15d99491-8d55-40e5-90c4-ef9e08aa5aa1",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3010200",
+                        "secondShow": false,
+                        "uint": "分钟"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "通话用户数",
+                        "secondId": "3010000",
+                        "secondName": "MOU",
+                        "data": {
+                            "xaxis": [
+                                "通话用户数"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "通话用户数",
+                                        "value": "100"
+                                    }
+                                ],
+                                "divid": "8e44b945-3f5a-4fe5-be7f-e8ea83a8e5d8",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "通话用户数",
+                                        "value": "60"
+                                    }
+                                ],
+                                "divid": "18139cdd-4c2b-4f1d-a202-8f5dfb31c310",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3010300",
+                        "secondShow": false,
+                        "uint": "%"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "主叫通话时长",
+                        "secondId": "3010000",
+                        "secondName": "MOU",
+                        "data": {
+                            "xaxis": [
+                                "主叫通话时长"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "主叫通话时长",
+                                        "value": "11"
+                                    }
+                                ],
+                                "divid": "9bfef89d-0675-4075-b97c-b074feba2b16",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "主叫通话时长",
+                                        "value": "11"
+                                    }
+                                ],
+                                "divid": "2d6a90ce-9fa5-4492-a94f-beda15a79226",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3010400",
+                        "secondShow": false,
+                        "uint": "分钟"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "被叫通话时长",
+                        "secondId": "3010000",
+                        "secondName": "MOU",
+                        "data": {
+                            "xaxis": [
+                                "被叫通话时长"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "被叫通话时长",
+                                        "value": "74"
+                                    }
+                                ],
+                                "divid": "a1fa4689-2258-4400-b4f4-7fcf6c51a04a",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "被叫通话时长",
+                                        "value": "174"
+                                    }
+                                ],
+                                "divid": "c14d92d5-b7bd-4d38-9af4-5cb031edbad7",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3010500",
+                        "secondShow": false,
+                        "uint": "分钟"
+                    },
+                    {
+                        "chartType": "7",
+                        "thirdName": "月人均漫游通话时长",
+                        "secondId": "3020000",
+                        "secondName": "漫游",
+                        "data": {
+                            "xaxis": [
+                                "月人均（值）"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "月人均（值）",
+                                        "value": "36"
+                                    }
+                                ],
+                                "divid": "8ae1476c-04d1-4919-9708-fd3616304c9b",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "月人均（值）",
+                                        "value": "36"
+                                    }
+                                ],
+                                "divid": "52028b13-9008-4c9b-8f56-dc400e879a91",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3020100",
+                        "secondShow": true,
+                        "uint": "分钟"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "漫游用户数",
+                        "secondId": "3020000",
+                        "secondName": "漫游",
+                        "data": {
+                            "xaxis": [
+                                "漫游通话用户数"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "漫游通话用户数",
+                                        "value": "58"
+                                    }
+                                ],
+                                "divid": "693d23e5-c880-47f3-bfae-575922824819",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "漫游通话用户数",
+                                        "value": "58"
+                                    }
+                                ],
+                                "divid": "8526e116-593d-4663-96f4-8d98c90e1c3c",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3020200",
+                        "secondShow": false,
+                        "uint": "%"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "漫游主叫通话时长",
+                        "secondId": "3020000",
+                        "secondName": "漫游",
+                        "data": {
+                            "xaxis": [
+                                "漫游主叫通话时长"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "漫游主叫通话时长",
+                                        "value": "82"
+                                    }
+                                ],
+                                "divid": "d2200c4b-4453-472e-8248-bc3495dff6b6",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "漫游主叫通话时长",
+                                        "value": "82"
+                                    }
+                                ],
+                                "divid": "a8b00a71-e3c3-4d85-af8c-05412447c527",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3020300",
+                        "secondShow": false,
+                        "uint": "%"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "漫游被叫通话时长",
+                        "secondId": "3020000",
+                        "secondName": "漫游",
+                        "data": {
+                            "xaxis": [
+                                "漫游被叫通话时长"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "漫游被叫通话时长",
+                                        "value": "35"
+                                    }
+                                ],
+                                "divid": "c8dcb994-bf98-4293-9927-c510ee1b7932",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "漫游被叫通话时长",
+                                        "value": "35"
+                                    }
+                                ],
+                                "divid": "c2bf45fb-6286-4170-8f69-c86ed0182379",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3020400",
+                        "secondShow": false,
+                        "uint": "%"
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "24小时通话时长",
+                        "secondId": "3030000",
+                        "secondName": "24小时通话",
+                        "data": {
+                            "xaxis": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7",
+                                "8",
+                                "9",
+                                "10",
+                                "11",
+                                "12",
+                                "13",
+                                "14",
+                                "15",
+                                "16",
+                                "17",
+                                "18",
+                                "19",
+                                "20",
+                                "21",
+                                "22",
+                                "23",
+                                "24"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "27"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "31"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "74"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "77"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "83"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "84"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "81"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "83"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "58"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "42"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "37"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "55"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "51"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "65"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "61"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "74"
+                                    }
+                                ],
+                                "divid": "ae00f51c-cd53-448c-a868-aaeb5d975313",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "27"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "31"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "74"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "77"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "83"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "84"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "81"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "83"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "58"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "42"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "37"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "55"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "51"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "65"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "61"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "74"
+                                    }
+                                ],
+                                "divid": "c2a7cf61-c42c-4d50-a340-c3d22706d259",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3030100",
+                        "secondShow": true,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "24小时通话次数",
+                        "secondId": "3030000",
+                        "secondName": "24小时通话",
+                        "data": {
+                            "xaxis": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7",
+                                "8",
+                                "9",
+                                "10",
+                                "11",
+                                "12",
+                                "13",
+                                "14",
+                                "15",
+                                "16",
+                                "17",
+                                "18",
+                                "19",
+                                "20",
+                                "21",
+                                "22",
+                                "23",
+                                "24"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "94"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "46"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "48"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "68"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "56"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "85"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "53"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "13"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "77"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "76"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "50"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "46"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "17"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "72"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "20"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "79"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "33"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "30"
+                                    }
+                                ],
+                                "divid": "b90a20db-8b27-4549-9b49-b81cf591bdae",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "94"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "46"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "48"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "68"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "56"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "85"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "53"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "13"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "3"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "77"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "76"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "50"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "46"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "17"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "72"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "20"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "79"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "33"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "30"
+                                    }
+                                ],
+                                "divid": "8e2d9dbc-3588-4c3d-9c3b-45d9bf498f9a",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3030200",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "31天通话时长",
+                        "secondId": "3040000",
+                        "secondName": "31天通话",
+                        "data": {
+                            "xaxis": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7",
+                                "8",
+                                "9",
+                                "10",
+                                "11",
+                                "12",
+                                "13",
+                                "14",
+                                "15",
+                                "16",
+                                "17",
+                                "18",
+                                "19",
+                                "20",
+                                "21",
+                                "22",
+                                "23",
+                                "24",
+                                "25",
+                                "26",
+                                "27",
+                                "28",
+                                "29",
+                                "30",
+                                "31"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "47"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "48"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "95"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "76"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "84"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "57"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "44"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "29"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "81"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "70"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "20"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "20"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "95"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "39"
+                                    },
+                                    {
+                                        "name": "25",
+                                        "value": "10"
+                                    },
+                                    {
+                                        "name": "26",
+                                        "value": "35"
+                                    },
+                                    {
+                                        "name": "27",
+                                        "value": "42"
+                                    },
+                                    {
+                                        "name": "28",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "name": "29",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "name": "30",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "name": "31",
+                                        "value": "97"
+                                    }
+                                ],
+                                "divid": "f5a68b3a-5801-4be2-a8b1-aab97e63af6a",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "47"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "48"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "95"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "76"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "84"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "7"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "57"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "44"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "29"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "81"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "70"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "20"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "96"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "20"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "95"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "39"
+                                    },
+                                    {
+                                        "name": "25",
+                                        "value": "10"
+                                    },
+                                    {
+                                        "name": "26",
+                                        "value": "35"
+                                    },
+                                    {
+                                        "name": "27",
+                                        "value": "42"
+                                    },
+                                    {
+                                        "name": "28",
+                                        "value": "6"
+                                    },
+                                    {
+                                        "name": "29",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "name": "30",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "name": "31",
+                                        "value": "97"
+                                    }
+                                ],
+                                "divid": "cfc311f7-04ee-46af-959e-790fd0e61b33",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3040100",
+                        "secondShow": true,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "31天通话次数",
+                        "secondId": "3040000",
+                        "secondName": "31天通话",
+                        "data": {
+                            "xaxis": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7",
+                                "8",
+                                "9",
+                                "10",
+                                "11",
+                                "12",
+                                "13",
+                                "14",
+                                "15",
+                                "16",
+                                "17",
+                                "18",
+                                "19",
+                                "20",
+                                "21",
+                                "22",
+                                "23",
+                                "24",
+                                "25",
+                                "26",
+                                "27",
+                                "28",
+                                "29",
+                                "30"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "78"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "97"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "52"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "69"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "87"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "27"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "73"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "84"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "100"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "49"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "45"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "75"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "40"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "74"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "51"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "33"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "10"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "51"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "66"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "58"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "91"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "80"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "29"
+                                    },
+                                    {
+                                        "name": "25",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "name": "26",
+                                        "value": "25"
+                                    },
+                                    {
+                                        "name": "27",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "28",
+                                        "value": "17"
+                                    },
+                                    {
+                                        "name": "29",
+                                        "value": "29"
+                                    },
+                                    {
+                                        "name": "30",
+                                        "value": "92"
+                                    }
+                                ],
+                                "divid": "60740110-5f22-433f-b06a-5cfe2bd3dac7",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "78"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "97"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "52"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "69"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "87"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "27"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "73"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "84"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "100"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "49"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "45"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "75"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "40"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "74"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "51"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "33"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "10"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "51"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "66"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "58"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "91"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "80"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "29"
+                                    },
+                                    {
+                                        "name": "25",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "name": "26",
+                                        "value": "25"
+                                    },
+                                    {
+                                        "name": "27",
+                                        "value": "19"
+                                    },
+                                    {
+                                        "name": "28",
+                                        "value": "17"
+                                    },
+                                    {
+                                        "name": "29",
+                                        "value": "29"
+                                    },
+                                    {
+                                        "name": "30",
+                                        "value": "92"
+                                    }
+                                ],
+                                "divid": "17630b84-ef26-4cb0-b4c2-f15e9d89d7c8",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "3040200",
+                        "secondShow": false,
+                        "uint": ""
+                    }
+                ],
+                "indexUp": {
+                    "indexId": "3000000",
+                    "indexName": "通信特征分析"
+                }
+            },
+            {
+                "indexValue": [
+                    {
+                        "chartType": "1",
+                        "thirdName": "流量分段",
+                        "secondId": "4010000",
+                        "secondName": "DOU",
+                        "data": {
+                            "xaxis": [
+                                "31",
+                                "0-25",
+                                "25-50",
+                                "50-100",
+                                "100-250",
+                                "250-500",
+                                "500-1000",
+                                "1000-2000",
+                                "2000以上"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "31",
+                                        "value": "72"
+                                    },
+                                    {
+                                        "name": "0-25",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "25-50",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "100-250",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "250-500",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "500-1000",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "1000-2000",
+                                        "value": "57"
+                                    },
+                                    {
+                                        "name": "2000以上",
+                                        "value": "27"
+                                    }
+                                ],
+                                "divid": "7aa10d6b-d2b6-4d58-a0bc-16fd7885d577",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "31",
+                                        "value": "72"
+                                    },
+                                    {
+                                        "name": "0-25",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "25-50",
+                                        "value": "14"
+                                    },
+                                    {
+                                        "name": "50-100",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "100-250",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "250-500",
+                                        "value": "24"
+                                    },
+                                    {
+                                        "name": "500-1000",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "1000-2000",
+                                        "value": "57"
+                                    },
+                                    {
+                                        "name": "2000以上",
+                                        "value": "27"
+                                    }
+                                ],
+                                "divid": "468cc428-2589-472b-ae8c-7a8fe560b847",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "4010100",
+                        "secondShow": true,
+                        "uint": "单位:M"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "流量用户数",
+                        "secondId": "4010000",
+                        "secondName": "DOU",
+                        "data": {
+                            "xaxis": [
+                                "流量用户数"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "流量用户数",
+                                        "value": "6400"
+                                    }
+                                ],
+                                "divid": "44cc8dfe-89e3-456a-bcd0-b285ba01c8ec",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "流量用户数",
+                                        "value": "64000000"
+                                    }
+                                ],
+                                "divid": "a5ce32bf-109e-40e9-ad56-9e1c20379d7c",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "4010200",
+                        "secondShow": false,
+                        "uint": "人"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "溢出流量用户数",
+                        "secondId": "4010000",
+                        "secondName": "DOU",
+                        "data": {
+                            "xaxis": [
+                                "溢出流量用户数"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "溢出流量用户数",
+                                        "value": "36"
+                                    }
+                                ],
+                                "divid": "05b128ad-cd62-4d5c-9ce9-00ee7d58f85a",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "溢出流量用户数",
+                                        "value": "36"
+                                    }
+                                ],
+                                "divid": "18e0409c-0be1-4d4e-853a-78a9006c61e8",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "4010300",
+                        "secondShow": false,
+                        "uint": "%"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "月人均溢出流量",
+                        "secondId": "4010000",
+                        "secondName": "DOU",
+                        "data": {
+                            "xaxis": [
+                                "月人均溢出流量"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "月人均溢出流量",
+                                        "value": "100"
+                                    }
+                                ],
+                                "divid": "11be98c0-7b2a-4d51-ad3f-89de8e5a199a",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "月人均溢出流量",
+                                        "value": "50"
+                                    }
+                                ],
+                                "divid": "50f42a87-1c51-4972-a205-69420dc5cc70",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "4010400",
+                        "secondShow": false,
+                        "uint": "%"
+                    },
+                    {
+                        "chartType": "5",
+                        "thirdName": "月人均溢出流量费",
+                        "secondId": "4010000",
+                        "secondName": "DOU",
+                        "data": {
+                            "xaxis": [
+                                "月人均溢出流量费"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "月人均溢出流量费",
+                                        "value": "32"
+                                    }
+                                ],
+                                "divid": "997ce457-2e87-42a2-b0dd-f9688f32f560",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "月人均溢出流量费",
+                                        "value": "1921.23"
+                                    }
+                                ],
+                                "divid": "95c328f6-9b3e-4fed-baa6-eaa4316adf4e",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "4010500",
+                        "secondShow": false,
+                        "uint": "分钟/人"
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "24小时流量",
+                        "secondId": "4020000",
+                        "secondName": "24小时流量",
+                        "data": {
+                            "xaxis": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7",
+                                "8",
+                                "9",
+                                "10",
+                                "11",
+                                "12",
+                                "13",
+                                "14",
+                                "15",
+                                "16",
+                                "17",
+                                "18",
+                                "19",
+                                "20",
+                                "21",
+                                "22",
+                                "23",
+                                "24"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "95"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "79"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "10"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "13"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "91"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "21"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "98"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "93"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "70"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "46"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "39"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "48"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "21"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "49"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "56"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "34"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "100"
+                                    }
+                                ],
+                                "divid": "71f7064e-8a57-40a7-b4b8-b305fc6bd6dc",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "95"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "79"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "10"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "13"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "11"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "91"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "21"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "98"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "93"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "70"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "71"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "46"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "16"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "39"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "48"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "21"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "49"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "56"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "34"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "100"
+                                    }
+                                ],
+                                "divid": "a7d346f3-c00c-4c1d-912c-e716c63c189e",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "4020100",
+                        "secondShow": false,
+                        "uint": ""
+                    },
+                    {
+                        "chartType": "1",
+                        "thirdName": "32天流量",
+                        "secondId": "4030000",
+                        "secondName": "31天流量",
+                        "data": {
+                            "xaxis": [
+                                "1",
+                                "2",
+                                "3",
+                                "4",
+                                "5",
+                                "6",
+                                "7",
+                                "8",
+                                "9",
+                                "10",
+                                "11",
+                                "12",
+                                "13",
+                                "14",
+                                "15",
+                                "16",
+                                "17",
+                                "18",
+                                "19",
+                                "20",
+                                "21",
+                                "22",
+                                "23",
+                                "24",
+                                "25",
+                                "26",
+                                "27",
+                                "28",
+                                "29",
+                                "30",
+                                "31"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "100"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "98"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "89"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "51"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "78"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "30"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "15"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "83"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "56"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "40"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "64"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "59"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "43"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "82"
+                                    },
+                                    {
+                                        "name": "25",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "26",
+                                        "value": "58"
+                                    },
+                                    {
+                                        "name": "27",
+                                        "value": "87"
+                                    },
+                                    {
+                                        "name": "28",
+                                        "value": "61"
+                                    },
+                                    {
+                                        "name": "29",
+                                        "value": "44"
+                                    },
+                                    {
+                                        "name": "30",
+                                        "value": "36"
+                                    },
+                                    {
+                                        "name": "31",
+                                        "value": "46"
+                                    }
+                                ],
+                                "divid": "2fab884f-b5eb-497c-961b-b236f21695b5",
+                                "type": 1
+                            },
+                            "all": {
+                                "value": [
+                                    {
+                                        "name": "1",
+                                        "value": "100"
+                                    },
+                                    {
+                                        "name": "2",
+                                        "value": "98"
+                                    },
+                                    {
+                                        "name": "3",
+                                        "value": "89"
+                                    },
+                                    {
+                                        "name": "4",
+                                        "value": "51"
+                                    },
+                                    {
+                                        "name": "5",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "6",
+                                        "value": "78"
+                                    },
+                                    {
+                                        "name": "7",
+                                        "value": "30"
+                                    },
+                                    {
+                                        "name": "8",
+                                        "value": "15"
+                                    },
+                                    {
+                                        "name": "9",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "10",
+                                        "value": "83"
+                                    },
+                                    {
+                                        "name": "11",
+                                        "value": "56"
+                                    },
+                                    {
+                                        "name": "12",
+                                        "value": "32"
+                                    },
+                                    {
+                                        "name": "13",
+                                        "value": "92"
+                                    },
+                                    {
+                                        "name": "14",
+                                        "value": "63"
+                                    },
+                                    {
+                                        "name": "15",
+                                        "value": "40"
+                                    },
+                                    {
+                                        "name": "16",
+                                        "value": "8"
+                                    },
+                                    {
+                                        "name": "17",
+                                        "value": "22"
+                                    },
+                                    {
+                                        "name": "18",
+                                        "value": "86"
+                                    },
+                                    {
+                                        "name": "19",
+                                        "value": "64"
+                                    },
+                                    {
+                                        "name": "20",
+                                        "value": "59"
+                                    },
+                                    {
+                                        "name": "21",
+                                        "value": "4"
+                                    },
+                                    {
+                                        "name": "22",
+                                        "value": "43"
+                                    },
+                                    {
+                                        "name": "23",
+                                        "value": "2"
+                                    },
+                                    {
+                                        "name": "24",
+                                        "value": "82"
+                                    },
+                                    {
+                                        "name": "25",
+                                        "value": "1"
+                                    },
+                                    {
+                                        "name": "26",
+                                        "value": "58"
+                                    },
+                                    {
+                                        "name": "27",
+                                        "value": "87"
+                                    },
+                                    {
+                                        "name": "28",
+                                        "value": "61"
+                                    },
+                                    {
+                                        "name": "29",
+                                        "value": "44"
+                                    },
+                                    {
+                                        "name": "30",
+                                        "value": "36"
+                                    },
+                                    {
+                                        "name": "31",
+                                        "value": "46"
+                                    }
+                                ],
+                                "divid": "72388118-70de-4a8d-b5be-51c95b68fb36",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "4030100",
+                        "secondShow": false,
+                        "uint": ""
+                    }
+                ],
+                "indexUp": {
+                    "indexId": "4000000",
+                    "indexName": "流量特征分析"
+                }
+            },
+            {
+                "indexValue": [
+                    {
+                        "chartType": "6",
+                        "thirdName": "APPTOP10",
+                        "secondId": "5020000",
+                        "secondName": "APPTOP10",
+                        "data": {
+                            "xaxis": [
+                                "TOP1",
+                                "TOP2",
+                                "TOP3",
+                                "TOP4",
+                                "TOP5",
+                                "TOP6",
+                                "TOP7",
+                                "TOP8",
+                                "TOP9",
+                                "TOP10"
+                            ],
+                            "target": {
+                                "value": [
+                                    {
+                                        "app": "QQ",
+                                        "name": "TOP1",
+                                        "img": "qq",
+                                        "value": "94.5"
+                                    },
+                                    {
+                                        "app": "百度地图",
+                                        "name": "TOP2",
+                                        "img": "baiduditu",
+                                        "value": "37.3"
+                                    },
+                                    {
+                                        "app": "高德导航",
+                                        "name": "TOP3",
+                                        "img": "gaodedaohang",
+                                        "value": "31.4"
+                                    },
+                                    {
+                                        "app": "百度搜索",
+                                        "name": "TOP4",
+                                        "img": "baidusousuo",
+                                        "value": "22.0"
+                                    },
+                                    {
+                                        "app": "百度",
+                                        "name": "TOP5",
+                                        "img": "baidu",
+                                        "value": "20.2"
+                                    },
+                                    {
+                                        "app": "腾讯视频",
+                                        "name": "TOP6",
+                                        "img": "qqshipin",
+                                        "value": "19.6"
+                                    },
+                                    
+                                    {
+                                        "app": "淘宝",
+                                        "name": "TOP7",
+                                        "img": "taobao",
+                                        "value": "14.5"
+                                    },
+                                    {
+                                        "app": "百度音乐",
+                                        "name": "TOP8",
+                                        "img": "baiduyinyue",
+                                        "value": "10.3"
+                                    },
+                                    {
+                                        "app": "QQ空间",
+                                        "name": "TOP9",
+                                        "img": "qqkongjian",
+                                        "value": "6.9"
+                                    },
+                                    {
+                                        "app": "腾讯微博",
+                                        "name": "TOP10",
+                                        "img": "qqweibo",
+                                        "value": "0.9"
+                                    }
+                                ],
+                                "divid": "988b0a3c-3ba1-40ff-93d8-2772706223e8",
+                                "type": 1
+                            },
+                            "all": {
+                                 "value": [
+                                    {
+                                        "app": "QQ",
+                                        "name": "TOP1",
+                                        "img": "qq",
+                                        "value": "67.1"
+                                    },
+                                    {
+                                        "app": "微信",
+                                        "name": "TOP2",
+                                        "img": "weixin",
+                                        "value": "63.4"
+                                    },
+                                    {
+                                        "app": "腾讯其他",
+                                        "name": "TOP3",
+                                        "img": "qqqita",
+                                        "value": "56.3"
+                                    },
+                                    {
+                                        "app": "QQ游戏",
+                                        "name": "TOP4",
+                                        "img": "qqyouxi",
+                                        "value": "43.7"
+                                    },
+                                    {
+                                        "app": "腾讯视频",
+                                        "name": "TOP5",
+                                        "img": "qqshipin",
+                                        "value": "37.5"
+                                    },
+                                    {
+                                        "app": "百度",
+                                        "name": "TOP6",
+                                        "img": "baidu",
+                                        "value": "29.6"
+                                    },
+                                    {
+                                        "app": "淘宝",
+                                        "name": "TOP7",
+                                        "img": "taobao",
+                                        "value": "25.5"
+                                    },
+                                    {
+                                        "app": "QQ空间",
+                                        "name": "TOP8",
+                                        "img": "qqkongjian",
+                                        "value": "24.1"
+                                    },
+                                    {
+                                        "app": "百度音乐",
+                                        "name": "TOP9",
+                                        "img": "baiduyinyue",
+                                        "value": "15.4"
+                                    },
+                                    {
+                                        "app": "腾讯微博",
+                                        "name": "TOP10",
+                                        "img": "qqweibo",
+                                        "value": "12.8"
+                                    }
+                                ],
+                                "divid": "e2b975e3-6e66-4c48-884e-f9d43e12a1d9",
+                                "type": 2
+                            }
+                        },
+                        "thirdId": "5020100",
+                        "secondShow": false,
+                        "uint": ""
+                    }
+                ],
+                "indexUp": {
+                    "indexId": "5000000",
+                    "indexName": "上网偏好分析"
+                }
+            }
+        ]
+    }
+  }
+}

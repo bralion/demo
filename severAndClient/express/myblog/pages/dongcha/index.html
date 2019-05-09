@@ -1,0 +1,144 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=Expires content=0><meta http-equiv=Pragma content=no-cache><meta http-equiv=Cache-control content=no-store><meta http-equiv=Cache content=no-cache><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><title>客户洞察</title><script src=static/jquery.js></script><script src=static/bootstrap-datepicker.js></script><link rel=stylesheet href=static/css/datepicker.css><style>*{
+        box-sizing: border-box;
+    }
+    html,body{
+      width:100%;
+      height:100%;
+    }
+    body {
+      font-family: "Microsoft YaHei","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","WenQuanYi Micro Hei",sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin:0;
+      padding: 0;
+    }
+    ul {
+      list-style: none;
+    }
+    .modal-box{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .modal-bg{
+        width: 100%;
+        height:50%;
+        background-color:#3c4451;
+    }
+    .model-content{
+        background-color: #3c4451;
+        width:100%;
+        height:50%;
+    }
+    .model-content>p{
+        color: #fff;
+        padding:20px 0;
+        margin:0px;
+        text-align: center;
+    }
+    .browser-list{
+        overflow: hidden;
+        text-align: center;
+        padding: 0px;
+    }
+    .browser-list>li{
+        width:300px;
+        display: inline-block;
+    }
+    .browser-label{
+        text-align: center;
+        display: block;
+    }
+    .btn-grp{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .browser-btn {
+        width:80px;
+        height:36px;
+        line-height: 36px;
+        border-radius:18px;
+        border:none;
+        color: #fff;
+        letter-spacing:2px;
+        display: inline-block;
+        text-decoration: none;
+    }
+    .success-btn{
+        background-color:#01C0C8;
+        margin-right: 20px;
+    }
+    .defualt-btn{
+        background-color:#6C737D;
+        margin-left: 20px;
+    }</style><link href=/pages/dongcha/static/css/app.002795195c6e1d2e2c10e036e820f7fa.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/pages/dongcha/static/js/manifest.ca7dba91a2896df31991.js></script><script type=text/javascript src=/pages/dongcha/static/js/vendor.e96d7dd5deb429fbf1b6.js></script><script type=text/javascript src=/pages/dongcha/static/js/app.76e7de836419505415b2.js></script></body><script>var userAgent = navigator.userAgent,
+rMsie = /(msie\s|trident.*rv:)([\w.]+)/,
+rFirefox = /(firefox)\/([\w.]+)/,
+rOpera = /(opera).+version\/([\w.]+)/,
+rChrome = /(chrome)\/([\w.]+)/,
+rSafari = /version\/([\w.]+).*(safari)/;
+var browser;
+var version;
+var ua = userAgent.toLowerCase();
+function uaMatch(ua){
+  var match = rMsie.exec(ua);
+  if(match != null){
+    return { browser : "IE", version : parseInt(match[2]) || "0" };
+  }
+  var match = rFirefox.exec(ua);
+  if (match != null) {
+    return { browser : match[1] || "", version : parseInt(match[2]) || "0" };
+  }
+  var match = rOpera.exec(ua);
+  if (match != null) {
+    return { browser : match[1] || "", version : parseInt(match[2]) || "0" };
+  }
+  var match = rChrome.exec(ua);
+  if (match != null) {
+    return { browser : match[1] || "", version :parseInt(match[2]) || "0" };
+  }
+  var match = rSafari.exec(ua);
+  if (match != null) {
+    return { browser : match[2] || "", version : parseInt( match[1] ) || "0" };
+  }
+  if (match != null) {
+    return { browser : "", version : "0" };
+  }
+}
+var browserMatch = uaMatch(userAgent.toLowerCase());
+if (browserMatch.browser){
+  browser = browserMatch.browser;
+  version = browserMatch.version;
+}
+ var divElem ='<div class="modal-box">'+
+                '<div class="modal-bg">'+
+                    '<img src="../pm_insight/admin/images/upBrowser.png" alt="" style="height: 100%">'+
+                '</div>'+
+                '<div class="model-content">'+
+                    '<p>您目前的浏览器不支持该系统，请使用ie10、chrome50、Firefox50或以上版本浏览器打开该系统。<br/><br/>若您电脑未安装相应版本浏览器，可选择以下浏览器下载安装。下载<a href="build/manualDownload" style="color:#4684e9;text-decoration: underline;cursor: pointer;">教程</a>查看安装方法</p>'+
+                    '<ul class="browser-list" id="browser">'+
+                        '<li>'+
+                            '<img src="../pm_insight/admin/images/chrome.png" alt="">'+
+                            '<label class="browser-label"><input type="radio" name="browser" checked="checked" value="1">谷歌</label>'+
+                        '</li>'+
+                        '<li>'+
+                            '<img src="../pm_insight/admin/images/fireFox.png" alt="" >'+
+                            '<label class="browser-label"><input type="radio" name="browser" value="2">火狐</label>'+
+                        '</li>'+
+                    '</ul>'+
+                    '<div class="btn-grp">'+
+                        '<a class="browser-btn success-btn" id="down-browser" href="javascript:void(0)">下载</a>'+
+                        '<a class="browser-btn defualt-btn" href="about:blank">取消</a>'+
+                    '</div>'+
+                '</div>'+
+            '</div>'
+if( (browser=='IE' && version<10) || (browser=='chrome' && version<45) || (browser=='firefox' && version<50) || browser==''){
+    alert(browser+":"+version);
+    document.body.innerHTML = divElem
+    var browerId = ''
+    var downBrw =  document.querySelector("#down-browser")
+    downBrw.onclick = function(){
+      browerId = document.querySelector("input[type='radio']:checked").value
+      this.href = 'build/browerDownload?browerId='+browerId
+    }
+}</script></html>

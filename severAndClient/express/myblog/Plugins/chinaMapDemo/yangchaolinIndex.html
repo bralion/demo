@@ -1,0 +1,240 @@
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--<link rel="stylesheet" href="<%=request.getContextPath()%>/pages/audit/css/index.css" />-->
+    <script type="text/javascript" src="js/echarts2.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/china-main-city/china-main-city-map.js"></script>
+
+</head>
+<body>
+<div id="hljDrillMap" style="width:830px;height:580px;"></div>
+<script>
+    require.config({
+        paths: {
+            echarts: 'dist'
+        }
+    });
+    require(
+            [
+                'echarts',
+                'echarts/chart/map'
+            ],
+
+            function (ec) {
+                indexMapInit(ec);
+            }
+    );
+    function  indexMapInit(ec){
+        var myChart = ec.init(document.getElementById('hljDrillMap'));
+        var curIndx = 0;
+        var mapType = [//添加省份
+                'world',
+            'china',
+// 23个省
+            '广东', '青海', '四川', '海南', '陕西',
+            '甘肃', '云南', '湖南', '湖北', '黑龙江',
+            '贵州', '山东', '江西', '河南', '河北',
+            '山西', '安徽', '福建', '浙江', '江苏',
+            '吉林', '辽宁', '台湾',
+// 5个自治区
+            '新疆', '广西', '宁夏', '内蒙古', '西藏',
+// 4个直辖市
+            '北京', '天津', '上海', '重庆',
+// 2个特别行政区
+            '香港', '澳门'
+        ];
+        //定义省级地图数据，并将市级地图数据添加上
+        var mapGeoData = require('echarts/util/mapData/params');//内含省级数据
+        for (var city in cityMap) {//cityMap由china-main-city-map.js引用而来为市级的数据路由
+            mapType.push(city);//添加市级数据到路由（此时内部已经有省的数据）
+            // 自定义扩展图表类型
+            mapGeoData.params[city] = {//将市级数据添加到数据上
+                getGeoJson: (function (c) {
+                    var geoJsonName = cityMap[c];
+                    return function (callback) {
+                        $.getJSON('js/china-main-city/' + geoJsonName + '.json', callback);
+                    }
+                })(city)
+            }
+        }
+        var ecConfig = require('echarts/config');
+        //var zrEvent = require('zrender/tool/event');
+        /*document.getElementById('map').onmousewheel = function (e){
+            var event = e || window.event;
+         curIndx += zrEvent.getDelta(event) > 0 ? (-1) : 1;
+         if (curIndx < 0) {
+         curIndx = mapType.length - 1;
+         }
+         var mt = mapType[curIndx % mapType.length];
+         option.series[0].mapType = mt;
+         option.title.subtext = mt + ' （滚轮或点击切换）';
+         myChart.setOption(option, true);
+         zrEvent.stop(event);
+         };*/
+        //点击事件获取target然后到数据中去匹配，如果能匹配则跳转到该数据下，如果不能默认跳到china
+        myChart.on(ecConfig.EVENT.MAP_SELECTED, function (param){
+            console.log(param);
+            var mt = param.target;
+            var len = mapType.length;
+            var f= false;
+            for(var i=0;i<len;i++){
+                if(mt == mapType[i]){
+                    f =true;
+                    mt=mapType[i];
+                    console.log(mt);
+                }
+            }
+            if(!f){
+                mt='china';
+            }
+            option.series[0].mapType = mt;
+            myChart.setOption(option, true);//地图渲染
+        });
+        option = {
+            gird:{
+                x:0,
+                x2:0,
+                y:0,
+                y2:0,
+                width:410,
+                height:350
+            },
+            tooltip : {
+                trigger: 'item',
+                formatter:function(a)
+                {
+                    var relVal = "";
+                    relVal += "<span style='font-size:12px;padding:0 6px;'>"+a[1]+"</span></br>";
+                    relVal+="<span style='font-size:12px; margin-top:4px;padding:0 6px;'>数量: &nbsp;</span>"+a[2]+"&nbsp 条";
+                    return relVal;
+                }
+
+            },
+            dataRange: {
+                xorient: 'horizontal',
+                x: 'left',
+                min: 0,
+                max: 10000,
+                color:['#d1f4fc','#71b7ed'],
+                text:['低',"高"],           // 文本，默认为数值文本
+                splitNumber:0
+            },
+            series : [
+                {
+                    name: '',
+                    type: 'map',
+                    mapType: '黑龙江',
+                    roam: false,
+                    selectedMode : 'single',
+                    itemStyle:{
+                        normal:{
+                            label:{
+                                show:true,
+                                textStyle: {
+                                    color: "rgb(255, 255, 255)"
+                                }
+                            }
+                        },
+                        normal:{
+                            label:{
+                                show:true
+                            }
+                        },
+                        emphasis:{
+                            label:{
+                                show:true
+                            },
+                            color:'#2e75b6'
+                        }
+                    },
+                    data:[
+                        {name: '哈尔滨市',value: 1111},
+                        {name: '齐齐哈尔市',value: 9999},
+                        {name: '鸡西市',value: 3333},
+                        {name: '鹤岗市',value: 4444},
+                        {name: '双鸭山市',value: 3454},
+                        {name: '大庆市',value: 7456},
+                        {name: '伊春市',value: 2342},
+                        {name: '佳木斯市',value: 5656},
+                        {name: '七台河市',value: 7777},
+                        {name: '牡丹江市',value: 1234},
+                        {name: '黑河市',value: 2345},
+                        {name: '绥化市',value: 7266},
+                        {name: '大兴安岭地区',value: 1132},
+                        {name: '友好区',value: 112},
+                        {name: '东安区',value: 112},
+                        {name: '西安区',value: 112},
+                        {name: '阳明区',value: 112},
+                        {name: '爱民区',value: 112},
+                        {name: '梅里斯达斡尔族区',value: 2112},
+                        {name:'五常市',value:3147},{name:'尚志市',value:9838},{name:'宾县',value:490},{name:'巴彦县',value:10969},{name:'延寿县',value:116},{name:'木兰县',value:10718},{name:'通河县',value:10940},{name:'方正县',value:5219},{name:'依兰县',value:4479},{name:'讷河市',value:8164},{name:'龙江县',value:7547},{name:'富裕县',value:4401},{name:'甘南县',value:10805},{name:'拜泉县',value:8449},{name:'依安县',value:3099},{name:'克山县',value:955},{name:'克东县',value:4351},{name:'泰来县',value:10338},{name:'    绥芬河市',value:3339},{name:'海林市',value:4996},{name:'穆棱市',value:8094},{name:'宁安市',value:10074},{name:'林口县',value:4265},{name:'东宁县',value:4913},{name:' 同江市',value:331},{name:'富锦市',value:8414},{name:'桦川县',value:1044},{name:'桦南县',value:3914},{name:'汤原县',value:6257},{name:'抚远县',value:4595},{name:'肇源县',value:5016},{name:'肇州县',value:8360},{name:'林甸县',value:8858},{name:'杜尔伯特蒙古族自治县    ',value:2076},{name:' 铁力市',value:8515},{name:'嘉荫县',value:2453},{name:'密山市',value:9529},{name:'虎林市',value:2063},{name:'鸡东县',value:2711},{name:'萝北县',value:6043},{name:'绥滨县 ',value:11122},{name:'集贤县',value:8299},{name:'宝清县',value:987},{name:'友谊县',value:2306},{name:'饶河县',value:2076},{name:'勃利县',value:9231},{name:'安达市',value:8004},{name:'肇东市',value:9910},{name:'海伦市',value:6582},{name:'望奎县',value:5605},{name:'兰西县',value:2048},{name:'青冈县',value:9215},{name:'明水县',value:4533},{name:'绥棱县',value:8563},{name:'庆安县',value:9508},{name:'北安市',value:321},{name:'五大连池市',value:1218},{name:'嫩江县',value:3444},{name:'孙吴县',value:5637},{name:'逊克县',value:2767},{name:'呼玛县',value:1735},{name:'塔河县',value:8727},{name:'漠河县',value:2655},
+                        {name:'爱辉区',value:310},
+                        {name:'乌伊岭区',value:3147},
+                        {name:'汤旺河区',value:3147},
+                        {name:'红星区',value:314},
+                        {name:'新青区',value:3147},
+                        {name:'五营区',value:317},
+                        {name:'上甘岭区',value:3147},
+                        {name:'伊春区',value:3147},
+                        {name:'美溪区',value:147},
+                        {name:'翠峦区',value:3147},
+                        {name:'乌马河区',value:3147},
+                        {name:'西林区',value:347},
+                        {name:'金山屯区',value:317},
+                        {name:'带岭区',value:147},
+                        {name:'南岔区',value:3147},
+                        {name:'铁力市',value:314},
+                        {name:'绥滨县',value:1147},
+                        {name:'东山区',value:3147},
+                        {name:'兴山区',value:1147},
+                        {name:'南山区',value:147},
+                        {name:'向阳区',value:3147},
+                        {name:'兴安区',value:147},
+                        {name:'金山屯区',value:2147},
+                        {name:'尖山区',value:147},
+                        {name:'岭东区',value:147},
+                        {name:'宝山区',value:147},
+                        {name:'新兴区',value:147},
+                        {name:'桃山区',value:147},
+                        {name:'茄子河区',value:147},
+                        {name:'城子河区',value:147},
+                        {name:'鸡冠区',value:147},
+                        {name:'恒山区',value:147},
+                        {name:'梨树区',value:147},
+                        {name:'滴道区',value:147},
+                        {name:'麻山区',value:147},
+                        {name:'北林区',value:147},
+                        {name:'龙凤区',value:147},
+                        {name:'萨尔图区',value:147},
+                        {name:'红岗区',value:147},
+                        {name:'大同区',value:147},
+                        {name:'让胡路区',value:147},
+                        {name:'杜尔伯特蒙古族自治县',value:147},
+                        {name:'碾子山区',value:147},
+                        {name:'建华区',value:147},
+                        {name:'梅里斯达翰尔族区',value:147},
+                        {name:'龙沙区',value:147},
+                        {name:'昂昂溪区',value:147},
+                        {name:'铁锋区',value:147},
+                        {name:'富拉尔基区',value:147},
+                        {name:'呼兰区',value:147},
+                        {name:'松北区',value:147},
+                        {name:'道外区',value:147},
+                        {name:'香坊区',value:147},
+                        {name:'阿城区',value:147},
+                        {name:'道里区',value:147},
+                        {name:'双城市',value:147},
+                        {name:'南岗区',value:147},
+                        {name:'松北区',value:147},
+                        {name:'梅里斯达翰尔族区',value:147}
+                    ]
+                }
+            ]
+        };
+        myChart.setOption(option);
+    }
+</script>
+</body>
+</html>

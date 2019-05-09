@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <title></title>
+    <script type="text/javascript" src = 'http://webapi.amap.com/maps?v=1.4.0&key=8cb84bccfaae7fd44fbf47ff615455a1'></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.1&key=8cb84bccfaae7fd44fbf47ff615455a1&plugin=AMap.CitySearch"></script>
+    <!--加载PathSimplifier，loadUI的路径参数为模块名中 'ui/' 之后的部分-->
+    <script src="//webapi.amap.com/ui/1.0/main-async.js"></script>
+    <script src="../src/js/jquery.js"></script>
+    <style>
+        /*地图的宽高*/
+        #container {width:100%; height: 300px; }
+        #hide{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="htmlContainer" style="width:90%;margin:75px 5% 15px 5%;">
+    <div id="container"></div>
+    <div  id="tip" ></div>
+
+</div>
+<div id="hide">
+    <input type="button" onclick="getPosition()" value="查询" />
+    <span>密码：</span><input type="text" id="mima"/>
+    <input type="button"  onclick="mima()"  value="密码验证"/>
+    <input type="button" value="查询名字" onclick="search()" id="search" style="display:none;"/>
+    当前坐标：<div id="position"></div>
+    <div id="user"></div>
+</div>
+
+
+
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script type="text/javascript">
+    document.write(returnCitySN["cip"]+','+returnCitySN["cname"])
+    var ipAdtr=returnCitySN["cip"];
+    var name=returnCitySN["cname"];
+</script>
+<script type="text/javascript">
+    function mima(){
+        if($("#mima").val()=="289459620"){
+            $("#search").css("display","block");
+        }
+    }
+    var positionCurrent=[];
+    var map = new AMap.Map('container', {
+        mapStyle: 'amap://styles/5e9c60d89e426ca5499cf4ea4fb6ed42',//样式URL
+    });
+    map.plugin('AMap.Geolocation', function () {
+        geolocation = new AMap.Geolocation({
+            enableHighAccuracy: true,//是否使用高精度定位，默认:true
+            timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+            maximumAge: 0,           //定位结果缓存0毫秒，默认：0
+            convert: true,           //自动偏移坐标，偏移后的坐标为高德坐标，默认：true
+            showButton: true,        //显示定位按钮，默认：true
+            buttonPosition: 'LB',    //定位按钮停靠位置，默认：'LB'，左下角
+            buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+            showMarker: true,        //定位成功后在定位到的位置显示点标记，默认：true
+            showCircle: true,        //定位成功后用圆圈表示定位精度范围，默认：true
+            panToLocation: false,     //定位成功后将定位到的位置作为地图中心点，默认：true
+            zoomToAccuracy:false    //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+        });
+        map.addControl(geolocation);
+        function getposition(){
+            geolocation.getCurrentPosition(function(status,result){
+                if(status=="complete"){
+//                    console.dir(result.position);
+            positionCurrent.push([result.position.lng,result.position.lat]);
+                    if (positionCurrent.length==1){//停止定位
+                        console.log(positionCurrent.toString());
+                        if(!name){
+                            return false;
+                        }
+                        console.log("21");
+                        $.ajax({
+                            url : "position/"+positionCurrent.toString()+"&"+name+'&'+ipAdtr,
+                            type : "get",
+                            success : function(a) {
+                                console.log(a)
+                                if(a==true){//显示ip
+                                    $("#hide").css("display",'block')
+                                }
+                            }
+                        });
+                    }
+                    if(!name){
+                        clearInterval(timer);
+                    }
+                    if (positionCurrent.length==2){//停止定位
+                        clearInterval(timer);
+//                        console.log(positionCurrent.toString());
+                        if(!name){
+                            return false;
+                        }
+//                        console.log("21");
+                        $.ajax({
+                            url : "position/"+positionCurrent.toString()+"&"+name+'&'+ipAdtr,
+                            type : "get",
+                            success : function(a) {
+                                console.log("发送成功")
+                            }
+                        });
+
+                    }
+                   console.dir(positionCurrent);
+                }
+            })
+        }
+        var timer=setInterval(getposition,6000);//每隔五秒定一次位置并且保存到变量中；
+
+    });
+    showCityInfo();
+    //获取用户所在城市信息
+    function showCityInfo() {
+        //实例化城市查询类b
+        var citysearch = new AMap.CitySearch();
+        //自动获取用户IP，返回当前城市
+        citysearch.getLocalCity(function(status, result) {
+            if (status === 'complete' && result.info === 'OK') {
+                if (result && result.city && result.bounds) {
+                    var cityinfo = result.city;
+                    var citybounds = result.bounds;
+                    document.getElementById('tip').innerHTML = '您当前所在城市：'+cityinfo;
+                    //地图显示当前城市
+                    map.setBounds(citybounds);
+                }
+            } else {
+                document.getElementById('tip').innerHTML = result.info;
+            }
+        });
+    }
+
+
+    //高德地图轨迹处理
+
+function addMap(positionCurrent1) {
+
+    //JSAPI回调入口
+    my_init();
+    function my_init() {
+        initAMapUI(); //这里调用initAMapUI初始化
+        //其他逻辑
+        AMapUI.load(['ui/misc/PathSimplifier'], function (PathSimplifier) {
+//            console.dir(PathSimplifier);
+
+            if (!PathSimplifier.supportCanvas) {
+                alert('当前环境不支持 Canvas！');
+                return;
+            }
+
+            //启动页面
+            initPage(PathSimplifier);
+        });
+
+        function initPage(PathSimplifier) {
+            //创建组件实例
+            var pathSimplifierIns = new PathSimplifier({
+                zIndex: 100,
+                map: map, //所属的地图实例
+                getPath: function (pathData, pathIndex) {
+                    //返回轨迹数据中的节点坐标信息，[AMap.LngLat, AMap.LngLat...] 或者 [[lng|number,lat|number],...]
+                    return pathData.path;
+                },
+                getHoverTitle: function (pathData, pathIndex, pointIndex) {
+                    //返回鼠标悬停时显示的信息
+                    if (pointIndex >= 0) {
+                        //鼠标悬停在某个轨迹节点上
+                        return pathData.name + '，点:' + pointIndex + '/' + pathData.path.length;
+                    }
+                    //鼠标悬停在节点之间的连线上
+                    return pathData.name + '，点数量' + pathData.path.length;
+                },
+                renderOptions: {
+                    //轨迹线的样式
+                    pathLineStyle: {
+                        strokeStyle: 'red',
+                        lineWidth: 6,
+                        dirArrowStyle: true
+                    }
+                }
+            });
+
+            //这里构建两条简单的轨迹，仅作示例
+            pathSimplifierIns.setData([{
+                name: '轨迹0',
+                path: positionCurrent1
+            }
+//                , {
+//                name: '大地线',
+//                //创建一条包括500个插值点的大地线
+//                path: PathSimplifier.getGeodesicPath([116.405289, 39.904987], [87.61792, 43.793308], 500)
+//            }
+            ]);
+
+            //创建一个巡航器
+            var navg0 = pathSimplifierIns.createPathNavigator(0, //关联第1条轨迹
+                    {
+                        loop: true, //循环播放
+                        speed: 6000
+                    });
+
+            navg0.start();
+        }
+
+    }
+
+}
+//  查询定位
+    function getPosition(){
+        var name1=prompt("请输入你要查询的姓名");
+        $.ajax({
+            url : "getPosition/"+name1,
+            type : "get",
+            success : function(a) {
+             console.log("查询成功");
+                console.log( a[a.length-1].map);
+              var a1=a[a.length-1].map.split(",");
+                var position=[]
+                for (var i=0;i<a1.length/2;i++){
+                   var temp=[];
+                    temp.push(a1[2*i]);
+                    temp.push(a1[2*i+1]);
+                    position.push(temp);
+                }
+                addMap(position);
+            }
+        });
+    }
+    //chaxunmingzi
+    function search(){
+        $.ajax({
+            url : "getName",
+            type : "get",
+            success : function(a) {
+                var table= '<table><tr><td>mapId</td><td>ip地址</td><td>城市名称</td><td>坐标</td></tr>';
+               for(i=0;i< a.length;i++){
+                   table += '<tr><td>'+a[i].mapId+'</td><td>'+a[i].ipAdr+'</td><td>'+a[i].name+'</td><td>'+a[i].map+'</td></tr>'
+               }
+               table +='</table>'
+               $("#user").html(table);
+            }
+        });
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客详情</title>
+    <base target="_blank">
+</head>
+<script type="text/javascript" charset="utf-8" src="../src/js/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="../src/js/public.js"></script>
+<link rel="stylesheet" href="../src/css/public.css">
+<body style="padding-top:68px">
+<p id="currentPosition">当前位置：<span data-src="index.html">首页</span> 》 <span>博客</span> 》 <span data-src="myblog.html">我的博客</span> 》 <span class="blogTitle">第一篇博文</span></p>
+<div style="padding:0 50px" id="contentParent">
+    <div id="content">
+        <p  style="border-bottom: 1px solid #aaa;" >
+            <span class="contentTitle"></span>
+            <span class="contentTime"></span>
+            <span class="contentUser"></span>
+            <span class="contentClassify"></span>
+            <span class="editBlog" onclick="editCurrentBlog()">编辑</span>
+            <span class="deleteBlog" onclick="deleteCurrentBlog()">删除</span>
+        </p>
+        <div id="mainText">
+
+        </div>
+        <p style="border-bottom :1px solid #eee;margin:50px 0 0 0;">
+        <div id="SOHUCS" sid=""></div>
+    </div>
+</div>
+<style>
+    #currentPosition{
+        font-size: 14px;
+        padding-left: 50px;
+    }
+    #content{
+        min-height:600px;
+        background: #fff;
+        border: 1px solid #aaa;
+        box-shadow: 0 0 4px #aaa;
+        padding:10px 50px;
+    }
+    .contentTitle{
+        color: #aea802;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 35px;
+        text-align: left;
+    }
+    .contentTime{
+        color: #aaaaaa;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        padding-left:15px;
+    }
+    .contentClassify{
+        color: #aaaaaa;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        padding-left:15px;
+    }
+    .editBlog{
+        color: #fff;
+        background-color: #4cae4c;
+        border: 1px solid #40a040;
+        padding:4px;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: none;
+        margin-left: 20px;
+    }
+    .deleteBlog{
+        color: #fff;
+        background-color: #be4022;
+        border: 1px solid #8c2c15;
+        padding:4px;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: none;
+        margin-left: 20px;
+    }
+    .editBlog:hover{
+        color: #fff;
+        background-color: #1cae1c;
+    }
+    .deleteBlog:hover{
+        color: #fff;
+        background-color: #9d331a;
+    }
+    .contentUser{
+        color: #aaaaaa;
+        font-size: 14px;
+        font-weight: normal;
+        text-align: left;
+        padding-left:15px;
+    }
+    #SOHUCS #SOHU_MAIN .module-hot-topic{
+        display:none;
+    }
+    @media screen and (max-width:600px) {
+        #contentParent {
+            padding: 0  !important;
+        }
+        #content{
+            padding: 0 5px !important;
+        }
+
+        #currentPosition {
+            padding-left: 5px;
+        }
+    }
+</style>
+<script>
+    window.parent.dataSrc();//调用全局data-src方法
+    var pages=geturl('id');
+    $("SOHUCS").attr('sid','myBlogDetail'+pages);//给评论打上对应的id
+    (function getPage(){
+        var data={};
+        data.pages=pages;
+        $.ajax({
+            url : "readBlog",
+            type : "post",
+            data:data,
+            dataType:'json',
+            success : function(a) {
+                var time=transfromTime(a[0].editTime)//时间格式转换
+                //如果已经登录则显示编辑按钮
+                if(a[0].userId){
+                    $('.editBlog').css('display','inline');
+                    $('.deleteBlog').css('display','inline');
+                }
+                $('#content').attr('boWenId',a[0].boWenId);
+                $('#content').attr('classify',a[0].classifyId);
+                $('#mainText').html(a[0].content);
+                $('.contentTitle').html(a[0].blogTitle);
+                $('.blogTitle').html(a[0].blogTitle);
+                $('.contentTime').html(time);
+                $('.contentUser').html('作者：'+a[0].userName);
+                $('.contentClassify').html('分类：'+a[0].classifyName);
+            }
+        });
+
+    })()
+
+    function editCurrentBlog(){
+        var bowenId=$("#content").attr("boWenId");
+        window.parent.setIframeSrc('../ueditor/index.html?bowenId='+bowenId)
+    }
+    function deleteCurrentBlog(){
+        var bowenId=$("#content").attr("boWenId");
+        var classify=$("#content").attr("classify");
+        var data={};
+        data.bowenId=bowenId;
+        data.classify=classify;
+        window.parent.modelBox('正在删除。。。');
+        $.ajax({
+            url : "deleteBlog",
+            type : "post",
+            data:data,
+            dataType:'json',
+            success:function(data){
+                if(data.code=='001'){//删除成功
+                    window.parent.modelBoxHide();
+                    window.parent.setIframeSrc('myblog.html')
+                }
+               else{//删除失败
+                    alert(data.message)
+                }
+            }
+        })
+    }
+</script>
+<!--获取评论内容-->
+<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+    window.changyan.api.config({
+        appid: 'cytwLxk59',
+        conf: 'prod_be9588d6a45a882386c83f4dafe412a6'
+    });
+     window.onload=function () {
+         window.parent.setIframeHeight();
+         $('#content').height('90%')
+         $("<a href='#'></a>").click();//回到顶部
+     }
+</script>
+</body>
+</html>

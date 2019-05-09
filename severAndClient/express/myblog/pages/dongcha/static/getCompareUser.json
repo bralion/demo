@@ -1,0 +1,71 @@
+{
+    "resultCode": "001",
+    "resultContent": {
+        "sysCommandUsers":[
+            {
+                "batchId": "ddj121",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            },{
+                "batchId": "ddj123",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            },{
+                "batchId": "ddj124",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            },{
+                "batchId": "ddj125",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            }
+        ],
+        "mytargetUsers":[
+            {
+                "batchId": "ddj120",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群4G用户目标用户群4G用户目标用户群4G用户目标用户群4G用",
+                "batchNum": "2020220",
+                "isChecked":false
+            },{
+                "batchId": "ddj223",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            },{
+                "batchId": "ddj221",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            },{
+                "batchId": "ddj323",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            },{
+                "batchId": "ddj423",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            },{
+                "batchId": "ddj523",
+                "creatTime": "2017-10-08",
+                "batchName": "4G用户目标用户群",
+                "batchNum": "2020220",
+                "isChecked":false
+            }
+        ]
+    }
+}

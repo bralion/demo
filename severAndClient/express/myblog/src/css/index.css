@@ -1,0 +1,452 @@
+.logo{
+    width:125px;
+    height:60px;
+    background:url("../images/logo3.png") no-repeat 0 13px ;
+    background-size: 125px 43px;
+    display: inline-block;
+    margin-left:23px;
+    margin-right: 37px;
+    cursor: pointer;
+}
+#container{
+    width:90%;
+    margin:75px 5% 15px 5%;
+}
+.carousel>div>img{
+    height:auto;
+    max-width: 100%
+}
+*{
+    color:#666666;
+}
+.layui-nav{
+    position: fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.layui-nav .layui-nav-item a{
+    padding:0 41px;
+}
+
+.nav-right{
+    margin-right: 50px;
+}
+.carousel{
+    border-radius: 4px;
+    margin-top:15px;
+    height:auto;
+}
+.toptip{
+    background-color: #ddd;
+    padding: 10px 17px;
+    display: none;
+}
+.toptip i{
+    color: #56af45;
+}
+.topContent{
+    margin-top:10px;
+    background: #f7f7f7;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.topContent>div>div>a{
+    display: block;
+    margin-right: 1px;
+    padding: 5px 20px 2px 140px;
+    background-color: #fff;
+}
+.topContent>div a>img{
+    float: left;
+    margin: 8px 0 0 -120px;
+    width: 110px;
+    height: 80px;
+    border-radius: 4px;
+}
+.topContent>div a>h3{
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px 0 0 0;
+    height: 20px;
+    font-weight: 700;
+    font-size: 14px;
+}
+.topContent>div a>p{
+    overflow: hidden;
+    height: 39px;
+    margin-bottom: 5px
+}
+.topContent>div p.bottom>span,i,a{
+    color:#999;
+    cursor: pointer;
+}
+.topContent>div p.bottom{
+    padding-left: 140px;
+    font-size: 12px;
+    color:#aaa;
+}
+.topContent>div p.bottom>span.muted{
+   margin-left:5px;
+}
+.topContent-right{
+    margin-top:10px;
+    background: #f7f7f7;
+    border-radius: 4px;
+}
+.recommendCard{
+    height:109px;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #fff;
+}
+.recommendCard-left{
+    height:109px;
+    border-right:1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #fff;
+}
+.recommend{
+    line-height: 32px;
+    font-size: 16px;
+    padding-left:20px;
+    vertical-align: middle;
+}
+.recommend-right{
+    line-height: 40px;
+    font-size: 18px;
+    padding-left:20px;
+    vertical-align: middle;
+    border-bottom:1px solid #eaeaea;
+}
+.tag{
+    padding: 0 15px 15px 15px;
+    display: block;
+    background-color: #ffffff;
+}
+.tag-div{
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    padding:5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin :18px 0 0 10px;
+    float: left;
+    font-size: 13px;
+}
+.music-index{
+    padding-top:1px;
+}
+.music-index li{
+    padding:12px 0 0 10px;
+}
+.music-index li:hover{
+
+}
+.music-toogle{
+    height:125px;
+    overflow-y: auto;
+}
+.music {
+    width:16px;
+    height:16px;
+    -webkit-animation :mymove 4s linear infinite;
+    cursor: pointer;
+    float:right;
+    margin:11px 23px 0 0;
+
+}
+#moodContent img{
+    max-width: 96%;
+    margin: 10px 2px 10px 0;
+}
+#moodContent .recommendCard{
+    padding:10px;
+    min-height:100px;
+    height: auto;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #fff;
+}
+@-webkit-keyframes mymove /* Safari 和 Chrome */
+{
+    from {-webkit-transform: rotate(0deg)}
+    to {-webkit-transform: rotate(360deg)}
+}
+@keyframes mymove
+{
+    from {-webkit-transform: rotate(0deg)}
+    to {-webkit-transform: rotate(360deg)}
+}
+
+@-moz-keyframes mymove /* Firefox */
+{
+    from {-webkit-transform: rotate(0deg)}
+    to {-webkit-transform: rotate(360deg)}
+}
+@-o-keyframes mymove /* Opera */
+{
+    from {-webkit-transform: rotate(0deg)}
+    to {-webkit-transform: rotate(360deg)}
+}
+.copyright{
+    text-align: center;
+    height:30px;
+    margin-top:15px;
+    color:#fff;
+}
+.layui-nav{
+    background-color: transparent;
+}
+.copyright a{
+    color:#fff;
+}
+.footer{
+    background-color: #393d49;
+}
+.layui-form-pane .layui-input{
+  border-radius: 4px;
+}
+.layui-input{
+    height:30px;
+}
+.layui-form-select dl{
+    background-color:#fff;
+    color:#666666;
+}
+.layui-form-select dl dd.layui-select-tips{
+    color:#666666;
+}
+.mobile .layui-nav-item{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+.layui-show-xs-inline-block{
+    display: none;
+
+}
+.menu{
+    width: 32px;
+    height:32px;
+    background: url("../font/menu.svg");
+    display:inline-block ;
+   margin-bottom: 14px;
+    margin-left:30%;
+}
+.menu:hover{
+    width: 32px;
+    height:32px;
+    background: url("../font/menu-click.svg");
+    display:inline-block ;
+    line-height: 60px;
+}
+.play{
+    background:url("../font/play.svg") no-repeat;
+}
+.pause{
+    background:url("../font/pause.svg") no-repeat;
+}
+.music-btn{
+    width:16px;
+    height:16px;
+    background-size: 16px 16px;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.layui-form-select .layui-edge{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -10px;
+    cursor: pointer;
+    background: url("../font/search.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    border:0;
+    border-top-color:transparent;
+    border-top-style: none;
+}
+/*微博、博客等*/
+.social {
+    height: 45px;
+    padding: 10px 6px;
+    background-color: #fff;
+}
+
+.social a {
+    display: block;
+    float: left;
+    width: 45px;
+    height: 45px;
+    margin-right: 3px;
+    margin-left: 6.5px;
+    position: relative;
+    color: #fff ;
+}
+.sinaweibo {
+    background: #f78585;
+}
+.sinaweibo:hover{
+    background: #68a3db;
+}
+.tencentweibo {
+    background: #27ccc0;
+}
+.tencentweibo:hover{
+    background: #68a3db;
+}
+.weixin-popover {
+    position: absolute;
+    width: 256px;
+    padding: 5px 0 2px;
+    top: 45px;
+    left: 50%;
+    margin-left: -125px;
+    display: none;
+    height: 256px;
+    z-index: 20;
+}
+.weixin .popover{
+    display: block;
+    border-radius: 4px;
+    color: #777;
+}
+.popover.bottom {
+    margin-top: 10px;
+}
+.popover-content {
+    padding: 9px 14px;
+}
+.weixins {
+    background: #6fc299;
+}
+.weixins:hover{
+    background: #68a3db;
+}
+.email {
+    background: #eca3ac;
+}
+.email:hover{
+    background: #68a3db;
+}
+.social .rss {
+    background: #ff7c49;
+}
+.social .rss:hover{
+    background: #68a3db;
+}
+.social i {
+    color: #fff ;
+    font-size: 2.5em;
+    width: 45px;
+    height: 38px;
+    padding-top: 7px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 -1px 0 #3333sf;
+}
+.fa {
+    width: 16px;
+    font-size: 1.23em;
+    text-align: center;
+}
+.popover.bottom .arrow {
+    left: 50%;
+    margin-left: -11px;
+    border-top-width: 0;
+    border-bottom-color: #999;
+    border-bottom-color: rgba(0,0,0,0.25);
+    top: -11px;
+}
+
+.popover .arrow {
+    border-width: 11px;
+    background-color: #fff;
+    border-color: #fff;
+}
+.popover .arrow, .popover .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.popover-content {
+    padding: 9px 14px;
+}
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+    display: none;
+    max-width: 262px;
+    padding: 1px;
+    text-align: left;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    white-space: normal;
+}
+.popover.bottom .arrow:after {
+    top: 1px;
+    margin-left: -10px;
+    border-top-width: 0;
+    border-bottom-color: #fff;
+}
+.popover .arrow:after {
+    border-width: 10px;
+    content: "";
+}
+.popover .arrow, .popover .arrow:after {
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+@media screen and (max-width:1024px){
+    .logo{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .layui-nav .layui-nav-item {
+        width: 109px !important;
+    }
+    .layui-nav .layui-nav-item a{
+         padding: 0;
+     }
+    .topContent-right{
+        background-color: #fff;
+    }
+    .social{
+        height: 94px;
+    }
+    .social>a{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:600px){
+    .social{
+        height: 45px!important;
+    }
+    #weather{
+        display: none!important;
+    }
+    #city{
+        display: none!important;
+    }
+}

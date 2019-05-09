@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<script type="text/javascript" charset="utf-8" src="../src/js/jquery.js"></script>
+<link rel="stylesheet" href="../src/css/public.css">
+<body style="padding-top:68px">
+<div style="padding:0 50px" id="contentParent">
+    <div id="content">
+        <form style="color:#fff">
+            <p>登录成功你将根据身份获取个人权限</p>
+            <div>
+                <label for="user">用户名：</label>
+                <input type="text" id="user"/>
+            </div>
+            <div>
+                <label for="pwd">密码：</label>
+                <input type="password" id="pwd"/>
+            </div>
+            <div id="svgContainer">
+
+            </div>
+            <div>
+                <label for="ma">请输入验证码：</label>
+                <input type="text" id="ma"/><span id="pic"></span>
+            </div>
+            <div style="text-align: center">
+                <input id="login" type="button" onclick="submitLoginMessage() " value="登录"/>
+            </div>
+        </form>
+    </div>
+</div>
+<style>
+    #content{
+        min-height:500px;
+        background: #fff;
+        border: 1px solid #aaa;
+        box-shadow: 0 0 4px #aaa;
+        padding:10px 20px;
+        background-size: 2cm;
+        background-image: url('../src/images/011.jpg');
+        background-repeat: repeat;
+        text-align: center;
+    }
+    #content form{
+        display: inline-block;
+        text-align: left;
+        padding: 0 34px;
+        border:1px solid #aaa;
+        margin-top: 50px;
+    }
+    #content form>div{
+        margin:10px 0;
+    }
+    #content form>p{
+        margin:30px 0 50px 0 ;
+    }
+    #content form input{
+        color:#fff;
+        border:none;
+        background: transparent;
+        line-height: 25px;
+    }
+    #content form #login{
+
+        text-align: center;
+        color:#fff;
+        font-size: 16px;
+        line-height: 30px;
+        border:none;
+        padding:0 15px;
+        background: #00F7DE;
+    }
+    #content form input:-webkit-autofill{
+        color:#fff !important;
+        border:none !important;
+        background: transparent !important;
+    }
+    #svgContainer svg{
+        background-color: #aaa;
+    }
+    @media screen and (max-width:600px){
+        body{
+            padding-top: 90px !important;
+        }
+        #contentParent{
+            padding:0 5px !important;
+        }
+        form input{
+            width: 50%!important;
+        }
+    }
+</style>
+<script>
+    //主函数
+    (function(){
+        getVerificationCode()//获取验证码
+        console.log('12')
+        $("#svgContainer").click(function (e) {//绑定点击刷新函数
+            console.log($(e.target)[0].tagName)
+            if($(e.target)[0].tagName=='svg'){
+                getVerificationCode()
+            }
+        })
+        //设置页面高度
+        window.parent.setIframeHeight();
+    })()
+
+
+    function getVerificationCode(){
+        var data={}
+        $.ajax({
+            url : "getCode",
+            type : "post",
+            data:data,
+            dataType:'json',
+            success : function(data) {
+                if(data.code=='008'){//已经登陆过
+                    window.parent.setIframeSrc('index.html')
+                    window.parent.isLogin()
+                    return
+                }
+                if(data.code=='001'){//未登录过获取并且渲染验证码
+                    sessionStorage.setItem('sessionId',data.sessionId)
+                    $('#svgContainer').html(data.data+'<label for="#svgContainer" style="padding-left: 20px;color: #aaa;font-size: 12px">点击图片刷新</label>');
+                    return
+                }
+            }
+    })
+    }
+    function submitLoginMessage() {
+        var data={};
+        data.sessionId=sessionStorage.getItem('sessionId');
+        data.userName=$('#user').val()
+        data.password=$('#pwd').val()
+        data.verificationCode=$('#ma').val()
+        $.ajax({
+            url : "login",
+            type : "post",
+            data:data,
+            dataType:'json',
+            success : function(data) {
+                if(data.code=='001'){//登陆成功，跳转到首页
+                    window.parent.setIframeSrc('index.html');
+                    window.parent.isLogin()
+                }else{
+                    alert(data.message);
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>

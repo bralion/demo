@@ -1,0 +1,8 @@
+#container {
+    width: 96%;
+    margin: 75px 2% 15px 2%;
+}
+.layui-nav-bar{
+    display: none !important;
+    opacity:0 !important;
+}
